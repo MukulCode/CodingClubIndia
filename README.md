@@ -29,6 +29,7 @@ Priyal Bhatewara (Delhi)
 Shivam Gupta (Delhi)
 
 
+Mayur Samnani (Jodhpur)
+
+
 Diya Tewari(Jaipur)
-
-
