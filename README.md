@@ -35,6 +35,9 @@ Mayur Samnani (Jodhpur)
 Diya Tewari(Jaipur)
 
 
+Naman Mishra (Jaipur)
+
+
 Umang Somtiya (Indore)
 
 
