@@ -2,7 +2,6 @@
 This repo is to demonstrate the GIT version control and promote hacktober fest.
 
 
-
 Please add your names below:
 
 Shivam Gupta (Delhi)
@@ -62,6 +61,21 @@ Dviti Arora (Delhi)
 Samaksh Tak(Udaipur)
 
 
+Isha Agarwal (Kolkata)
+
+
 Vartika (Delhi)
 
+
 MOHIT (DELHI)
+
+
+Vini (Delhi)
+
+
+Pragati Kalra(Delhi)
+
+
+Manan Bedi (Delhi)
+
+
