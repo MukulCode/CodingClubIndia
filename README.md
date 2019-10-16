@@ -5,6 +5,11 @@ This repo is to demonstrate the GIT version control and promote hacktober fest.
 
 Please add your names below:
 
+Shivam Gupta (Delhi)
+
+
+Vartika(Bhopal)
+
 
 Rajat Garg (Delhi)
 
@@ -55,6 +60,7 @@ Dviti Arora (Delhi)
 
 
 Samaksh Tak(Udaipur)
+
 
 Vartika (Delhi)
 
