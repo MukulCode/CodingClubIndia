@@ -1,1 +1,1 @@
-Thanks Coding Club for helping me with GitHub !
+Thanks Coding Club for helping me with Git-Hub !
