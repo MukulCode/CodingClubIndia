@@ -84,6 +84,8 @@ Dikshant Yadav (Delhi)
 
 Pushkar Prashant (Patna)
 
+Aatmin Chavda (Gujarat)
+
 Praveen Mani (Delhi)
 Aditya (Gujarat)
 
