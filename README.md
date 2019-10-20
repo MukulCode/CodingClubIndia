@@ -77,12 +77,16 @@ Vini (Delhi)
 
 Pragati Kalra(Delhi)
 
+Yogesh Bhatia(Delhi)
+
 
 Manan Bedi (Delhi)
 
 Dikshant Yadav (Delhi)
 
 Pushkar Prashant (Patna)
+
+
 
 Aatmin Chavda (Gujarat)
 
