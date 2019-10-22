@@ -4,6 +4,8 @@ This repo is to demonstrate the GIT version control and promote hacktober fest.
 
 Please add your names below:
 
+Prakhar Srivastava (Delhi)
+
 Neeraj kumar(punjab)
 
 Shivam Gupta (Delhi)
