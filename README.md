@@ -1,6 +1,6 @@
 # CodingClubIndia
-This repo is to demonstrate the GIT version control and promote hacktober fest.
 
+This repo is to demonstrate the GIT version control and promote hacktober fest.
 
 Please add your names below:
 
@@ -60,6 +60,7 @@ Aman Sharma(Ambala)
 
 Dviti Arora (Delhi)
 
+
 Krishna(Bengaluru)
 
 
@@ -112,6 +113,12 @@ Twinkle Mittal(Delhi)
 
 
 Harsh Mishra (Jaipur)
+
+
+Noorul Hasan (Uttar Pradesh)
+
+
+Vinit Raut (Mumbai)
 
 
 Noorul Hasan (Uttar Pradesh)
