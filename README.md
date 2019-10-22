@@ -7,6 +7,9 @@ Please add your names below:
 Shivam Gupta (Delhi)
 
 
+Ayush Das (Delhi)
+
+
 Vartika(Bhopal)
 
 
@@ -38,6 +41,8 @@ Mayur Samnani (Jodhpur)
 
 
 Diya Tewari(Jaipur)
+
+
 
 
 Naman Mishra (Jaipur)
