@@ -102,4 +102,3 @@ Twinkle Mittal(Delhi)
 Harsh Mishra (Jaipur)
 Noorul Hasan (Uttar Pradesh)
 
-Prashant Sharma (Delhi)
