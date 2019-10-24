@@ -99,6 +99,8 @@ Dikshant Yadav (Delhi)
 
 
  Aryan(Delhi)
+ 
+ Krishna (shivamogga)
 
 
 Pushkar Prashant (Patna)
@@ -135,6 +137,8 @@ Noorul Hasan (Uttar Pradesh)
 
 
 Vinit Raut (Mumbai)
+
+
 
 
 Noorul Hasan (Uttar Pradesh)
