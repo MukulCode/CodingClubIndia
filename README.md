@@ -47,7 +47,7 @@ Mayur Samnani (Jodhpur)
 
 Diya Tewari(Jaipur)
 
-
+Kshitij P(Bengaluru)
 
 
 Naman Mishra (Jaipur)
@@ -153,4 +153,3 @@ Prabal Das (ASSAM)
 
 
 AMAN GAUD (INDORE)
-
