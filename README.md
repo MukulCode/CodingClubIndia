@@ -1,12 +1,18 @@
 # CodingClubIndia
-This repo is to demonstrate the GIT version control and promote hacktober fest.
 
+This repo is to demonstrate the GIT version control and promote hacktober fest.
 
 Please add your names below:
 
+Prakhar Srivastava (Delhi)
+
 Neeraj kumar(punjab)
 
+
 Shivam Gupta (Delhi)
+
+
+Ayush Das (Delhi)
 
 
 Vartika(Bhopal)
@@ -41,6 +47,8 @@ Mayur Samnani (Jodhpur)
 
 Diya Tewari(Jaipur)
 
+Kshitij P(Bengaluru)
+
 
 Naman Mishra (Jaipur)
 
@@ -58,6 +66,7 @@ Aman Sharma(Ambala)
 
 
 Dviti Arora (Delhi)
+
 
 Krishna(Bengaluru)
 
@@ -79,27 +88,85 @@ Vini (Delhi)
 
 Pragati Kalra(Delhi)
 
+
 Yogesh Bhatia(Delhi)
 
 
 Manan Bedi (Delhi)
 
+
 Dikshant Yadav (Delhi)
+
+
+ Aryan(Delhi)
+
 
 Pushkar Prashant (Patna)
 
 
-
 Aatmin Chavda (Gujarat)
 
+
 Praveen Mani (Delhi)
+
+
 Aditya (Gujarat)
+
 
 Avirup Aditya(Kolkata)
 
+
+Ujjwal Rustagi(Delhi)
+
+
 Twinkle Mittal(Delhi)
 
+
+
+Anand Pandey(Chandigarh)
+
+
+Bhavanshu Jain(Jaipur)
+
+
+
 Harsh Mishra (Jaipur)
+
+
+Pranjal Agrawal (Jaipur)
+
+
+Apoorv Kudesia(Delhi)
+
+
 Noorul Hasan (Uttar Pradesh)
 
+
+Vinit Raut (Mumbai)
+
+
+Noorul Hasan (Uttar Pradesh)
+
+
 Amit Kumar(Patna)
+
+
+Ujjwal (Delhi)
+
+
+Pankaj  (Haryana)
+
+
+Suyog Pawar(Pune)
+
+
+Prabal Das (ASSAM)
+
+
+AMAN GAUD (INDORE)
+
+
+Soni Jay (Vadodara)
+
+
+Sachin Kumar (Allahabad)
