@@ -47,7 +47,7 @@ Mayur Samnani (Jodhpur)
 
 Diya Tewari(Jaipur)
 
-
+Kshitij P(Bengaluru)
 
 
 Naman Mishra (Jaipur)
@@ -98,6 +98,9 @@ Manan Bedi (Delhi)
 Dikshant Yadav (Delhi)
 
 
+ Aryan(Delhi)
+
+
 Pushkar Prashant (Patna)
 
 
@@ -119,7 +122,12 @@ Ujjwal Rustagi(Delhi)
 Twinkle Mittal(Delhi)
 
 
+
 Anand Pandey(Chandigarh)
+
+
+Bhavanshu Jain(Jaipur)
+
 
 
 Harsh Mishra (Jaipur)
@@ -153,4 +161,8 @@ Prabal Das (ASSAM)
 
 
 AMAN GAUD (INDORE)
+
+Soni Jay (Vadodara)
+
+Sachin Kumar (Allahabad)
 
