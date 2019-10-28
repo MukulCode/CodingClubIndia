@@ -122,6 +122,14 @@ Ujjwal Rustagi(Delhi)
 Twinkle Mittal(Delhi)
 
 
+
+Anand Pandey(Chandigarh)
+
+
+Bhavanshu Jain(Jaipur)
+
+
+
 Harsh Mishra (Jaipur)
 
 
@@ -156,4 +164,11 @@ AMAN GAUD (INDORE)
 
 Soni Jay (Vadodara)
 
+
 Chandradev Raj (Allahabad)
+
+Sachin Kumar (Allahabad)
+
+Prajjwal Mishra (BangloreKA)
+
+
