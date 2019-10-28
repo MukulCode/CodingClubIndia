@@ -164,7 +164,11 @@ AMAN GAUD (INDORE)
 
 Soni Jay (Vadodara)
 
+
+Chandradev Raj (Allahabad)
+
 Sachin Kumar (Allahabad)
 
 Prajjwal Mishra (BangloreKA)
+
 
