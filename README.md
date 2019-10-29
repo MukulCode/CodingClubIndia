@@ -8,6 +8,8 @@ Prakhar Srivastava (Delhi)
 
 Neeraj kumar(punjab)
 
+Shashank Pal (Ghaziabad)
+
 
 Shivam Gupta (Delhi)
 
@@ -103,6 +105,7 @@ Dikshant Yadav (Delhi)
 
 Pushkar Prashant (Patna)
 
+Shashank-10(Ghaziabad)
 
 Aatmin Chavda (Gujarat)
 
