@@ -179,3 +179,5 @@ Ayushi Agarwal (Uttar Pradesh)
 Kirti Motwani (Mumbai)
 
 Sundereshwar (Vadodara)
+
+Sonalika Roy (Delhi)
