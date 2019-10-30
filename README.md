@@ -4,9 +4,14 @@ This repo is to demonstrate the GIT version control and promote hacktober fest.
 
 Please add your names below:
 
+Mohit Ishpunyani(Haryana)
+
+
 Prakhar Srivastava (Delhi)
 
+
 Neeraj kumar(punjab)
+
 
 Shashank Pal (Ghaziabad)
 
