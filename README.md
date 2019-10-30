@@ -169,6 +169,9 @@ Harshwardhan Mishra (Indore)
 AMAN GAUD (INDORE)
 
 
+Harshit Sinha (Lucknow)
+
+
 Soni Jay (Vadodara)
 
 
