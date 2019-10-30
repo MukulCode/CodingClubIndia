@@ -151,6 +151,9 @@ Vinit Raut (Mumbai)
 Noorul Hasan (Uttar Pradesh)
 
 
+Amit Kumar(Patna)
+
+
 Ujjwal (Delhi)
 
 
@@ -167,6 +170,12 @@ Harshwardhan Mishra (Indore)
 
 
 AMAN GAUD (INDORE)
+
+
+Soni Jay (Vadodara)
+
+
+Sachin Kumar (Allahabad)
 
 
 Harshit Sinha (Lucknow)
@@ -194,3 +203,4 @@ Sundereshwar (Vadodara)
 
 
 Sonalika Roy (Delhi)
+
