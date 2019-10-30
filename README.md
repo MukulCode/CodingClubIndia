@@ -8,6 +8,8 @@ Prakhar Srivastava (Delhi)
 
 Neeraj kumar(punjab)
 
+Shashank Pal (Ghaziabad)
+
 
 Shivam Gupta (Delhi)
 
@@ -103,6 +105,7 @@ Dikshant Yadav (Delhi)
 
 Pushkar Prashant (Patna)
 
+Shashank-10(Ghaziabad)
 
 Aatmin Chavda (Gujarat)
 
@@ -163,6 +166,9 @@ Suyog Pawar(Pune)
 Prabal Das (ASSAM)
 
 
+Harshwardhan Mishra (Indore)
+
+
 AMAN GAUD (INDORE)
 
 
@@ -170,3 +176,31 @@ Soni Jay (Vadodara)
 
 
 Sachin Kumar (Allahabad)
+
+
+Harshit Sinha (Lucknow)
+
+
+Soni Jay (Vadodara)
+
+
+Chandradev Raj (Allahabad)
+
+
+Sachin Kumar (Allahabad)
+
+
+Prajjwal Mishra (BangloreKA)
+
+
+Ayushi Agarwal (Uttar Pradesh)
+
+
+Kirti Motwani (Mumbai)
+
+
+Sundereshwar (Vadodara)
+
+
+Sonalika Roy (Delhi)
+
