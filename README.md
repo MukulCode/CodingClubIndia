@@ -162,7 +162,7 @@ Suyog Pawar(Pune)
 
 Prabal Das (ASSAM)
 
-Harshwardhan Mishra
+Harshwardhan Mishra (Indore)
 
 AMAN GAUD (INDORE)
 
