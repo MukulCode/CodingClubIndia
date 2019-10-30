@@ -163,21 +163,31 @@ Suyog Pawar(Pune)
 Prabal Das (ASSAM)
 
 
+Harshwardhan Mishra (Indore)
+
+
 AMAN GAUD (INDORE)
+
 
 Soni Jay (Vadodara)
 
 
 Chandradev Raj (Allahabad)
 
+
 Sachin Kumar (Allahabad)
+
 
 Prajjwal Mishra (BangloreKA)
 
+
 Ayushi Agarwal (Uttar Pradesh)
+
 
 Kirti Motwani (Mumbai)
 
+
 Sundereshwar (Vadodara)
+
 
 Sonalika Roy (Delhi)
