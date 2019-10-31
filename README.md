@@ -204,3 +204,5 @@ Sundereshwar (Vadodara)
 
 Sonalika Roy (Delhi)
 
+Rajanbir Singh Ghumaan (Patiala, Punjab)
+
