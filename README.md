@@ -8,6 +8,8 @@ Prakhar Srivastava (Delhi)
 
 Neeraj kumar(punjab)
 
+Shashank Pal (Ghaziabad)
+
 
 Shivam Gupta (Delhi)
 
@@ -36,6 +38,9 @@ Shivam Gupta (Delhi)
 Dibyendu Maji
 
 
+Arjun K S
+
+
 Priyal Bhatewara (Delhi)
 
 
@@ -47,7 +52,7 @@ Mayur Samnani (Jodhpur)
 
 Diya Tewari(Jaipur)
 
-
+Kshitij P(Bengaluru)
 
 
 Naman Mishra (Jaipur)
@@ -103,6 +108,7 @@ Dikshant Yadav (Delhi)
 
 Pushkar Prashant (Patna)
 
+Shashank-10(Ghaziabad)
 
 Aatmin Chavda (Gujarat)
 
@@ -122,6 +128,14 @@ Ujjwal Rustagi(Delhi)
 Twinkle Mittal(Delhi)
 
 
+
+Anand Pandey(Chandigarh)
+
+
+Bhavanshu Jain(Jaipur)
+
+
+
 Harsh Mishra (Jaipur)
 
 
@@ -134,10 +148,16 @@ Apoorv Kudesia(Delhi)
 Noorul Hasan (Uttar Pradesh)
 
 
+Prashant sharma (Delhi)
+
+
 Vinit Raut (Mumbai)
 
 
 Noorul Hasan (Uttar Pradesh)
+
+
+Amit Kumar(Patna)
 
 
 Ujjwal (Delhi)
@@ -152,9 +172,57 @@ Suyog Pawar(Pune)
 Prabal Das (ASSAM)
 
 
+Harshwardhan Mishra (Indore)
+
+
 AMAN GAUD (INDORE)
 
 
-
 ALAUKIK VARUN (DEHRADUN)
+
+
+Soni Jay (Vadodara)
+
+
+Sachin Kumar (Allahabad)
+
+
+Harshit Sinha (Lucknow)
+
+
+Soni Jay (Vadodara)
+
+
+Chandradev Raj (Allahabad)
+
+
+Sachin Kumar (Allahabad)
+
+
+Prajjwal Mishra (BangloreKA)
+
+
+Ayushi Agarwal (Uttar Pradesh)
+
+
+Kirti Motwani (Mumbai)
+
+
+Sundereshwar (Vadodara)
+
+
+Sonalika Roy (Delhi)
+
+
+Rajanbir Singh Ghumaan (Patiala, Punjab)
+
+
+Saksham Bhayana(Delhi)
+
+
+Mohit Kumar Thakur(Kota)
+
+
+Sanchit Mehta (New Delhi)
+
 
