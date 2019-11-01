@@ -208,6 +208,9 @@ Sundereshwar (Vadodara)
 Sonalika Roy (Delhi)
 
 
+Rajanbir Singh Ghumaan (Patiala, Punjab)
+
+
 Saksham Bhayana(Delhi)
 
 
@@ -215,3 +218,4 @@ Mohit Kumar Thakur(Kota)
 
 
 Sanchit Mehta (New Delhi)
+

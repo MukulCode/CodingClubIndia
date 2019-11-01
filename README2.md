@@ -13,3 +13,6 @@ Now i can enter in open source world and can give contributions in it
 
 Pankaj (Haryana)
 Studying CS hons at Dyal Singh College 2nd YR
+
+It was fun learning new things with CodingClub. ThankYou Guys.
+Rajanbir Singh Ghumaan
