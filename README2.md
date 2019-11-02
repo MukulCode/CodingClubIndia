@@ -1,6 +1,9 @@
 Tell about your experience.
 By adding name and comment below..
 
+Mohit Ishpunyani(Haryana)
+I got a glimpse of git version control by the aid of CodingClubIndia today
+
 
 Anand Pandey(Chandigarh)
 I learnt something new today...Thanx to coding club
