@@ -33,6 +33,7 @@ int main() {
         }else{
             d++;
         }
+	
 	}
 	if(abs(c-d)>1){
         cout<<"-1"<<endl;
