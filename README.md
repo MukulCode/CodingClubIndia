@@ -3,10 +3,20 @@
 This repo is to demonstrate the GIT version control and promote hacktober fest.
 
 Please add your names below:
+Shubham Kumar (Chattisgarh)
+
+Mohit Ishpunyani(Haryana)
+
+
+
+
+Naveen Kumar Gupta(Jaipur)
 
 Prakhar Srivastava (Delhi)
 
+
 Neeraj kumar(punjab)
+
 
 Shashank Pal (Ghaziabad)
 
@@ -36,6 +46,9 @@ Shivam Gupta (Delhi)
 
 
 Dibyendu Maji
+
+
+Arjun K S
 
 
 Priyal Bhatewara (Delhi)
@@ -145,6 +158,9 @@ Apoorv Kudesia(Delhi)
 Noorul Hasan (Uttar Pradesh)
 
 
+Prashant sharma (Delhi)
+
+
 Vinit Raut (Mumbai)
 
 
@@ -170,6 +186,9 @@ Harshwardhan Mishra (Indore)
 
 
 AMAN GAUD (INDORE)
+
+
+ALAUKIK VARUN (DEHRADUN)
 
 
 Soni Jay (Vadodara)
@@ -205,7 +224,35 @@ Sundereshwar (Vadodara)
 Sonalika Roy (Delhi)
 
 
+Rajanbir Singh Ghumaan (Patiala, Punjab)
+
+
+Saksham Bhayana(Delhi)
+
+
 Mohit Kumar Thakur(Kota)
 
 
+
 Akanksha (Delhi)
+
+TR12236
+
+Sanchit Mehta (New Delhi)
+
+Abhishek kumar (New Delhi)
+
+Krishna(Shivamogga)
+
+Pravesh Bisaria(Jaipur)
+
+Tushar Ratwal(ND)
+
+Monika
+
+Yashtika Kakkar (Delhi)
+
+Rashmi (Patna)
+
+Akhil S  (Kerala)
+
