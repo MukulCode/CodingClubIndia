@@ -7,9 +7,6 @@ Shubham Kumar (Chattisgarh)
 
 Mohit Ishpunyani(Haryana)
 
-
-
-
 Naveen Kumar Gupta(Jaipur)
 
 Prakhar Srivastava (Delhi)
