@@ -1,256 +1,254 @@
 # CodingClubIndia
 
-This repo is to demonstrate the GIT version control and promote hacktober fest.
+This repo is to demonstrate the GIT version control and promote Hacktober fest.
 
 Please add your names below:
-Shubham Kumar (Chattisgarh)
+Shubham Kumar (Chattisgarh).
 
-Mohit Ishpunyani(Haryana)
+Mohit Ishpunyani (Haryana).
 
-Naveen Kumar Gupta(Jaipur)
+Naveen Kumar Gupta (Jaipur).
 
-Prakhar Srivastava (Delhi)
+Prakhar Srivastava (Delhi).
 
 
-Neeraj kumar(punjab)
+Neeraj kumar (punjab).
 
 
-Shashank Pal (Ghaziabad)
+Shashank Pal (Ghaziabad).
 
 
-Shivam Gupta (Delhi)
+Shivam Gupta (Delhi).
 
 
-Ayush Das (Delhi)
+Ayush Das (Delhi).
 
 
-Vartika(Bhopal)
+Vartika (Bhopal).
 
 
-Rajat Garg (Delhi)
+Rajat Garg (Delhi).
 
 
-Shivam Gupta (Delhi)
+Shivam Gupta (Delhi).
 
 
-Sanchit Khare (Aligarh)
+Sanchit Khare (Aligarh).
 
 
-Aniket Sood (Chandigarh)
+Aniket Sood (Chandigarh).
 
 
-Shivam Gupta (Delhi)
+Shivam Gupta (Delhi).
 
 
-Dibyendu Maji
+Dibyendu Maji.
 
 
-Arjun K S
+Arjun K S.
 
 
-Priyal Bhatewara (Delhi)
+Priyal Bhatewara (Delhi).
 
 
-Shivam Gupta (Delhi)
+Shivam Gupta (Delhi).
 
 
-Mayur Samnani (Jodhpur)
+Mayur Samnani (Jodhpur).
 
 
-Diya Tewari(Jaipur)
+Diya Tewari (Jaipur).
 
-Kshitij P(Bengaluru)
+Kshitij P (Bengaluru).
 
 
-Naman Mishra (Jaipur)
+Naman Mishra (Jaipur).
 
 
-Umang Somtiya (Indore)
+Umang Somtiya (Indore).
 
 
-Harshit Agarwal (Agra)
+Harshit Agarwal (Agra).
 
 
-Ashish Atkar(Pune)
+Ashish Atkar (Pune).
 
 
-Aman Sharma(Ambala)
+Aman Sharma (Ambala).
 
 
-Dviti Arora (Delhi)
+Dviti Arora (Delhi).
 
 
-Krishna(Bengaluru)
+Krishna (Bengaluru).
 
 
-Samaksh Tak(Udaipur)
+Samaksh Tak (Udaipur).
 
 
-Isha Agarwal (Kolkata)
+Isha Agarwal (Kolkata).
 
 
-Vartika (Delhi)
+Vartika (Delhi).
 
 
-MOHIT (DELHI)
+MOHIT (DELHI).
 
 
-Vini (Delhi)
+Vini (Delhi).
 
 
-Pragati Kalra(Delhi)
+Pragati Kalra (Delhi).
 
 
-Yogesh Bhatia(Delhi)
+Yogesh Bhatia (Delhi).
 
 
-Manan Bedi (Delhi)
+Manan Bedi (Delhi).
 
 
-Dikshant Yadav (Delhi)
+Dikshant Yadav (Delhi).
 
 
- Aryan(Delhi)
+ Aryan (Delhi).
 
 
-Pushkar Prashant (Patna)
+Pushkar Prashant (Patna).
 
-Shashank-10(Ghaziabad)
+Shashank-10 (Ghaziabad).
 
-Aatmin Chavda (Gujarat)
+Aatmin Chavda (Gujarat).
 
 
-Praveen Mani (Delhi)
+Praveen Mani (Delhi).
 
 
-Aditya (Gujarat)
+Aditya (Gujarat).
 
 
-Avirup Aditya(Kolkata)
+Avirup Aditya (Kolkata).
 
 
-Ujjwal Rustagi(Delhi)
+Ujjwal Rustagi (Delhi).
 
 
-Twinkle Mittal(Delhi)
+Twinkle Mittal (Delhi).
 
 
 
-Anand Pandey(Chandigarh)
+Anand Pandey (Chandigarh).
 
 
-Bhavanshu Jain(Jaipur)
+Bhavanshu Jain (Jaipur).
 
 
+Harsh Mishra (Jaipur).
 
-Harsh Mishra (Jaipur)
 
+Pranjal Agrawal (Jaipur).
 
-Pranjal Agrawal (Jaipur)
 
+Apoorv Kudesia (Delhi).
 
-Apoorv Kudesia(Delhi)
 
+Noorul Hasan (Uttar Pradesh).
 
-Noorul Hasan (Uttar Pradesh)
 
+Prashant sharma (Delhi).
 
-Prashant sharma (Delhi)
 
+Vinit Raut (Mumbai).
 
-Vinit Raut (Mumbai)
 
+Noorul Hasan (Uttar Pradesh).
 
-Noorul Hasan (Uttar Pradesh)
 
+Amit Kumar (Patna).
 
-Amit Kumar(Patna)
 
+Ujjwal (Delhi).
 
-Ujjwal (Delhi)
 
+Pankaj  (Haryana).
 
-Pankaj  (Haryana)
 
+Suyog Pawar(Pune).
 
-Suyog Pawar(Pune)
 
+Prabal Das (ASSAM).
 
-Prabal Das (ASSAM)
 
+Harshwardhan Mishra (Indore).
 
-Harshwardhan Mishra (Indore)
 
+AMAN GAUD (INDORE).
 
-AMAN GAUD (INDORE)
 
+ALAUKIK VARUN (DEHRADUN).
 
-ALAUKIK VARUN (DEHRADUN)
 
+Soni Jay (Vadodara).
 
-Soni Jay (Vadodara)
 
+Sachin Kumar (Allahabad).
 
-Sachin Kumar (Allahabad)
 
+Harshit Sinha (Lucknow).
 
-Harshit Sinha (Lucknow)
 
+Soni Jay (Vadodara).
 
-Soni Jay (Vadodara)
 
+Chandradev Raj (Allahabad).
 
-Chandradev Raj (Allahabad)
 
+Sachin Kumar (Allahabad).
 
-Sachin Kumar (Allahabad)
 
+Prajjwal Mishra (Banglore).
 
-Prajjwal Mishra (BangloreKA)
 
+Ayushi Agarwal (Uttar Pradesh).
 
-Ayushi Agarwal (Uttar Pradesh)
 
+Kirti Motwani (Mumbai).
 
-Kirti Motwani (Mumbai)
 
+Sundereshwar (Vadodara).
 
-Sundereshwar (Vadodara)
 
+Sonalika Roy (Delhi).
 
-Sonalika Roy (Delhi)
 
+Rajanbir Singh Ghumaan (Patiala, Punjab).
 
-Rajanbir Singh Ghumaan (Patiala, Punjab)
 
+Saksham Bhayana (Delhi).
 
-Saksham Bhayana(Delhi)
 
+Mohit Kumar Thakur (Kota).
 
-Mohit Kumar Thakur(Kota)
 
 
+Akanksha (Delhi).
 
-Akanksha (Delhi)
 
-TR12236
+Sanchit Mehta (New Delhi).
 
-Sanchit Mehta (New Delhi)
+Abhishek kumar (New Delhi).
 
-Abhishek kumar (New Delhi)
+Krishna (Shivamogga).
 
-Krishna(Shivamogga)
+Pravesh Bisaria (Jaipur).
 
-Pravesh Bisaria(Jaipur)
+Tushar Ratwal(ND).
 
-Tushar Ratwal(ND)
+Monika.
 
-Monika
+Yashtika Kakkar (Delhi).
 
-Yashtika Kakkar (Delhi)
+Rashmi (Patna).
 
-Rashmi (Patna)
+Akhil S  (Kerala).
 
-Akhil S  (Kerala)
-
-Gautam Kumar Jaiswal (Delhi)
+Gautam Kumar Jaiswal (Delhi).
