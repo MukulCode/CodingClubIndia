@@ -44,6 +44,7 @@ int main() {
         flag=1;
 	}
 
+	
 	string s1=place(flag,c,d);
 
 	int a=match(s,s1);
