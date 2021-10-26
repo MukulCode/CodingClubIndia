@@ -3,10 +3,19 @@
 This repo is to demonstrate the GIT version control and promote hacktober fest.
 
 Please add your names below:
+Shubham Kumar (Chattisgarh)
+
+Mohit Ishpunyani(Haryana)
+
+Naveen Kumar Gupta(Jaipur)
 
 Prakhar Srivastava (Delhi)
 
+
 Neeraj kumar(punjab)
+
+
+Shashank Pal (Ghaziabad)
 
 
 Shivam Gupta (Delhi)
@@ -34,6 +43,9 @@ Shivam Gupta (Delhi)
 
 
 Dibyendu Maji
+
+
+Arjun K S
 
 
 Priyal Bhatewara (Delhi)
@@ -103,6 +115,7 @@ Dikshant Yadav (Delhi)
 
 Pushkar Prashant (Patna)
 
+Shashank-10(Ghaziabad)
 
 Aatmin Chavda (Gujarat)
 
@@ -122,6 +135,14 @@ Ujjwal Rustagi(Delhi)
 Twinkle Mittal(Delhi)
 
 
+
+Anand Pandey(Chandigarh)
+
+
+Bhavanshu Jain(Jaipur)
+
+
+
 Harsh Mishra (Jaipur)
 
 
@@ -134,10 +155,16 @@ Apoorv Kudesia(Delhi)
 Noorul Hasan (Uttar Pradesh)
 
 
+Prashant sharma (Delhi)
+
+
 Vinit Raut (Mumbai)
 
 
 Noorul Hasan (Uttar Pradesh)
+
+
+Amit Kumar(Patna)
 
 
 Ujjwal (Delhi)
@@ -152,6 +179,9 @@ Suyog Pawar(Pune)
 Prabal Das (ASSAM)
 
 
+Harshwardhan Mishra (Indore)
+
+
 AMAN GAUD (INDORE)
 
 
@@ -159,3 +189,77 @@ DIVYA CHHABARIA (VADODARA)
 
 
 Soni Jay (Vadodara)
+
+
+Himanshu Patel(DEHRADUN)
+
+ALAUKIK VARUN (DEHRADUN)
+
+
+Soni Jay (Vadodara)
+
+
+Sachin Kumar (Allahabad)
+
+
+Harshit Sinha (Lucknow)
+
+
+Soni Jay (Vadodara)
+
+
+Chandradev Raj (Allahabad)
+
+
+Sachin Kumar (Allahabad)
+
+
+Prajjwal Mishra (BangloreKA)
+
+
+Ayushi Agarwal (Uttar Pradesh)
+
+
+Kirti Motwani (Mumbai)
+
+
+Sundereshwar (Vadodara)
+
+
+Sonalika Roy (Delhi)
+
+
+Rajanbir Singh Ghumaan (Patiala, Punjab)
+
+
+Saksham Bhayana(Delhi)
+
+
+Mohit Kumar Thakur(Kota)
+
+
+
+Akanksha (Delhi)
+
+TR12236
+
+Sanchit Mehta (New Delhi)
+
+Abhishek kumar (New Delhi)
+
+Krishna(Shivamogga)
+
+Pravesh Bisaria(Jaipur)
+
+Tushar Ratwal(ND)
+
+Monika
+
+Yashtika Kakkar (Delhi)
+
+Rashmi (Patna)
+
+Akhil S  (Kerala)
+
+Myself
+
