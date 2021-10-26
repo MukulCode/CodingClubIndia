@@ -52,7 +52,7 @@ void printArray(int arr[], int size)
 	cout << endl; 
 } 
 
-
+//driver function
 int main() 
 { 
 	int arr[] = {10, 7, 8, 9, 1, 5}; 
