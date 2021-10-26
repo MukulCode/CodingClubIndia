@@ -30,6 +30,7 @@ void insertionSort(int arr[], int n)
 	} 
 } 
 
+
 // function to print an array of size n 
 void printArray(int arr[], int n) 
 { 
