@@ -1,4 +1,4 @@
-// C++ program to find the nth Catalan Number
+// C++ program to find the nth Catalan Number.
 #include <iostream>
 using namespace std;
 
