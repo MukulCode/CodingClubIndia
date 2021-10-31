@@ -1,12 +1,14 @@
 import java.util.*; 
 public class ElectBill 
-{  //Creating Global Variables*/
+{  
+//Creating Global Variables*/
 	int ConsumerNo; /* to store consumer no. globally*/
 	String ConsumerName; /* to store the name of the person*/
 	int PrevReading; /* to store previous reading globally*/
 	int CReading; /* to store current reading globally*/
 	String EBConn; /* to get the type of user*/
 	double Bill; /*to generate bill*/
+	
 	
 	void input_data() /*void function to take inputs from the user*/ 
 	{ 
@@ -22,6 +24,7 @@ public class ElectBill
 		System.out.println("Enter the types of EB Connection(domestic or commercial)"); 
 		EBConn = sc.next();   /*take input of type of user*/
 	}
+	
 	
 	double calculate_bill() /* this is a return type double function for calculation of bill*/
 	{ 
@@ -53,6 +56,7 @@ public class ElectBill
 		} 
 		return Bill; /* will return the calculated to the global variable bill*/
 		} 
+		
 	void display() /* printing the outputs */
 	{ 
 	             System.out.println("----------------------------------"); 
@@ -67,6 +71,7 @@ public class ElectBill
 	             System.out.println("Total Amount(Rs.): "+Bill); 
 	}  	
 }
+
 class ElectBillGen extends ElectBill /* class to call functions of another class */
 {
 	public static void main (String[] args) /* main function to call the other member functions*/
