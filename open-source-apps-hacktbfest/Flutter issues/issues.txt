@@ -1,0 +1,4 @@
+There are some issues in the app which is need to be solved.
+1. Multi-gpu sync is not integrated properly. on line 138 gpu6.dart.
+2. sliding window is not responsive for use.
+3. optimize second main windows for the app.
