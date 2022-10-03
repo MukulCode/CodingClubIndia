@@ -265,6 +265,4 @@ Sparsh Garg (Uttar Pradesh)
 
 Naveenkumar J (TamilNadu)
 
-Myself
-
 Pratyush Pahari (West Bengal)
