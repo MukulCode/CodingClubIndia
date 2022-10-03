@@ -237,7 +237,7 @@ Saksham Bhayana(Delhi)
 
 Mohit Kumar Thakur(Kota)
 
-
+Maswood Alam (Delhi)
 
 Akanksha (Delhi)
 
@@ -264,8 +264,6 @@ Akhil S  (Kerala)
 Sparsh Garg (Uttar Pradesh)
 
 Naveenkumar J (TamilNadu)
-
-Myself
 
 Pratyush Pahari (West Bengal)
 
