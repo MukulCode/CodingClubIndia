@@ -254,6 +254,8 @@ Apoorv Kudesia(Delhi)
 
 Noorul Hasan (Uttar Pradesh)
 
+Pritam Kumar (Dhanbad)
+
 Prashant sharma (Delhi)
 
 Vinit Raut (Mumbai)
