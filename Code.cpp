@@ -13,6 +13,7 @@ string place(int flag,int c,int d){
         }
         return ans;
 }
+// NICE Comment
 int match(string s,string s1){
     int count=0;
     for(int i=0;i<s.length();i++){
@@ -44,6 +45,7 @@ int main() {
         flag=1;
 	}
 
+	
 	string s1=place(flag,c,d);
 
 	int a=match(s,s1);
