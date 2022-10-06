@@ -4,6 +4,8 @@ This repo is to demonstrate the GIT version control and promote Hacktober fest.
 
 Please add your names below:
 
+Suraj Keshari ( VARANASI ).
+
 Shubham Kumar (Chattisgarh).
 
 Tanay Kumar(Delhi)
