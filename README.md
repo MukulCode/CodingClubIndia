@@ -387,3 +387,5 @@ Shreyas Sable (Wardha)
 Keshav Anand Bhagat (Balaghat)
 
 Swarnim Gupta(Kanpur)
+
+Kushagra Agarwal(Kanpur)
