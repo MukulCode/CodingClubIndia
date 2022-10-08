@@ -394,6 +394,8 @@ Keshav Anand Bhagat (Balaghat)
 
 Swarnim Gupta(Kanpur)
 
+Luv Agarwal(Uttar Pradesh)
+
 Kushagra Agarwal(Kanpur)
 
 Harsh Singh (Gorakhpur)
