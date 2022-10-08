@@ -4,6 +4,8 @@ This repo is to demonstrate the GIT version control and promote Hacktober fest.
 
 Please add your names below:
 
+Suraj Keshari ( VARANASI ).
+
 Shubham Kumar (Chattisgarh).
 
 Tanay Kumar(Delhi)
@@ -231,7 +233,7 @@ Soni Jay (Vadodara).
 
 
 Sachin Kumar (Allahabad).
-=======
+
 Praveen Mani (Delhi)
 
 Aditya (Gujarat)
@@ -389,3 +391,7 @@ Keshav Anand Bhagat (Balaghat)
 Swarnim Gupta(Kanpur)
 
 Kushagra Agarwal(Kanpur)
+
+Harsh Singh (Gorakhpur)
+
+Chidambaram S (TamilNadu)
