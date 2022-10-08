@@ -23,7 +23,7 @@ int main()
     //   cout<<b[i];
          
          float G[] = {2.3f,4.6f,5,6,4,2};
-         for(float x :G)    // you can use ' auto ' in place of float its very good dont think of variable type
+         for(int x :G)    // you can use ' auto ' in place of float its very good dont think of variable type
          cout<<x<<endl;
          
     return 0;
