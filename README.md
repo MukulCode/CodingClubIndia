@@ -233,7 +233,7 @@ Soni Jay (Vadodara).
 
 
 Sachin Kumar (Allahabad).
-=======
+
 Praveen Mani (Delhi)
 
 Aditya (Gujarat)
@@ -389,6 +389,8 @@ Shreyas Sable (Wardha)
 Keshav Anand Bhagat (Balaghat)
 
 Swarnim Gupta(Kanpur)
+
+Kushagra Agarwal(Kanpur)
 
 Harsh Singh (Gorakhpur)
 
