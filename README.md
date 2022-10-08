@@ -2,7 +2,13 @@
 
 This repo is to demonstrate the GIT version control and promote Hacktober fest.
 
+Watch these videos before contributing
+[Intro to Hacktoberfest and Open Source](https://www.youtube.com/watch?v=RdwbdOKMiTc&t=27s)
+[Hands-On Demo of Hacktoberfest](https://www.youtube.com/watch?v=-PAcwWag-hI)
+
 Please add your names below:
+
+Suraj Keshari ( VARANASI ).
 
 Shubham Kumar (Chattisgarh).
 
@@ -231,7 +237,7 @@ Soni Jay (Vadodara).
 
 
 Sachin Kumar (Allahabad).
-=======
+
 Praveen Mani (Delhi)
 
 Aditya (Gujarat)
@@ -389,3 +395,19 @@ Keshav Anand Bhagat (Balaghat)
 Swarnim Gupta(Kanpur)
 
 Luv Agarwal(Uttar Pradesh)
+
+Kushagra Agarwal(Kanpur)
+
+Harsh Singh (Gorakhpur)
+
+Anurag Sharma (Delhi)
+
+Chidambaram S (TamilNadu)
+
+Jitesh kumar(Chandigarh university)
+
+Devesh(delhi)
+
+Royal Simpson Pinto (Mangalore)
+
+Kaustubh Jogle (Mumbai)
