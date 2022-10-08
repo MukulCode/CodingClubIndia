@@ -24,36 +24,25 @@ Prakhar Srivastava (Delhi).
 
 Neeraj kumar (punjab).
 
-
 Shashank Pal (Ghaziabad).
 
-
 Shivam Gupta (Delhi).
-
 
 Ayush Das (Delhi).
 
-
 Vartika (Bhopal).
-
 
 Rajat Garg (Delhi).
 
-
 Harsh Singh (India)
 
-
 Shivam Gupta (Delhi).
-
 
 Sanchit Khare (Aligarh).
 
-
 Aniket Sood (Chandigarh).
 
-
 Shivam Gupta (Delhi).
-
 
 Dibyendu Maji.
 
@@ -133,7 +122,7 @@ Manan Bedi (Delhi).
 
 Dikshant Yadav (Delhi).
 
- Aryan (Delhi).
+Aryan (Delhi).
 
 Naman Mishra (Jaipur)
 
@@ -187,57 +176,41 @@ Twinkle Mittal (Delhi).
 
 Anand Pandey (Chandigarh).
 
-
 Bhavanshu Jain (Jaipur).
-
 
 Harsh Mishra (Jaipur).
 
-
 Pranjal Agrawal (Jaipur).
-
 
 Apoorv Kudesia (Delhi).
 
-
 Noorul Hasan (Uttar Pradesh).
 
+Ritik Gupta (Rajasthan)
 
 Prashant sharma (Delhi).
 
-
 Vinit Raut (Mumbai).
-
 
 Noorul Hasan (Uttar Pradesh).
 
-
 Amit Kumar (Patna).
-
 
 Ujjwal (Delhi).
 
-
-Pankaj  (Haryana).
-
+Pankaj (Haryana).
 
 Suyog Pawar(Pune).
 
-
 Prabal Das (ASSAM).
-
 
 Harshwardhan Mishra (Indore).
 
-
 AMAN GAUD (INDORE).
-
 
 ALAUKIK VARUN (DEHRADUN).
 
-
 Soni Jay (Vadodara).
-
 
 Sachin Kumar (Allahabad).
 
@@ -275,7 +248,7 @@ Amit Kumar(Patna)
 
 Ujjwal (Delhi)
 
-Pankaj  (Haryana)
+Pankaj (Haryana)
 
 Suyog Pawar(Pune)
 
@@ -295,43 +268,29 @@ ALAUKIK VARUN (DEHRADUN)
 
 Soni Jay (Vadodara)
 
-
 Harshit Sinha (Lucknow).
-
 
 Soni Jay (Vadodara).
 
-
 Chandradev Raj (Allahabad).
-
 
 Sachin Kumar (Allahabad).
 
-
 Prajjwal Mishra (Banglore).
-
 
 Ayushi Agarwal (Uttar Pradesh).
 
-
 Kirti Motwani (Mumbai).
-
 
 Sundereshwar (Vadodara).
 
-
 Sonalika Roy (Delhi).
-
 
 Rajanbir Singh Ghumaan (Patiala, Punjab).
 
-
 Saksham Bhayana (Delhi).
 
-
 Mohit Kumar Thakur (Kota).
-
-
 
 Akanksha (Delhi).
 
@@ -377,7 +336,7 @@ Yashtika Kakkar (Delhi).
 
 Rashmi (Patna).
 
-Akhil S  (Kerala).
+Akhil S (Kerala).
 
 Gautam Kumar Jaiswal (Delhi).
 
@@ -418,4 +377,3 @@ Kaustubh Jogle (Mumbai)
 Ananya Gupta (Indore)
 
 Sumukha Sureban (Betageri-Gadag)
-
