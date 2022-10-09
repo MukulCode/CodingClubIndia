@@ -1,0 +1,3 @@
+mkdir jtp  
+cd jtp 
+rails new helloWorld   
