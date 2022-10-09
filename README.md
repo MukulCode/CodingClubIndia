@@ -14,6 +14,8 @@ Watch these videos before contributing
 
 Please add your names below:
 
+Navansh Khandelwal(Jaipur)
+
 Kiran Patil (Maharashtra)
 
 Suraj Keshari ( VARANASI ).
