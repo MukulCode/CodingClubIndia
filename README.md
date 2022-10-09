@@ -430,3 +430,5 @@ Ananya Gupta (Indore)
 Sumukha Sureban (Betageri-Gadag)
 
 Aaditya Mayankar (Pune)
+
+Shwet Shukla (Kanpur)
