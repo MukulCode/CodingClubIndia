@@ -1,6 +1,14 @@
 Tell about your experience.
 By adding name and comment below..
 
+TANMAY (DELHI)
+Hello everyone,
+Currently i am doing b.tech from MSIT DELHI in ECE branch.
+Firstly i would like to thank you 'coding club india' and a special thank you to "mukul bhayia" to have an 
+interactive session in our cllg.And made thinks so easy to contribute in hacktober fest & why open source
+ is important.
+ "A Software by the people For the people of the people"
+
 Mohit Ishpunyani(Haryana)
 I got a glimpse of git version control by the aid of CodingClubIndia today
 
