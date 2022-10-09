@@ -8,6 +8,8 @@ Watch these videos before contributing
 
 Please add your names below:
 
+Kiran Patil (Maharashtra)
+
 Suraj Keshari ( VARANASI ).
 
 Shubham Kumar (Chattisgarh).
