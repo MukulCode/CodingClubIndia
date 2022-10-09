@@ -8,6 +8,8 @@ Watch these videos before contributing
 
 Please add your names below:
 
+Kiran Patil (Maharashtra)
+
 Suraj Keshari ( VARANASI ).
 
 Shubham Kumar (Chattisgarh).
@@ -415,8 +417,14 @@ Royal Simpson Pinto (Mangalore)
 
 Kaustubh Jogle (Mumbai)
 
+Ashutosh Kosti (Jabalpur)
+
 Ananya Gupta (Indore)
 
 Sumukha Sureban (Betageri-Gadag)
 
+
 Aman kumar singh (New Delhi)
+
+Aaditya Mayankar (Pune)
+
