@@ -429,6 +429,9 @@ Ananya Gupta (Indore)
 
 Sumukha Sureban (Betageri-Gadag)
 
+
+Aayush Solanki (Indore)
+
 Aaditya Mayankar (Pune)
 
 Vanshika Pandey (Lucknow)
