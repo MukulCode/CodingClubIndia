@@ -1,12 +1,20 @@
 # CodingClubIndia
 
+
 This repo is to demonstrate the GIT version control and promote Hacktober fest.
+
+How?
+You can share the best pieces of code in this repo written in any language, we will review the code and merge accordingly. Additionally we are using this readme for maintaining the name of contributos, feel free to add your name here :) 
 
 Watch these videos before contributing
 [Intro to Hacktoberfest and Open Source](https://www.youtube.com/watch?v=RdwbdOKMiTc&t=27s)
+
+
 [Hands-On Demo of Hacktoberfest](https://www.youtube.com/watch?v=-PAcwWag-hI)
 
 Please add your names below:
+
+Kiran Patil (Maharashtra)
 
 Suraj Keshari ( VARANASI ).
 
@@ -415,8 +423,15 @@ Royal Simpson Pinto (Mangalore)
 
 Kaustubh Jogle (Mumbai)
 
+Ashutosh Kosti (Jabalpur)
+
 Ananya Gupta (Indore)
 
 Sumukha Sureban (Betageri-Gadag)
 
+
 Aayush Solanki (Indore)
+
+Aaditya Mayankar (Pune)
+
+Vanshika Pandey (Lucknow)
