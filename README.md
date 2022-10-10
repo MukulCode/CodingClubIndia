@@ -13,6 +13,7 @@ Watch these videos before contributing
 [Hands-On Demo of Hacktoberfest](https://www.youtube.com/watch?v=-PAcwWag-hI)
 
 Please add your names below:
+Satyendra Kumar (Panipat)
 
 Kiran Patil (Maharashtra)
 
@@ -195,6 +196,7 @@ Apoorv Kudesia (Delhi).
 Noorul Hasan (Uttar Pradesh).
 
 Ritik Gupta (Rajasthan)
+
 
 Prashant sharma (Delhi).
 
