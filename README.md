@@ -270,6 +270,9 @@ Apoorv Kudesia (Delhi).
 
 Noorul Hasan (Uttar Pradesh).
 
+Ritik Gupta (Rajasthan)
+
+
 Prashant sharma (Delhi).
 
 Vinit Raut (Mumbai).
