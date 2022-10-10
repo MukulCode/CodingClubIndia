@@ -17,6 +17,8 @@ Satyendra Kumar (Panipat)
 
 Kiran Patil (Maharashtra)
 
+Adnan Sameer ( KOLKATA ).
+
 Suraj Keshari ( VARANASI ).
 
 Shubham Kumar (Chattisgarh).
