@@ -14,6 +14,8 @@ Watch these videos before contributing
 
 Please add your names below:
 
+Siddharth Jha (Mumbai)
+
 Kiran Patil (Maharashtra)
 
 Suraj Keshari ( VARANASI ).
