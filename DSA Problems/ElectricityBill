@@ -1,0 +1,84 @@
+import java.util.*; 
+public class ElectBill 
+{  
+//Creating Global Variables*/
+	int ConsumerNo; /* to store consumer no. globally*/
+	String ConsumerName; /* to store the name of the person*/
+	int PrevReading; /* to store previous reading globally*/
+	int CReading; /* to store current reading globally*/
+	String EBConn; /* to get the type of user*/
+	double Bill; /*to generate bill*/
+	
+	
+	void input_data() /*void function to take inputs from the user*/ 
+	{ 
+		Scanner sc = new Scanner(System.in); 
+		System.out.println("Enter Consumer Number: "); 
+		ConsumerNo = sc.nextInt(); /*take input of consumer no.*/
+		System.out.println("Enter Consumer Name: "); 
+		ConsumerName = sc.next(); /*take input of consumer name*/
+		System.out.println("Enter Previous Units: "); 
+		PrevReading = sc.nextInt(); /*take input of previous reading*/
+		System.out.println("Enter Current Units:"); 
+		CReading = sc.nextInt(); /* take input of current reading*/
+		System.out.println("Enter the types of EB Connection(domestic or commercial)"); 
+		EBConn = sc.next();   /*take input of type of user*/
+	}
+	
+	
+	double calculate_bill() /* this is a return type double function for calculation of bill*/
+	{ 
+		int CurrReading; /* to take the diffrence between the previous reading and the current reading*/
+		CurrReading=CReading - PrevReading;
+		switch(EBConn) /* to charge according to choice */
+		{ 
+		case "domestic": 
+			{if(CurrReading>=0 && CurrReading<=100) /*charge 1Rs if less than 100 units*/
+				Bill=CurrReading*1; 
+			else if(CurrReading>100 && CurrReading <= 200) /*charge 2.50Rs if less than 200 units*/
+				Bill=(100*1)+((CurrReading-100)*2.50);
+			else if(CurrReading>200 && CurrReading <= 500) /* charge 4rs if less than 500 units*/
+				Bill=(100*1)+(100*2.50)+((CurrReading-200)*4); 
+			else 
+				Bill=(100*1)+(100*2.50)+(300*4)+((CurrReading-500)*6); /*charge 6rs if more than 500 units*/
+			break; }
+		case "commercial": 
+		{	if(CurrReading>=0 && CurrReading<=100) /*charge 2Rs if less than 100 units*/
+					Bill=CurrReading*2; 
+				else if(CurrReading>100 && CurrReading <= 200) /*charge 4.50Rs if less than 200 units*/
+					Bill=(100*2)+((CurrReading-100)*4.50); 
+				else if(CurrReading>200 && CurrReading <= 500) /*charge 6rs if less than 500 units*/
+					Bill=(100*2)+(100*4.50)+((CurrReading-200)*6); 
+				else 
+					Bill=(100*2)+(100*4.50)+(300*6)+((CurrReading-500)*7); /*charge 7rs if less than 100 units*/
+				break; }
+		default: System.out.println("Wrong Entry Please Check!");
+		} 
+		return Bill; /* will return the calculated to the global variable bill*/
+		} 
+		
+	void display() /* printing the outputs */
+	{ 
+	             System.out.println("----------------------------------"); 
+	             System.out.println("ELCTRICITY BILL"); 
+	             System.out.println("----------------------------------"); 
+	             System.out.println("Consumer Number: "+ConsumerNo); 
+	             System.out.println("Consumer Name: "+ConsumerName); 
+	             System.out.println("Consumer Previous Units: "+PrevReading); 
+	             System.out.println("Consumer Current Units: "+CReading); 
+	             System.out.println("Type of EBConnection: "+EBConn); 
+	             System.out.println("----------------------------------"); 
+	             System.out.println("Total Amount(Rs.): "+Bill); 
+	}  	
+}
+
+class ElectBillGen extends ElectBill /* class to call functions of another class */
+{
+	public static void main (String[] args) /* main function to call the other member functions*/
+        { 
+		ElectBill b=new ElectBill(); /* object created*/
+		b.input_data(); /* calling input function*/
+		b.calculate_bill(); /* calling this for bill calculation*/
+		b.display();   /* calling display function*/
+		} 
+}
