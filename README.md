@@ -14,6 +14,8 @@ Watch these videos before contributing
 
 Please add your names below:
 
+Lakshay gupta (Delhi)
+
 Kiran Patil (Maharashtra)
 
 Suraj Keshari ( VARANASI ).
