@@ -496,9 +496,10 @@ Aayush Solanki (Indore)
 
 Aaditya Mayankar (Pune)
 
+Aditya Raj (Bihar)
+
 Arijit Ghosh (Kolkata)
 
 Vanshika Pandey (Lucknow)
 
 Guman Pratap Singh(Jaipur)
-
