@@ -293,7 +293,7 @@ Amit Kumar (Patna).
 
 Ujjwal (Delhi).
 
-Pankaj (Haryana).
+Pankaj  (Haryana).
 
 Suyog Pawar(Pune).
 
@@ -482,7 +482,10 @@ Aman kumar singh (New Delhi)
 
 Aaditya Mayankar (Pune)
 
+Dhairyashil Shinde (Ichalkaranji)
+
 Anup Haldar (Uttarakhand)
+
 Mohd Khaleeq(Uttar Pradesh)
 
 Aditya Sharma (Delhi)
