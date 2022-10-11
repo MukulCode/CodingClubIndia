@@ -11,6 +11,7 @@ Watch these videos before contributing
 [Intro to Hacktoberfest and Open Source](https://www.youtube.com/watch?v=RdwbdOKMiTc&t=27s),
 [Hands-On Demo of Hacktoberfest](https://www.youtube.com/watch?v=-PAcwWag-hI)
 
+
 ## Open Source Programs
 # 🎉Hacktoberfest 2022🎉
 
@@ -497,3 +498,6 @@ Aaditya Mayankar (Pune)
 Arijit Ghosh (Kolkata)
 
 Vanshika Pandey (Lucknow)
+
+Guman Pratap Singh(Jaipur)
+
