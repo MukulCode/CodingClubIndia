@@ -95,6 +95,8 @@ Prakhar Sinha (Varanasi)
 
 Navansh Khandelwal(Jaipur)
 
+Shubham Kumar (Pune)
+
 Kiran Patil (Maharashtra)
 
 Adnan Sameer ( KOLKATA ).
@@ -279,10 +281,9 @@ Apoorv Kudesia (Delhi).
 
 Noorul Hasan (Uttar Pradesh).
 
-Ritik Gupta (Rajasthan)
-
-
 Prashant sharma (Delhi).
+
+Ritik Gupta (Rajasthan)
 
 Vinit Raut (Mumbai).
 
