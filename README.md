@@ -477,3 +477,5 @@ Aayush Solanki (Indore)
 Aaditya Mayankar (Pune)
 
 Vanshika Pandey (Lucknow)
+
+Tanuj Rathore(Nagpur)
