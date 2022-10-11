@@ -1,5 +1,6 @@
 Basic Python
-#just awesome stuff
+
+#Just Awesome Stuff
 
 This folder is for beginners who wants to learn python from scratch.
 
