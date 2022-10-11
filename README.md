@@ -92,6 +92,8 @@ Manan Sharma (Uttar Pradesh)
 
 Prakhar Sinha (Varanasi)
 
+Navansh Khandelwal(Jaipur)
+
 Kiran Patil (Maharashtra)
 
 Adnan Sameer ( KOLKATA ).
