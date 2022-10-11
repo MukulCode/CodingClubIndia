@@ -480,6 +480,8 @@ Aman kumar singh (New Delhi)
 
 Aaditya Mayankar (Pune)
 
+Mohd Khaleeq(Uttar Pradesh)
+
 Aditya Sharma (Delhi)
 
 Tejas JM (Hyderabad)
@@ -491,7 +493,6 @@ Subash Paul (Assam)
 Aayush Solanki (Indore)
 
 Aaditya Mayankar (Pune)
-
 
 Arijit Ghosh (Kolkata)
 
