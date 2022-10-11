@@ -476,4 +476,8 @@ Aayush Solanki (Indore)
 
 Aaditya Mayankar (Pune)
 
+
+Arijit Ghosh (Kolkata)
+
 Vanshika Pandey (Lucknow)
+
