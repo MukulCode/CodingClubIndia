@@ -480,7 +480,10 @@ Aman kumar singh (New Delhi)
 
 Aaditya Mayankar (Pune)
 
+Aditya Sharma (Delhi)
+
 Tejas JM (Hyderabad)
+
 Ayush Solanki (Maharashtra)
 
 Subash Paul (Assam)
