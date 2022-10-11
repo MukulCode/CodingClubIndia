@@ -472,6 +472,8 @@ Aman kumar singh (New Delhi)
 
 Aaditya Mayankar (Pune)
 
+Ayush Solanki (Maharashtra)
+
 Subash Paul (Assam)
 
 Aayush Solanki (Indore)
