@@ -496,6 +496,8 @@ Aayush Solanki (Indore)
 
 Aaditya Mayankar (Pune)
 
+Ashish Chopra (Punjab)
+
 Vijay Singhal (Jaipur)
 
 Tanya Ahuja (UP)
