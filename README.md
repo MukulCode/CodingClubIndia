@@ -482,6 +482,7 @@ Aman kumar singh (New Delhi)
 
 Aaditya Mayankar (Pune)
 
+Anup Haldar (Uttarakhand)
 Mohd Khaleeq(Uttar Pradesh)
 
 Aditya Sharma (Delhi)
