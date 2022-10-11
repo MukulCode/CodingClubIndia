@@ -513,3 +513,6 @@ Arijit Ghosh (Kolkata)
 Vanshika Pandey (Lucknow)
 
 Guman Pratap Singh(Jaipur)
+
+Padala Vinay Bhushan(Hyderabad)
+
