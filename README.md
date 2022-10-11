@@ -465,6 +465,8 @@ Ananya Gupta (Indore)
 
 Sumukha Sureban (Betageri-Gadag)
 
+Deepak Babani (Jaipur)
+
 
 Aman kumar singh (New Delhi)
 
@@ -480,4 +482,3 @@ Aaditya Mayankar (Pune)
 Arijit Ghosh (Kolkata)
 
 Vanshika Pandey (Lucknow)
-
