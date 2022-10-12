@@ -1,5 +1,5 @@
 def flyod():
-    size = int(input("Enter the range:  "))
+    size = int(input("Enter the range: "))
     print("\nFLOYD'S TRIANGLE with numbers: \n")
     k = 1
     # 2 for loops, one for column looping another for row looping
