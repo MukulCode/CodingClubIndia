@@ -513,3 +513,5 @@ Arijit Ghosh (Kolkata)
 Vanshika Pandey (Lucknow)
 
 Guman Pratap Singh(Jaipur)
+
+Divyansh Sharma (kota)
