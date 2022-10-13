@@ -97,6 +97,8 @@ Navansh Khandelwal(Jaipur)
 
 Shubham Kumar (Pune)
 
+Siddharth Jha (Mumbai)
+
 Kiran Patil (Maharashtra)
 
 Adnan Sameer ( KOLKATA ).
