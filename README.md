@@ -97,9 +97,17 @@ Navansh Khandelwal(Jaipur)
 
 Shubham Kumar (Pune)
 
+Siddharth Jha (Mumbai)
+
+Saurav Pandey(Delhi)
+
 Kiran Patil (Maharashtra)
 
+
+Raj patil (Maharashtra)
+
 Adnan Sameer ( KOLKATA ).
+
 
 Suraj Keshari ( VARANASI ).
 
@@ -158,6 +166,8 @@ Shashank Pal (Ghaziabad)
 Shivam Gupta (Delhi)
 
 Ayush Das (Delhi)
+
+BellumDominus (Delhi)
 
 Vartika(Bhopal)
 
@@ -482,6 +492,12 @@ Aman kumar singh (New Delhi)
 
 Aaditya Mayankar (Pune)
 
+
+Eshita Bhattacharjee (Agartala)
+
+
+Sujeet Kumar (New Delhi)
+
 Dhairyashil Shinde (Ichalkaranji)
 
 Anup Haldar (Uttarakhand)
@@ -500,6 +516,14 @@ Aayush Solanki (Indore)
 
 Aaditya Mayankar (Pune)
 
+Roshan George (TamilNadu)
+
+
+Udit Mishra (Ghaziabad)
+
+
+Vatsal Kudecha (Ahmedabad)
+
 Ashish Chopra (Punjab)
 
 Vijay Singhal (Jaipur)
@@ -513,3 +537,6 @@ Arijit Ghosh (Kolkata)
 Vanshika Pandey (Lucknow)
 
 Guman Pratap Singh(Jaipur)
+
+Dikshita Gupta(Amritsar, Punjab)
+
