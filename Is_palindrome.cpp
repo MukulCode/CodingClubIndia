@@ -25,3 +25,7 @@ public:
             
     }
 };
+
+Example:
+121 -> is palindrome
+1988 -> not palindrome
