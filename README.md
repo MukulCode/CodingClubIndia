@@ -506,6 +506,9 @@ Aayush Solanki (Indore)
 
 Aaditya Mayankar (Pune)
 
+
+Vatsal Kudecha (Ahmedabad)
+
 Ashish Chopra (Punjab)
 
 Vijay Singhal (Jaipur)
@@ -519,3 +522,4 @@ Arijit Ghosh (Kolkata)
 Vanshika Pandey (Lucknow)
 
 Guman Pratap Singh(Jaipur)
+
