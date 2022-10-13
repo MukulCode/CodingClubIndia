@@ -514,6 +514,9 @@ Aayush Solanki (Indore)
 Aaditya Mayankar (Pune)
 
 
+Udit Mishra (Ghaziabad)
+
+
 Vatsal Kudecha (Ahmedabad)
 
 Ashish Chopra (Punjab)
