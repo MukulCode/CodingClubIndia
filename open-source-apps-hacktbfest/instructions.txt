@@ -1,2 +1,2 @@
-Here is the list of projects and their documentations which are going to be stored in open-source-apps-hacktbfest.
+Here is the list of projects and their documentations which are going to be stored in open-source-apps-hacktoberfest.
 
