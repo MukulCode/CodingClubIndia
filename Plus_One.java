@@ -1,4 +1,4 @@
-package com.LeetCode;
+// package com.LeetCode;
 
 import java.util.ArrayList;
 
@@ -6,9 +6,11 @@ public class Plus_One {
     public static void main(String[] args) {
         int[] arr={1,2,3};
         int[] ans=plusOne(arr);
-        for(int ele: ans) {
-            System.out.print(ele+" ");
+        for(int i=0;i<arr.length;i++){
+            System.out.print(arr[i]+" ");
         }
+        System.out.println();
+        //Enter after Printing the elements
     }
     public static int[] plusOne(int[] digits) {
         ArrayList<Integer> res=new ArrayList<>();
