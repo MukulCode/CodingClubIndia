@@ -550,6 +550,8 @@ Gagan Jha (Delhi)
 
 Guman Pratap Singh(Jaipur)
 
+Devendra Singh Rana (Uttar Pradesh)
+
 
 Rahul Reddy(Karnataka)
 
@@ -565,5 +567,4 @@ Padala Vinay Bhushan(Hyderabad)
 Ayush Goel(New Delhi)
 
 Dikshita Gupta(Amritsar, Punjab)
-
 
