@@ -550,6 +550,8 @@ Gagan Jha (Delhi)
 
 Guman Pratap Singh(Jaipur)
 
+Divyansh Sharma (kota)
+
 
 Venkat Raghaveendra (Tamil Nadu)
 
