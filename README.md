@@ -11,6 +11,7 @@ Watch these videos before contributing
 [Intro to Hacktoberfest and Open Source](https://www.youtube.com/watch?v=RdwbdOKMiTc&t=27s),
 [Hands-On Demo of Hacktoberfest](https://www.youtube.com/watch?v=-PAcwWag-hI)
 
+
 ## Open Source Programs
 # 🎉Hacktoberfest 2022🎉
 
@@ -88,9 +89,27 @@ Vishal Gupta (New Delhi)
 
 Satyendra Kumar (Panipat)
 
+Manan Sharma (Uttar Pradesh)
+
+Prakhar Sinha (Varanasi)
+
+Navansh Khandelwal(Jaipur)
+
+Shubham Kumar (Pune)
+
+Siddharth Jha (Mumbai)
+
+Saurav Pandey(Delhi)
+
+Lakshay gupta (Delhi)
+
 Kiran Patil (Maharashtra)
 
+
+Raj patil (Maharashtra)
+
 Adnan Sameer ( KOLKATA ).
+
 
 Suraj Keshari ( VARANASI ).
 
@@ -107,6 +126,8 @@ Naveen Kumar Gupta (Jaipur).
 Prakhar Srivastava (Delhi).
 
 Neeraj kumar (punjab).
+
+Ayon Chowdhury (Bihar).
 
 Shashank Pal (Ghaziabad).
 
@@ -147,6 +168,8 @@ Shashank Pal (Ghaziabad)
 Shivam Gupta (Delhi)
 
 Ayush Das (Delhi)
+
+BellumDominus (Delhi)
 
 Vartika(Bhopal)
 
@@ -270,10 +293,9 @@ Apoorv Kudesia (Delhi).
 
 Noorul Hasan (Uttar Pradesh).
 
-Ritik Gupta (Rajasthan)
-
-
 Prashant sharma (Delhi).
+
+Ritik Gupta (Rajasthan)
 
 Vinit Raut (Mumbai).
 
@@ -283,7 +305,7 @@ Amit Kumar (Patna).
 
 Ujjwal (Delhi).
 
-Pankaj (Haryana).
+Pankaj  (Haryana).
 
 Suyog Pawar(Pune).
 
@@ -465,10 +487,30 @@ Ananya Gupta (Indore)
 
 Sumukha Sureban (Betageri-Gadag)
 
+Deepak Babani (Jaipur)
+
 
 Aman kumar singh (New Delhi)
 
 Aaditya Mayankar (Pune)
+
+
+Eshita Bhattacharjee (Agartala)
+
+
+Sujeet Kumar (New Delhi)
+
+Dhairyashil Shinde (Ichalkaranji)
+
+Anup Haldar (Uttarakhand)
+
+Mohd Khaleeq(Uttar Pradesh)
+
+Aditya Sharma (Delhi)
+
+Tejas JM (Hyderabad)
+
+Ayush Solanki (Maharashtra)
 
 Subash Paul (Assam)
 
@@ -476,6 +518,37 @@ Aayush Solanki (Indore)
 
 Aaditya Mayankar (Pune)
 
+Roshan George (TamilNadu)
+
+
+Udit Mishra (Ghaziabad)
+
+
+Vatsal Kudecha (Ahmedabad)
+
+Ashish Chopra (Punjab)
+
+Vijay Singhal (Jaipur)
+
+Tanya Ahuja (UP)
+
+Aditya Raj (Bihar)
+
+Arijit Ghosh (Kolkata)
+
 Vanshika Pandey (Lucknow)
 
+
 Tanuj Rathore(Nagpur)
+
+
+Umang Kumar (Pune)
+
+Charcha Galav (Ajmer)
+
+Gagan Jha (Delhi)
+
+Guman Pratap Singh(Jaipur)
+
+Dikshita Gupta(Amritsar, Punjab)
+
