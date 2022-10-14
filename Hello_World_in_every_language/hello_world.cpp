@@ -9,3 +9,7 @@ cout<<"Hello World!";
 }
 
 
+int main() {
+    print();
+    print();
+}
