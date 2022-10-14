@@ -173,6 +173,8 @@ Vartika(Bhopal)
 
 Rajat Garg (Delhi)
 
+Deepu Singh(Delhi)
+
 Shivam Gupta (Delhi)
 
 Sanchit Khare (Aligarh)
