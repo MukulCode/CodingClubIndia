@@ -536,7 +536,8 @@ Arijit Ghosh (Kolkata)
 
 Vanshika Pandey (Lucknow)
 
+Gagan Jha (Delhi)
+
 Guman Pratap Singh(Jaipur)
 
 Dikshita Gupta(Amritsar, Punjab)
-
