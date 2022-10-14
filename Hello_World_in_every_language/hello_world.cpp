@@ -1,9 +1,13 @@
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
-
-void print(){
-    cout<<"Hello world"<<endl;
+int main(){
+ cout<<"Namaste duniya"<<endl; 
+ 
+cout<<"Hello World!";
+  
+  return 0;
 }
+
 
 int main() {
     print();
