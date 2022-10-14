@@ -550,5 +550,8 @@ Gagan Jha (Delhi)
 
 Guman Pratap Singh(Jaipur)
 
+
+Ayush Goel(New Delhi)
+
 Dikshita Gupta(Amritsar, Punjab)
 
