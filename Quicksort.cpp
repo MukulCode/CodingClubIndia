@@ -1,65 +1,59 @@
+#include<bits/stdc++.h>
+using namespace std;
 
-#include <bits/stdc++.h> 
-using namespace std; 
+void quicksort(int input[],int low,int high,int& cnt,int t){
 
+    if(low>=high)
+        return ;
 
-void swap(int* a, int* b) 
-{ 
-	int t = *a; 
-	*a = *b; 
-	*b = t; 
-} 
+    int mid=(low+high)/2;
+    int pivot=input[mid];
+    int i=low,j=high;
+    int temp;
+    while(i<j){
 
+        if(input[i]>=pivot && input[j]<=pivot){
+            temp=input[j];
+            input[j]=input[i];
+            input[i]=temp;
+          
+            i++;
+            j--;
+            cnt++;
+        }
+        else{
+            i++;
+        }
+        
+         for(int i=0;i<t;i++){
+        cout<<input[i]<<" ";
+    }
+        cout<<"\n";
+    }
+    quicksort(input,low,mid,cnt,t);
+    quicksort(input,mid+1,high,cnt,t);
+}
+int main()
+{
+    int t;
+    cout<<"Enter size of Input array : ";
+    cin>>t;
+    int input[t];
+    cout<<"Enter space separated Elements of array : "
+    
+    
+    for(int i=0;i<t;i++)
+        cin>>input[i];
 
-int partition (int arr[], int low, int high) 
-{ 
-	int pivot = arr[high]; 
-	int i = (low - 1);  
+    int cnt = 0;
+    quicksort(input,0,t-1,cnt,t);
 
-	for (int j = low; j <= high - 1; j++) 
-	{ 
-		 
-		if (arr[j] < pivot) 
-		{ 
-			i++;  
-			swap(&arr[i], &arr[j]); 
-		} 
-	} 
-	swap(&arr[i + 1], &arr[high]); 
-	return (i + 1); 
-} 
+    cout<<"\nSorted Input Array is : ";
 
+    for(int i=0;i<t;i++)
+        cout<<input[i]<<" ";
 
-void quickSort(int arr[], int low, int high) 
-{ 
-	if (low < high) 
-	{ 
-		
-		int pi = partition(arr, low, high); 
+    cout<<"\nNumber of swaps : " <<cnt; 
 
-		
-		quickSort(arr, low, pi - 1); 
-		quickSort(arr, pi + 1, high); 
-	} 
-} 
-
-
-void printArray(int arr[], int size) 
-{ 
-	int i; 
-	for (i = 0; i < size; i++) 
-		cout << arr[i] << " "; 
-	cout << endl; 
-} 
-
-//driver function
-int main() 
-{ 
-	int arr[] = {10, 7, 8, 9, 1, 5}; 
-	int n = sizeof(arr) / sizeof(arr[0]); 
-	quickSort(arr, 0, n - 1); 
-	cout << "Sorted array: "; 
-	printArray(arr, n); 
-	return 0; 
-} 
-// END
+    return 0;
+}
