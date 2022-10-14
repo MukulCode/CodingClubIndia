@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Web development,Forms-HTML">
+    <meta name="robots" content="INDEX,FOLLOW">
+    <title>Forms-HTMl</title>
+</head>
+<body>
+    <h2>Forms in HTMl</h2><hr>
+    <div>
+        <h4>School Student Information</h4>
+    </div>
+    <form action="form.php">
+        <!-- using label tags so for smoothness and user friendly sites 
+        label for ="" should be same with the id name
+        placeholder gives you an imaginary text in your forms-->
+        <label for="name"> Name : </label>
+            <input type="text" placeholder="Enter your name" name="myname" id="name">
+        <div>
+            Class : <input type="number" name="myclass" placeholder="Enter your class">
+        </div>
+        <div>
+            Email : <input type="email" name="myemail" placeholder="Enter your email">
+        </div>
+        <div>
+            Date : <input type="date" name="mydate" >
+        </div>
+        <div>
+            Confirm : <input type="checkbox" name="myeligibility">
+        </div>
+        <div>
+            Gender : Male <input type="radio" name="mygender">Female <input type="radio" name="mygender">Others <input type="radio" name="mygender">None <input type="radio" name="mygender">
+        </div>
+        <div>
+            Write about yourself : <textarea name="mytext" cols="30" rows="10" placeholder="Say something about yourself"></textarea>
+        </div>
+        <div>
+            <input type="submit" name="Submit Now">
+            <input type="reset" name="reset now">
+        </div>
+    </form>
+</body>
+</html>
