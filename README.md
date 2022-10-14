@@ -174,6 +174,8 @@ Vartika(Bhopal)
 
 Rajat Garg (Delhi)
 
+Niraaova (MSIT)(ECE-1)
+
 Shivam Gupta (Delhi)
 
 Sanchit Khare (Aligarh)
