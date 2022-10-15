@@ -584,5 +584,8 @@ Padala Vinay Bhushan(Hyderabad)
 
 Ayush Goel(New Delhi)
 
-Dikshita Gupta(Amritsar, Punjab)
+Dikshita Gupta(Amritsar, Punjab) 
+  
+
+Vikash Kumar(Patna , Bihar)
 
