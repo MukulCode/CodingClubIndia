@@ -1,0 +1,16 @@
+class Solution {
+    public int numberOfPaths(int[][] grid, int k) {
+      Integer[][][] dp=new Integer[grid.length][grid[0].length][k];
+        return solve(grid,k,grid.length-1,grid[0].length-1,0,dp);    
+    }
+    
+    
+    public int solve(int[][] grid,int k,int i,int j,int sum,Integer[][][] dp){
+        if(i<0 || j<0)return 0;
+        if(i==0 && j==0)return (sum+grid[0][0])%k==0?1:0;
+        if(dp[i][j][sum%k]!=null)return dp[i][j][sum%k];
+        int up= solve(grid,k,i-1,j,sum+grid[i][j],dp);
+        int left= solve(grid,k,i,j-1,sum+grid[i][j],dp);
+        return dp[i][j][sum%k]=(up+left)%1000000007;
+    }
+}
