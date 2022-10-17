@@ -43,3 +43,10 @@ Determine your path after exploring different careers in tech.
 🔴Do follow the Mukul bhayia channel-"TECH WITH MUKUL CODE❤" to stay updated in tech
 Here is the link -: https://www.youtube.com/channel/UCMhs3x1cf8FAloBmuCmEgNA/featured
 
+#Here are some tips from my side
+1: Choose the language that you are interested in.
+2: Start from basics
+3: Learn the DSA.
+4: Learn some basic maths (hacker rank)
+5: Use Topcoder and Kaggle.
+6: Be consistent
