@@ -13,7 +13,7 @@ string place(int flag,int c,int d){
         }
         return ans;
 }
-// NICE Comment
+
 int match(string s,string s1){
     int count=0;
     for(int i=0;i<s.length();i++){
