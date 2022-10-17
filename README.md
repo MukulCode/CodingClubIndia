@@ -185,7 +185,11 @@ Vartika(Bhopal)
 
 Rajat Garg (Delhi)
 
+
+Niraaova (MSIT)(ECE-1)
+
 Deepu Singh(Delhi)
+
 
 Shivam Gupta (Delhi)
 
