@@ -1,0 +1,29 @@
+     * class deletenode {
+     *     int data;
+     *     SinglyLinkedListNode next;
+     * }
+     *
+     */
+    static SinglyLinkedListNode deleteNode(SinglyLinkedListNode head, int position) {
+        SinglyLinkedListNode q= head;
+               int c=0;
+
+        if(q==null)
+        {
+            return head;
+        }
+        else if(position==0)
+        {
+            return head.next;
+        }
+        else
+        {
+            while(c<position-1)
+            {
+                q=q.next;
+                c++;
+            }
+            q.next=q.next.next;
+        }
+return head;
+    }

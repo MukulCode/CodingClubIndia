@@ -1,0 +1,3 @@
+Code for VHDL.
+
+Making and,or,not gate.
