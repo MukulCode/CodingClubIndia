@@ -31,7 +31,9 @@ Now i can enter in open source world and can give contributions in it
 kudos.
 
 It was fun learning new things with CodingClub. ThankYou Guys.
-Rajanbir Singh Ghumaan
+Rajanbir Singh Ghumaan  
+
+Vikash Kumar(Bihar) Currently i am doing b.tech from NIT Patna in CSE branch. Thank You bhaiya for helping us especially the beginners to contribute in the open source coummunity through your Youtube Video and also through this repository.
 
 
 V S Karthikeya Nalam (Vijayawada)
