@@ -1,2 +1,3 @@
 Here is the list of projects and their documentations which are going to be stored in open-source-apps-hacktoberfest.
 
+all the opensource coders please submit code before the end of the october.
