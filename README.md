@@ -85,6 +85,7 @@ git push origin my-new-branch
 
 # Please add your names below:
 
+BISWA S (Cuttack)
 
 TANMAY (New Delhi)
 
@@ -183,8 +184,6 @@ BellumDominus (Delhi)
 Vartika(Bhopal)
 
 Rajat Garg (Delhi)
-
-Deepu Singh(Delhi)
 
 Shivam Gupta (Delhi)
 
@@ -590,6 +589,4 @@ Padala Vinay Bhushan(Hyderabad)
 Ayush Goel(New Delhi)
 
 Dikshita Gupta(Amritsar, Punjab)
-
-Kshitiz Jaiswal (Haryana)
 
