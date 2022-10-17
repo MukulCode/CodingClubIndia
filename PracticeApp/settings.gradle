@@ -1,4 +1,0 @@
-rootProject.name = "PracticeApp"
-include ':app'
-include ':computation'
-include ':configDep'

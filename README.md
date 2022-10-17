@@ -85,7 +85,14 @@ git push origin my-new-branch
 
 # Please add your names below:
 
+
 TANMAY (New Delhi)
+
+
+Mohd Kaleem Saqlaini (New Delhi)
+
+Javesh Lodha ( Jaipur )
+
 
 Vishal Gupta (New Delhi)
 
@@ -483,6 +490,8 @@ Royal Simpson Pinto (Mangalore)
 
 Kaustubh Jogle (Mumbai)
 
+V S Karthikeya Nalam (Vijayawada)
+
 Ashutosh Kosti (Jabalpur)
 
 Ananya Gupta (Indore)
@@ -551,6 +560,32 @@ Charcha Galav (Ajmer)
 Gagan Jha (Delhi)
 
 Guman Pratap Singh(Jaipur)
+
+
+Debosmita Chatterjee(Kolkata)
+
+
+Amaan Shaikh (Mumbai)
+
+
+Mihir Agarwal (New Delhi)
+
+
+Devendra Singh Rana (Uttar Pradesh)
+
+
+Rahul Reddy(Karnataka)
+
+Divyansh Sharma (kota)
+
+
+Venkat Raghaveendra (Tamil Nadu)
+
+
+Padala Vinay Bhushan(Hyderabad)
+
+
+Ayush Goel(New Delhi)
 
 Dikshita Gupta(Amritsar, Punjab)
 
