@@ -603,6 +603,7 @@ Padala Vinay Bhushan(Hyderabad)
 Ayush Goel(New Delhi)
 
 Dikshita Gupta(Amritsar, Punjab)
+Hrushikesh Desai(Kolhapur , India)
 
 Kshitiz Jaiswal (Haryana)
 
