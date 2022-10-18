@@ -85,17 +85,13 @@ git push origin my-new-branch
 
 # Please add your names below:
 
-
 Pavan Kulkarni (Karnataka)
 
-
 TANMAY (New Delhi)
-
 
 Mohd Kaleem Saqlaini (New Delhi)
 
 Javesh Lodha ( Jaipur )
-
 
 Vishal Gupta (New Delhi)
 
@@ -109,20 +105,10 @@ Navansh Khandelwal(Jaipur)
 
 Shubham Kumar (Pune)
 
-Siddharth Jha (Mumbai)
-
-Saurav Pandey(Delhi)
-
-Lakshay gupta (Delhi)
-
 Kiran Patil (Maharashtra)
 Divesh Kumar(Delhi)
 
-
-Raj patil (Maharashtra)
-
 Adnan Sameer ( KOLKATA ).
-
 
 Suraj Keshari ( VARANASI ).
 
@@ -181,8 +167,6 @@ Shashank Pal (Ghaziabad)
 Shivam Gupta (Delhi)
 
 Ayush Das (Delhi)
-
-BellumDominus (Delhi)
 
 Vartika(Bhopal)
 
@@ -502,8 +486,6 @@ Royal Simpson Pinto (Mangalore)
 
 Kaustubh Jogle (Mumbai)
 
-V S Karthikeya Nalam (Vijayawada)
-
 Ashutosh Kosti (Jabalpur)
 
 Ananya Gupta (Indore)
@@ -517,7 +499,6 @@ Aman kumar singh (New Delhi)
 
 Aaditya Mayankar (Pune)
 
-
 Ankit Mukherjee (Pune)
 
 
@@ -525,6 +506,7 @@ Eshita Bhattacharjee (Agartala)
 
 
 Sujeet Kumar (New Delhi)
+
 
 Dhairyashil Shinde (Ichalkaranji)
 
@@ -544,14 +526,6 @@ Aayush Solanki (Indore)
 
 Aaditya Mayankar (Pune)
 
-Roshan George (TamilNadu)
-
-
-Udit Mishra (Ghaziabad)
-
-
-Vatsal Kudecha (Ahmedabad)
-
 Ashish Chopra (Punjab)
 
 Vijay Singhal (Jaipur)
@@ -564,18 +538,9 @@ Arijit Ghosh (Kolkata)
 
 Vanshika Pandey (Lucknow)
 
-
-Tanuj Rathore(Nagpur)
-
-
-Umang Kumar (Pune)
-
-Charcha Galav (Ajmer)
-
-Gagan Jha (Delhi)
-
 Guman Pratap Singh(Jaipur)
 
+Adityam (Patna)
 
 Debosmita Chatterjee(Kolkata)
 
