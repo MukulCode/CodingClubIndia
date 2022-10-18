@@ -1,0 +1,31 @@
+// Leetcode Contest Question
+class Solution {
+    public int countDistinctIntegers(int[] nums) {
+    ArrayList<Integer> t = new ArrayList<>();
+    Set<Integer> set = new HashSet<>();
+    for(int i:nums){
+        t.add(i);
+    }    
+        
+        for(int i:nums){
+            int revNum = rev(i);
+            t.add(revNum);
+        }
+        
+        for(var i: t){
+            set.add(i);
+        }
+        return set.size();
+    }
+    
+    
+    public int rev(int i){
+        int res = 0;
+        while(i>0){
+            res*=10;
+            res+=i%10;
+            i/=10;
+        }
+        return res;
+    }
+    }

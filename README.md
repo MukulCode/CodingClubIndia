@@ -86,6 +86,12 @@ git push origin my-new-branch
 # Please add your names below:
 
 
+Pavan Kulkarni (Karnataka)
+
+
+TANMAY (New Delhi)
+
+
 Mohd Kaleem Saqlaini (New Delhi)
 
 Javesh Lodha ( Jaipur )
@@ -110,6 +116,7 @@ Saurav Pandey(Delhi)
 Lakshay gupta (Delhi)
 
 Kiran Patil (Maharashtra)
+Divesh Kumar(Delhi)
 
 
 Raj patil (Maharashtra)
@@ -181,11 +188,19 @@ Vartika(Bhopal)
 
 Rajat Garg (Delhi)
 
+
+Niraaova (MSIT)(ECE-1)
+
+Deepu Singh(Delhi)
+
+
 Shivam Gupta (Delhi)
 
 Sanchit Khare (Aligarh)
 
 Aniket Sood (Chandigarh)
+
+Sourabh P(MSIT)
 
 Shivam Gupta (Delhi)
 
@@ -503,6 +518,9 @@ Aman kumar singh (New Delhi)
 Aaditya Mayankar (Pune)
 
 
+Ankit Mukherjee (Pune)
+
+
 Eshita Bhattacharjee (Agartala)
 
 
@@ -585,5 +603,12 @@ Padala Vinay Bhushan(Hyderabad)
 Ayush Goel(New Delhi)
 
 Dikshita Gupta(Amritsar, Punjab)
+Hrushikesh Desai(Kolhapur , India)
+
+Kshitiz Jaiswal (Haryana)
+
 
 Bhawarth Garg(Kurukshetra, Haryana)
+
+Purbendu Halder (Kolkata)
+
