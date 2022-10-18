@@ -1,0 +1,42 @@
+<html>
+<heaad>
+ <title> Home </title>
+ <style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+</style>
+
+ </head>
+<body>
+<h3> Task - manager </h3>
+{% for message in get_flashed_messages() %}
+  <div class="container text-center">
+    <h3>{{ message }}</h3>
+  </div>
+  <br>
+{% endfor %}
+<a href="{{ url_for('taskPage') }}"> <button style="background-color:#008CBA;">add task </button> </a>
+
+<br>
+<br>
+<table>
+<tr> 
+    <th style="background-color:#e7e7e7;">task id</th>
+    <th style="background-color:#e7e7e7;">task name </th>
+    <th style="background-color:#e7e7e7;"> action </th>
+</tr>
+{% if tasks %}
+  {% for task in tasks%}
+<tr>
+    <td> {{task[0]}} </td>
+    <td>{{ task[1]}}</td>
+    <td> <a href="{{ url_for("edit_task_page" ,  idd=task[0], _external=True) }}">Edit</a>&nbsp <a href="/delete/{{task[0]}}"> Delete </a> </td>
+<tr>
+{% endfor %}
+{% endif %}
+</table>
+</body>
+
+</html>
