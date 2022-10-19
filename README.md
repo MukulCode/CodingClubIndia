@@ -1,14 +1,12 @@
-
 # CodingClubIndia
 
 
 This repo is to demonstrate the GIT version control and promote Hacktober fest.
 
 How?
-You can share the best pieces of code in this repo written in any language, we will review the code and merge accordingly. Additionally we are using this readme for maintaining the name of contributos, feel free to add your name here :) 
+You can share the best pieces of code in this repo written in any language, we will review the code and merge accordingly. Additionally we are using this readme for maintaining the name of contributors, feel free to add your name here :) 
 
-Watch these videos before contributing
-
+Watch these videos before contributing:
 [Intro to Hacktoberfest and Open Source](https://www.youtube.com/watch?v=RdwbdOKMiTc&t=27s),
 [Hands-On Demo of Hacktoberfest](https://www.youtube.com/watch?v=-PAcwWag-hI)
 
@@ -90,7 +88,6 @@ git push origin my-new-branch
 BISWA S (Cuttack)
 
 Pavan Kulkarni (Karnataka)
-
 
 TANMAY (New Delhi)
 
@@ -497,19 +494,15 @@ Sumukha Sureban (Betageri-Gadag)
 
 Deepak Babani (Jaipur)
 
-
 Aman kumar singh (New Delhi)
 
 Aaditya Mayankar (Pune)
 
 Ankit Mukherjee (Pune)
 
-
 Eshita Bhattacharjee (Agartala)
 
-
 Sujeet Kumar (New Delhi)
-
 
 Dhairyashil Shinde (Ichalkaranji)
 
@@ -547,38 +540,30 @@ Adityam (Patna)
 
 Debosmita Chatterjee(Kolkata)
 
-
 Amaan Shaikh (Mumbai)
-
 
 Mihir Agarwal (New Delhi)
 
-
 Devendra Singh Rana (Uttar Pradesh)
-
 
 Rahul Reddy(Karnataka)
 
 Divyansh Sharma (kota)
 
-
 Venkat Raghaveendra (Tamil Nadu)
 
-
 Padala Vinay Bhushan(Hyderabad)
-
 
 Ayush Goel(New Delhi)
 
 Dikshita Gupta(Amritsar, Punjab)
+
 Hrushikesh Desai(Kolhapur , India)
 
 Kshitiz Jaiswal (Haryana)
-
 
 Bhawarth Garg(Kurukshetra, Haryana)
 
 Shahidraja Shaikh (Mumbai)
 
 Purbendu Halder (Kolkata)
-
