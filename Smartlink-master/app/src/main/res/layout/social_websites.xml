@@ -1,0 +1,679 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wp11"
+    tools:context=".SocialWebsites"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Social Website"
+        android:fontFamily="@font/poppins"
+        android:gravity="center_vertical|start"
+        android:textSize="22dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:paddingLeft="15dp"
+        android:layout_marginBottom="10dp"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!--below this -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/custom_listbox"
+                android:weightSum="10">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginBottom="3dp"
+                    android:src="@drawable/whatsapp" />
+
+                <TextView
+                    android:id="@+id/whatsapp"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="7"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text="Whatsapp"
+                    android:onClick="whatsappClick"
+                    android:fontFamily="@font/poppins"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/custom_listbox"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:src="@drawable/insta"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:id="@+id/Instagram"
+                android:layout_width="0dp"
+                android:layout_weight="7"
+                android:layout_height="match_parent"
+                android:text="Instagram"
+                android:onClick="instagramClick"
+                android:fontFamily="@font/poppins"
+                android:paddingLeft="10dp"
+                android:textSize="20sp"
+                android:gravity="center_vertical"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/custom_listbox"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:src="@drawable/twitter"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:id="@+id/Twitter"
+                android:layout_width="0dp"
+                android:layout_weight="7"
+                android:layout_height="match_parent"
+                android:text="Twitter"
+                android:onClick="twitterClick"
+                android:fontFamily="@font/poppins"
+                android:paddingLeft="10dp"
+                android:textSize="20sp"
+                android:gravity="center_vertical"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="50dp"-->
+<!--                android:layout_margin="15dp"-->
+<!--                android:background="@drawable/custom_listbox"-->
+<!--                android:orientation="horizontal"-->
+<!--                android:weightSum="10">-->
+
+<!--                <ImageView-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_weight="3"-->
+<!--                    android:src="@drawable/ic_social"-->
+<!--                    android:layout_height="match_parent"/>-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/Googleplus"-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_weight="7"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:text="@string/googleplus"-->
+<!--                    android:paddingLeft="10dp"-->
+<!--                    android:textSize="22sp"-->
+<!--                    android:gravity="center_vertical"-->
+<!--                    android:textColor="#FFFFFF"-->
+<!--                    android:textStyle="bold"-->
+<!--                    />-->
+
+<!--            </LinearLayout>-->
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/custom_listbox"
+                android:orientation="horizontal"
+                android:weightSum="10">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/pinterest"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginBottom="3dp"
+                    android:layout_height="match_parent"/>
+
+                <TextView
+                    android:id="@+id/Pinterest"
+                    android:layout_width="0dp"
+                    android:layout_weight="7"
+                    android:layout_height="match_parent"
+                    android:text="Pinterest"
+                    android:onClick="pinterestClick"
+                    android:paddingLeft="10dp"
+                    android:fontFamily="@font/poppins"
+                    android:textSize="20sp"
+                    android:gravity="center_vertical"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/custom_listbox"
+                android:orientation="horizontal"
+                android:weightSum="10">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/reditt"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginBottom="3dp"
+                    android:layout_height="match_parent"/>
+
+                <TextView
+                    android:id="@+id/Reddit"
+                    android:layout_width="0dp"
+                    android:layout_weight="7"
+                    android:layout_height="match_parent"
+                    android:text="Reddit"
+                    android:onClick="redditClick"
+                    android:fontFamily="@font/poppins"
+                    android:paddingLeft="10dp"
+                    android:textSize="20sp"
+                    android:gravity="center_vertical"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    />
+
+            </LinearLayout>
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="50dp"-->
+<!--                android:layout_margin="15dp"-->
+<!--                android:background="@drawable/custom_listbox"-->
+<!--                android:orientation="horizontal"-->
+<!--                android:weightSum="10">-->
+
+<!--                <ImageView-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_weight="3"-->
+<!--                    android:src="@drawable/ic_social"-->
+<!--                    android:layout_height="match_parent"/>-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/Snapchat"-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_weight="7"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:text="@string/snapchat"-->
+<!--                    android:paddingLeft="10dp"-->
+<!--                    android:textSize="22sp"-->
+<!--                    android:gravity="center_vertical"-->
+<!--                    android:textColor="#FFFFFF"-->
+<!--                    android:textStyle="bold"-->
+<!--                    />-->
+
+<!--            </LinearLayout>-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/custom_listbox"
+                android:orientation="horizontal"
+                android:weightSum="10">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/quora"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginBottom="3dp"
+                    android:layout_height="match_parent"/>
+
+                <TextView
+                    android:id="@+id/Quora"
+                    android:layout_width="0dp"
+                    android:layout_weight="7"
+                    android:layout_height="match_parent"
+                    android:text="Quora"
+                    android:onClick="quoraClick"
+                    android:fontFamily="@font/poppins"
+                    android:paddingLeft="10dp"
+                    android:textSize="20sp"
+                    android:gravity="center_vertical"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/custom_listbox"
+                android:orientation="horizontal"
+                android:weightSum="10">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/youtube"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginBottom="3dp"
+                    android:layout_height="match_parent"/>
+
+                <TextView
+                    android:id="@+id/Youtube"
+                    android:layout_width="0dp"
+                    android:layout_weight="7"
+                    android:layout_height="match_parent"
+                    android:text="Youtube"
+                    android:onClick="youtubeClick"
+                    android:fontFamily="@font/poppins"
+                    android:paddingLeft="10dp"
+                    android:textSize="20sp"
+                    android:gravity="center_vertical"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/custom_listbox"
+                android:orientation="horizontal"
+                android:weightSum="10">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/telegram"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginBottom="3dp"
+                    android:layout_height="match_parent"/>
+
+                <TextView
+                    android:id="@+id/Telegram"
+                    android:layout_width="0dp"
+                    android:layout_weight="7"
+                    android:layout_height="match_parent"
+                    android:text="Telegram"
+                    android:onClick="telegramClick"
+                    android:fontFamily="@font/poppins"
+                    android:paddingLeft="10dp"
+                    android:textSize="20sp"
+                    android:gravity="center_vertical"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    />
+
+
+            </LinearLayout>
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="50dp"-->
+<!--                android:layout_margin="15dp"-->
+<!--                android:background="@drawable/custom_listbox"-->
+<!--                android:orientation="horizontal"-->
+<!--                android:weightSum="10">-->
+
+<!--                <ImageView-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_weight="3"-->
+<!--                    android:src="@drawable/ic_social"-->
+<!--                    android:layout_height="match_parent"/>-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/Linked"-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_weight="7"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:text="Linked"-->
+<!--                    android:paddingLeft="10dp"-->
+<!--                    android:textSize="22sp"-->
+<!--                    android:gravity="center_vertical"-->
+<!--                    android:textColor="#FFFFFF"-->
+<!--                    android:textStyle="bold"-->
+<!--                    />-->
+
+<!--            </LinearLayout>-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/custom_listbox"
+                android:orientation="horizontal"
+                android:weightSum="10">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/skype"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginBottom="3dp"
+                    android:layout_height="match_parent"/>
+
+                <TextView
+                    android:id="@+id/Skype"
+                    android:layout_width="0dp"
+                    android:layout_weight="7"
+                    android:layout_height="match_parent"
+                    android:text="Skype"
+                    android:onClick="skypeClick"
+                    android:fontFamily="@font/poppins"
+                    android:paddingLeft="10dp"
+                    android:textSize="20sp"
+                    android:gravity="center_vertical"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/custom_listbox"
+                android:orientation="horizontal"
+                android:weightSum="10">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/wiki"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginBottom="3dp"
+                    android:layout_height="match_parent"/>
+
+                <TextView
+                    android:id="@+id/Wkipidea"
+                    android:layout_width="0dp"
+                    android:layout_weight="7"
+                    android:layout_height="match_parent"
+                    android:text="Wikipidea"
+                    android:onClick="wikipediaClick"
+                    android:fontFamily="@font/poppins"
+                    android:paddingLeft="10dp"
+                    android:textSize="20sp"
+                    android:gravity="center_vertical"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    />
+
+            </LinearLayout>
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="50dp"-->
+<!--                android:layout_margin="15dp"-->
+<!--                android:background="@drawable/custom_listbox"-->
+<!--                android:orientation="horizontal"-->
+<!--                android:weightSum="10">-->
+
+<!--                <ImageView-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_weight="3"-->
+<!--                    android:src="@drawable/ic_social"-->
+<!--                    android:layout_height="match_parent"/>-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/Outlook"-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_weight="7"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:text="Outlook"-->
+<!--                    android:paddingLeft="10dp"-->
+<!--                    android:textSize="22sp"-->
+<!--                    android:gravity="center_vertical"-->
+<!--                    android:textColor="#FFFFFF"-->
+<!--                    android:textStyle="bold"-->
+<!--                    />-->
+
+<!--            </LinearLayout>-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="50dp"-->
+<!--                android:layout_margin="15dp"-->
+<!--                android:background="@drawable/custom_listbox"-->
+<!--                android:orientation="horizontal"-->
+<!--                android:weightSum="10">-->
+
+<!--                <ImageView-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_weight="3"-->
+<!--                    android:src="@drawable/ic_social"-->
+<!--                    android:layout_height="match_parent"/>-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/Yahoo_mail"-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_weight="7"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:text="Yahoo mail"-->
+<!--                    android:paddingLeft="10dp"-->
+<!--                    android:textSize="22sp"-->
+<!--                    android:gravity="center_vertical"-->
+<!--                    android:textColor="#FFFFFF"-->
+<!--                    android:textStyle="bold"-->
+<!--                    />-->
+
+<!--            </LinearLayout>-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="50dp"-->
+<!--                android:layout_margin="15dp"-->
+<!--                android:background="@drawable/custom_listbox"-->
+<!--                android:orientation="horizontal"-->
+<!--                android:weightSum="10">-->
+
+<!--                <ImageView-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_weight="3"-->
+<!--                    android:src="@drawable/ic_social"-->
+<!--                    android:layout_height="match_parent"/>-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/Okcupid"-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_weight="7"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:text="okcupid"-->
+<!--                    android:paddingLeft="10dp"-->
+<!--                    android:textSize="22sp"-->
+<!--                    android:gravity="center_vertical"-->
+<!--                    android:textColor="#FFFFFF"-->
+<!--                    android:textStyle="bold"-->
+<!--                    />-->
+
+<!--            </LinearLayout>-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="50dp"-->
+<!--                android:layout_margin="15dp"-->
+<!--                android:background="@drawable/custom_listbox"-->
+<!--                android:orientation="horizontal"-->
+<!--                android:weightSum="10">-->
+
+<!--                <ImageView-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_weight="3"-->
+<!--                    android:src="@drawable/ic_social"-->
+<!--                    android:layout_height="match_parent"/>-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/Tinder"-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_weight="7"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:text="Tinder"-->
+<!--                    android:paddingLeft="10dp"-->
+<!--                    android:textSize="22sp"-->
+<!--                    android:gravity="center_vertical"-->
+<!--                    android:textColor="#FFFFFF"-->
+<!--                    android:textStyle="bold"-->
+<!--                    />-->
+
+<!--            </LinearLayout>-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/custom_listbox"
+                android:orientation="horizontal"
+                android:weightSum="10">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/netflix"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginBottom="3dp"
+                    android:layout_height="match_parent"/>
+
+                <TextView
+                    android:id="@+id/Netflix"
+                    android:layout_width="0dp"
+                    android:layout_weight="7"
+                    android:layout_height="match_parent"
+                    android:text="Netflix"
+                    android:onClick="netflixClick"
+                    android:fontFamily="@font/poppins"
+                    android:paddingLeft="10dp"
+                    android:textSize="20sp"
+                    android:gravity="center_vertical"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    />
+
+            </LinearLayout>
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="50dp"-->
+<!--                android:layout_margin="15dp"-->
+<!--                android:background="@drawable/custom_listbox"-->
+<!--                android:orientation="horizontal"-->
+<!--                android:weightSum="10">-->
+
+<!--                <ImageView-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_weight="3"-->
+<!--                    android:src="@drawable/ic_social"-->
+<!--                    android:layout_height="match_parent"/>-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/Temp_mail"-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_weight="7"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:text="Temp mail"-->
+<!--                    android:paddingLeft="10dp"-->
+<!--                    android:textSize="22sp"-->
+<!--                    android:gravity="center_vertical"-->
+<!--                    android:textColor="#FFFFFF"-->
+<!--                    android:textStyle="bold"-->
+<!--                    />-->
+
+<!--            </LinearLayout>-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/custom_listbox"
+                android:orientation="horizontal"
+                android:weightSum="10">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/amazonprime"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginBottom="3dp"
+                    android:layout_height="match_parent"/>
+
+                <TextView
+                    android:id="@+id/Amazon_prime"
+                    android:layout_width="0dp"
+                    android:layout_weight="7"
+                    android:layout_height="match_parent"
+                    android:text="Amazon Prime"
+                    android:onClick="amazonprimeClick"
+                    android:fontFamily="@font/poppins"
+                    android:paddingLeft="10dp"
+                    android:textSize="20sp"
+                    android:gravity="center_vertical"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    />
+
+            </LinearLayout>
+            <!--above this
+           -->
+        </LinearLayout>
+    </ScrollView>
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>

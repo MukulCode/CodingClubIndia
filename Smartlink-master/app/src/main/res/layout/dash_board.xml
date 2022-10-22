@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/wp"
+    tools:context=".DashBoard">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/poppins"
+        android:gravity="center_vertical|start"
+        android:text="Dashboard"
+        android:paddingLeft="15dp"
+        android:textColor="#FFFFFf"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/custom_listbox"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:src="@drawable/social"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"/>
+
+        <TextView
+            android:id="@+id/social_box"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="7"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="Social Websites"
+            android:textColor="#ffffff"
+            android:fontFamily="@font/poppins"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="15dp"
+        android:background="@drawable/custom_listbox"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:src="@drawable/shopping"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"/>
+
+        <TextView
+            android:id="@+id/shopping_box"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="7"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="Shopping Websites"
+            android:textColor="#ffffff"
+            android:fontFamily="@font/poppins"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="15dp"
+        android:background="@drawable/custom_listbox"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:src="@drawable/news"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"/>
+
+        <TextView
+            android:id="@+id/news_box"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="7"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="News Websites"
+            android:textColor="#ffffff"
+            android:fontFamily="@font/poppins"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="15dp"
+        android:background="@drawable/custom_listbox"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:src="@drawable/daily"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"/>
+
+        <TextView
+            android:id="@+id/du_box"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="7"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="Daily-Use Websites"
+            android:textColor="#ffffff"
+            android:fontFamily="@font/poppins"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="15dp"
+        android:background="@drawable/custom_listbox"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:src="@drawable/learning"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"/>
+
+        <TextView
+            android:id="@+id/learn_box"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="7"
+            android:gravity="center_vertical"
+            android:onClick="Learn_Click"
+            android:paddingLeft="10dp"
+            android:text="Learning Websites"
+            android:textColor="#ffffff"
+            android:fontFamily="@font/poppins"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="15dp"
+        android:background="@drawable/custom_listbox"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:src="@drawable/info"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"/>
+
+        <TextView
+            android:id="@+id/about"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="7"
+            android:gravity="center_vertical"
+            android:onClick="Learn_Click"
+            android:paddingLeft="10dp"
+            android:text="About App"
+            android:textColor="#ffffff"
+            android:fontFamily="@font/poppins"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
