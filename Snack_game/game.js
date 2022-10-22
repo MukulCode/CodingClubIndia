@@ -52,7 +52,7 @@ function update() {
 
     if (gameOver) {
 
-        // Game end screen
+        // Game end screen to be shown
 
         createText(`Game Over`, board.width / 2, board.height / 2 - 25, 'center', 50);
 
@@ -88,7 +88,6 @@ function update() {
     if (tail.length) {
         tail[0] = [snakeX, snakeY];
     }
-
 
     // Snake position 
     snakeX += velocityX * blockSize;
