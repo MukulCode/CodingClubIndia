@@ -266,4 +266,8 @@ for item in numbers:
 print(max)
 
 
+#Printing the maximum element of the list
+A = [3,5,6,2,5,4,3,7,5,4,8,1]
+print(max(A))
+
 
