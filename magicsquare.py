@@ -1,5 +1,5 @@
-# Build a magic square for any odd n number(n*n) using python
-# sum of row, column, diagonal in a magic square is n*(n*(n+1)/2)
+# build a magic square for any odd n (n*n) number
+# the sum of row, column, diagonals in a magic square is n*(n*(n+1)/2) 
 
 def magic_square(n):
     magicSquare=[]
@@ -45,3 +45,4 @@ def magic_square(n):
              
 n=int(input("ENTER THE VALUE OF N, ODD NUMBER FOR WHICH YOU WANT TO BUILD MAGIC SQUARE"))             
 magic_square(n)
+
