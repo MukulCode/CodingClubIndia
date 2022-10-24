@@ -42,3 +42,6 @@ First time participating in the HacktoberFest. Previously had 0% knowledge in op
 
 Ayush Goel (New Delhi)
 Hey, I am working as SDE-1, Really understand the need for open source contribution, Great Initiative!
+
+Dhruv Mehta (Faridabad)
+Hey! I have just started my open source contribution with this project. Thanks ...
