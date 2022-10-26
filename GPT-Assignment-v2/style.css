@@ -1,0 +1,685 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Raleway:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f1f1f1;
+    color: #191919;
+    font-family: 'Raleway', sans-serif;
+}
+
+.content {
+    margin-left: 10%;
+}
+
+.sidebar, .sidebarTitle, .menu, .socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar {
+    justify-content: space-between;
+    width: 10%;
+    height: 100%;
+    color: #2A2A2A;
+    position: fixed;
+    border-right: 1px solid #191919;
+    padding: 2rem 0rem;
+}
+
+.sidebarTitle {
+    font-size: 1.2rem;
+}
+
+.Lname {
+    font-weight: 700;
+}
+
+.menu {
+    gap: 2rem;
+}
+
+.menuTitle {
+    transform: rotate(-90deg);
+    padding-left: 4rem;
+    font-weight: 700;
+    font-size: 1.2rem;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.line {
+    width: 0.5px;
+    height: 100px;
+    background-color: #191919;
+}
+
+.socials {
+    gap: 1.4rem;
+    padding-bottom: 3rem;
+    cursor: pointer;
+}
+
+.socials a {
+    color: #191919;
+}
+
+.overlay {
+    height: 100%;
+    width: 45%;
+    position: fixed;
+    margin-left: 10%;
+    background-color: #F1F1F1;
+    border-left: 1px solid #191919;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    visibility: hidden;
+}
+
+.overlayContent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+    padding: 1rem;
+    padding-right: 3rem;
+}
+
+.overlayContent a {
+    text-decoration: none;
+    color: #191919;
+    font-weight: 700;
+    font-size: 2vw;
+}
+
+small {
+    font-size: small;
+}
+
+.overlayInfo {
+    font-family: 'Inter', sans-serif;
+    line-height: 2vw;
+    border-left: 1px solid #191919;
+    height: 100%;
+    width: 50%;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 1.2vw;
+    background-color: #f1f1f1;
+}
+
+.hero {
+    background-color: #2A2A2A;
+    color: #F1F1F1;
+    padding: 2rem;
+    padding-bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heroTitle {
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 3.5vw;
+    padding-bottom: 1.3rem;
+}
+
+.heroDesc {
+    font-size: 2vw;
+    line-height: 2.5vw;
+    padding-bottom: 2rem;
+}
+
+.darkBtn {
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid #f1f1f1;
+    color: #f1f1f1;
+    font-size: 1vw;
+    padding: 0.8rem 1.2rem;
+    border-radius: 30px;
+}
+
+.darkBtn:hover {
+    color: #2A2A2A;
+    background-color: #f1f1f1;
+}
+
+.heroImg {
+    width: 50%;
+}
+
+.light {
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    font-weight: 700;
+    padding-bottom: 1.3rem;
+    font-size: 1.8vw;
+}
+
+.desc {
+    padding-bottom: 2rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.1vw;
+    line-height: 2vw;
+}
+
+.light img {
+    border-right: 5px solid #2A2A2A;
+    border-bottom: 4px solid #2A2A2A;
+    width: 50%;
+    margin: 1rem;
+}
+
+.lightBtn {
+    cursor: pointer;
+    background-color: transparent;
+    font-size: 1vw;
+    padding: 0.8rem 1.2rem;
+    border-radius: 30px;
+    color: #2A2A2A;
+    border: 2px solid #2A2A2A;
+}
+
+.lightBtn:hover {
+    background-color: #2A2A2A;
+    color: #F1F1F1;
+}
+
+.btns {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.arrows i {
+    padding: 1rem;
+    border-radius: 100px;
+    border: 1px solid #2A2A2A;
+    margin: 0.5rem;
+}
+
+.arrows i:hover {
+    background-color: #2A2A2A;
+    color: #f1f1f1;
+    cursor: pointer;
+}
+
+.books {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.books img {
+    width: 20%;
+    padding-bottom: 1rem;
+}
+
+.light3 .contentBox .desc {
+    width: 70%;
+}
+
+.imgs {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 1rem;
+    padding-bottom: 1rem;
+}
+
+.imgs img:first-child {
+    width: 35%;
+}
+
+.imgs img:nth-child(2) {
+    width: 60%;
+}
+
+.dark {
+    background-color: #2A2A2A;
+    color: #F1F1F1;
+    padding-bottom: 1rem;
+}
+
+.dark .title {
+    font-size: 2vw;
+    width: 45%;
+}
+
+.topSection {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-left: 2rem;
+    padding-top: 2rem;
+}
+
+.topSection hr {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.blog1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    border: 1px solid #F1F1F1;
+    margin: 1rem 2rem;
+    background-image: url("others/Bridge.png");
+    background-position: left;
+    background-size: 50% 100%;
+}
+
+.blog1 .title {
+    width: 100%;
+}
+
+.blog1 .txt {
+    width: 50%;
+    height: 100%;
+    padding: 1rem;
+    background-color: #2A2A2A;
+}
+
+.para {
+    font-family: 'Inter', sans-serif;
+    padding-bottom: 2rem;
+    font-size: 1vw;
+    line-height: 2vw;
+}
+
+.details {
+    font-size: 0.8vw;
+    font-family: 'Inter', sans-serif;
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #F1F1F1;
+}
+
+.readBtn {
+    padding: 0.3rem;
+    padding-bottom: 0.2rem;
+    border-radius: 2px;
+    border-bottom: 1px solid #F1F1F1;
+}
+
+.readBtn:hover {
+    cursor: pointer;
+    background-color: #F1F1F1;
+    color: #2A2A2A;
+}
+
+.blogCards {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 2rem;
+    justify-content: space-between;
+}
+
+.blogCard {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blogCard .title {
+    width: 100%;
+}
+
+.cardImg {
+    width: 100%;
+}
+
+.whiteSpace {
+    background-color: #F1F1F1;
+    color: #2A2A2A;
+    padding: 1rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.blogCard .readBtn {
+    border-color: #2A2A2A;
+}
+
+.blogCard .readBtn:hover {
+    border: 0;
+}
+
+.blogCard .details {
+    border-top: 1px solid #2A2A2A;
+}
+
+.dark .btns {
+    padding: 0rem 2rem;
+}
+
+.dark .arrows i {
+    border-color: #f1f1f1
+}
+
+.dark .arrows i:hover {
+    background-color: #F1F1F1;
+    color: #2A2A2A;
+    cursor: pointer;
+}
+
+.insta {
+    padding: 2rem;
+}
+
+.circle {
+    background-color: #C4C4C4;
+    width: 9vw;
+    height: 10vw;
+    border-radius: 50%;
+    display: inline-block;
+    padding-right: 0.8rem;
+}
+
+.insta .top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.insta .title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 2rem;
+}
+
+.insta .title span:nth-child(2) {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1vw;
+}
+
+.pix {
+    display: grid;
+    gap: 2rem 1rem;
+    grid-template-columns: repeat(5, 15vw);
+    grid-template-rows: repeat(2, 15vw);
+}
+
+.square {
+    background-color: #C4C4C4;
+    width: 15vw;
+    height: 15vw;
+    display: inline-block;
+    border-bottom: 5px solid #2A2A2A;
+}
+
+.contactForm {
+    background-color: #2A2A2A;
+    display: flex;
+    flex-direction: row;
+    color: #F1F1F1;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form {
+    padding: 2rem 0rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-right: 2rem;
+}
+
+.form .title {
+    font-size: 1.8vw;
+}
+
+.contactForm img {
+    width: 50%;
+}
+
+#field {
+    background-color: #2A2A2A;
+    border: 1px solid #F1F1F1;
+    border-radius: 5px;
+    font-size: 1vw;
+    color: #f1f1f1;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    padding: 1vw;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+::placeholder {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+.contentBox {
+    padding: 2rem;
+}
+
+.light2 .topSection .title, .light3 .topSection .title {
+    width: 20%;
+}
+
+.mail, .phno {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+@media only screen and (max-width: 850px) {
+    .lightBtn, .darkBtn {
+        font-size: 1.5vw;
+        padding: 0.6rem 1rem;
+    }
+
+    .sidebarTitle, .menuTitle {
+        font-size: 2vw;
+    }
+
+    .desc {
+        font-size: 1.7vw;
+        line-height: 2.3vw;
+    }
+
+    .para {
+        font-size: 1.3vw;
+        padding-bottom: 1rem;
+    }
+
+    .arrows i {
+        padding: 0.5rem;
+        font-size: smaller;
+    }
+
+    .socials a {
+        font-size: smaller;
+    }
+
+    .light {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .light img {
+        margin: 0.5rem 0rem;
+        width: 100%;
+    }
+
+    .contentBox {
+        padding-top: 0;
+    }
+
+    .light3 .contentBox .desc {
+        width: 100%;
+    }
+
+    .insta .top {
+        margin-bottom: 1rem;
+    }
+
+    .pix {
+        gap: 1rem 0.5rem;
+    }
+
+    #field {
+        border-radius: 2px;
+    }
+
+    .details {
+        padding-top: 0rem;
+    }
+
+    .overlayInfo {
+        padding: 1rem;
+        margin-left: -1rem;
+    }
+
+    .mail, .phno {
+        gap: 0.2rem;
+    }
+
+    .overlayContent {
+        gap: 1rem;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .light, .insta, .hero {
+        padding: 1rem;
+    }
+
+    .desc, .title {
+        padding-bottom: 0.5rem;
+    }
+
+    .lightBtn, .darkBtn {
+        font-size: 1.8vw;
+        padding: 0.2rem 0.5rem;
+    }
+
+    .lightBtn {
+        border: 1px solid #2A2A2A;
+    }
+
+    .darkBtn {
+        border: 1px solid #F1F1F1;
+    }
+
+    .contentBox {
+        padding: 0rem 1rem;
+    }
+
+    .topSection {
+        padding: 1rem;
+        padding-bottom: 0.2rem;
+    }
+
+    .btns {
+        padding-bottom: 0.3rem;
+    }
+
+    .topSection hr {
+        visibility: hidden;
+    }
+
+    .title {
+        font-size: 2.2vw;
+        width: 100%;
+    }
+
+    .desc {
+        font-size: 1.8vw;
+    }
+
+    .para {
+        font-size: 1.6vw;
+        line-height: 2vw;
+        padding-bottom: 0.5rem;
+    }
+
+    .arrows i {
+        padding: 0.2rem;
+        font-size: x-small;
+    }
+
+    .socials a {
+        font-size: x-small;
+    }
+
+    .blog1, .blogCards {
+        margin: 1rem;
+    }
+
+    .blogCards {
+        padding: 0;
+    }
+
+    .form {
+        padding: 1rem 0rem;
+    }
+
+    .light2 .topSection .title, .light3 .topSection .title {
+        width: 100%;
+    }
+
+    .insta .top {
+        gap: 0.5rem;
+    }
+
+    .circle {
+        width: 5vw;
+        height: 5vw;
+    }
+
+    .insta .title {
+        gap: 0.2rem;
+    }
+
+    .dark .title {
+        width: 100%;
+    }
+
+    .blog1 {
+        margin: 0.1rem 1rem;
+    }
+}
