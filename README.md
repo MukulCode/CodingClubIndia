@@ -572,6 +572,9 @@ Shahidraja Shaikh (Mumbai)
 Purbendu Halder (Kolkata)
 
 
+Animesh Jain (Indore)
+
+
 Hibjul Ahmed (Lakhimpur, Assam)
 
 Jayesh Rajput (Pune)
@@ -579,4 +582,3 @@ Jayesh Rajput (Pune)
 Purbendu Halder (Kolkata)
 
 Mohd Maaz (Gorakhpur)
-
