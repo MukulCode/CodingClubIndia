@@ -1,0 +1,36 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities; 
+
+*{
+    font-family: 'Poppins', sans-serif;
+    
+}
+html,body{
+    overflow-x: hidden;
+}
+@media (max-width: 640px) {
+    .specific{
+        display: none;
+    }
+}
+@media (min-width: 640px) {
+    .specific{
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+@media (min-width: 900px) {
+    .specific{
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+}
+@media (min-width: 1260px) {
+    .specific{
+        display: grid;
+        grid-template-columns: repeat(6, minmax(0, 1fr));
+    }
+}

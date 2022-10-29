@@ -1,0 +1,1090 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Book </title>
+    <link rel="stylesheet" href="input.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/flowbite@1.3.4/dist/flowbite.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+
+    <!-- <script src="https://cdn.tailwindcss.com"></script>  -->
+
+    <link rel="stylesheet" href="splide-2.4.21/dist/css/splide.min.css">
+
+
+</head>
+
+<body>
+    <!-- Navbar -->
+
+    <header>
+        <nav class="bg-gray-300">
+            <div class="hidden md:block">
+                <div class="px-6 mx-0 my-0 p-2 flex justify-between items-center h-full w-full bg-gray-100 z-50"
+                    style="position: -webkit-sticky ; position: sticky; top: 0;">
+                    <div class="flex p-1">
+                        <div>
+                            <a href="/index.html" class="flex text-xl text-blue-800 font-semibold">
+                                DIGITAL AUDIO
+                            </a>
+                        </div>
+                        <div class="ml-3 text-lg">
+                            <a href="/index.html"><i class="fa-solid fa-book"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="div flex p-1 items-center mx-auto text-center w-auto">
+                        <nav class=" border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-800">
+                            <div class="hidden justify-between items-center  md:flex md:w-auto md:order-1">
+                                <ul
+                                    class="flex text-center w-auto flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-semibold">
+                                    <li>
+                                        <a href="#trending"
+                                            class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                                            aria-current="page">TRENDING</a>
+                                    </li>
+                                    <li>
+                                        <a href="#top-rated"
+                                            class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">TOP-RATED</a>
+                                    </li>
+                                    <li>
+                                        <a href="#genres"
+                                            class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">GENRES</a>
+                                    </li>
+                                    <li>
+                                        <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar"
+                                            class="flex justify-between items-center py-2 pr-4 pl-3 w-full font-semibold text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-gray-400 dark:hover:text-white dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent">Menu<svg
+                                                class="ml-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd"
+                                                    d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                                    clip-rule="evenodd"></path>
+                                            </svg></button>
+                                        <!-- Dropdown menu -->
+                                        <div id="dropdownNavbar"
+                                            class="hidden z-10 w-44 text-base list-none bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700 dark:divide-gray-600">
+                                            <ul class="py-1" aria-labelledby="dropdownLargeButton">
+                                                <li>
+                                                    <a href="#"
+                                                        class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-400 dark:hover:text-white">Home</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#search"
+                                                        class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-400 dark:hover:text-white">Search</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#trending"
+                                                        class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-400 dark:hover:text-white">Trending</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#top-rated"
+                                                        class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-400 dark:hover:text-white">Top
+                                                        Rated</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"
+                                                        class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-400 dark:hover:text-white">Genre</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"
+                                                        class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-400 dark:hover:text-white">Settings</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"
+                                                        class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-400 dark:hover:text-white">My
+                                                        Books</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"
+                                                        class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-400 dark:hover:text-white">About</a>
+                                                </li>
+                                            </ul>
+                                            <div class="py-1">
+                                                <a href="#"
+                                                    class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-400 dark:hover:text-white">Sign
+                                                    out</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+
+                    <div class="space-x-2 text-lg">
+                        <a href="" class="text-blue-800"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="" style="color: #00acee;"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="" class="text-red-700"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="block md:hidden">
+                <div class="flex items-center justify-between h-16">
+                    <div class="ml-3">
+                        <div class="flex">
+                            <div>
+                                <a href="#" class="flex text-md text-blue-800 font-semibold">
+                                    DIGITAL AUDIO
+                                </a>
+                            </div>
+                            <div class="ml-3 text-md">
+                                <a href=""><i class="fa-solid fa-book"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mr-5">
+                        <button onclick="toggleMenu()"><i class="fas fa-bars font-extrabold"></i></button>
+                    </div>
+                </div>
+
+                <div class="hidden" id="mobileMenuContent">
+                    <div class="flex flex-col gap-4">
+                        <ul class="py-1" aria-labelledby="dropdownLargeButton">
+                            <li>
+                                <a href="#"
+                                    class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-400 dark:hover:text-white ">Home</a>
+                            </li>
+                            <li>
+                                <a href="#search"
+                                    class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-400 dark:hover:text-white">Search</a>
+                            </li>
+                            <li>
+                                <a href="#trending"
+                                    class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-400 dark:hover:text-white">Trending</a>
+                            </li>
+                            <li>
+                                <a href="#top-rated"
+                                    class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-400 dark:hover:text-white">Top
+                                    Rated</a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-400 dark:hover:text-white">Genre</a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-400 dark:hover:text-white">Settings</a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-400 dark:hover:text-white">My
+                                    Books</a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-400 dark:hover:text-white">About</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="flex ml-4 space-x-8 text-lg">
+                        <a href="" class="text-blue-800"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="" style="color: #00acee;"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="" class="text-red-700"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class=" z-40 flex justify-center">
+            <div class="container flex justify-center flex-col my-0 items-center mt-3 mx-3 w-auto ">
+                <div class="block md:hidden flex flex-wrap justify-center mt-10 h-20 mx-3 w-auto text-blue-700">
+                    <h1 class="text-md md:text-xl">Digital audio books and eBooks</h1>
+                </div>
+                <div class="hidden md:block flex flex-wrap justify-center mt-10 h-20  w-auto text-blue-700">
+                    <h1 class="text-2xl">Digital audio books and eBooks</h1>
+                </div>
+                <div class=" text-center w-auto h-14 md:h-56 items-center justify-between">
+                    <div class="inline-block min-w-full align-middle dark:bg-gray-800 z-50">
+                        <div class="">
+                            <div class="relative mt-1 items-center flex space-x-0">
+                                <input type="text" id="table-search"
+                                    class="text-lg md:text-2xl bg-gray-50 border border-blue-300 text-blue-900 rounded-full focus:ring-blue-500 focus:border-blue-500 block w-72 h-12 md:w-96 pl-10 p-4  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-blue-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                                    placeholder="Search Audio Book">
+                                <a href="" class="text-lg md:text-2xl mx-3 px-3 absolute right-1">
+                                    <i class="fa fa-search"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Top_rated large onwards -->
+        <section id="" class="top-rated px-10 my-4 mx-4">
+            
+            <div class="mb-10 py-2 flex justify-between">
+                <h1 class="text-lg sm:text-xl md:text-3xl ml-5 text-gray-600 font-bold">Top-Rated</h1>
+                <div class="text-sm sm:text-md md:text-lg mt-2 hover:bg-gray-100 hover:rounded-2xl bg-gray-200 bg-transparent px-2 rounded-2xl text-blue-700 font-semibold" style="border: 1px solid blue;">
+                    <a href="#" class=" " >
+                        MORE
+                        <i class="fa-solid fa-chevron-right " ></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="container-fluid">
+                <div class="splide" >
+                    <div class="splide__track w-full">
+                        <ul class="splide__list h-80">
+                            <a href="/productView.html">
+                                <li class="splide__slide  flex  justify-center">
+                                    <div class="rounded-sm shadow overflow-hidden flex-col">
+                                        <img src="images/1.jpg" class="w-full border-0 rounded-md " alt="">
+                                        <div class="flex justify-center mb-4">
+                                            <a href="productView.html" class="p-2 text-black">
+                                            <i
+                                            class="fa-solid fa-volume-high  text-2xl hover:text-blue-900"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </a>
+                            <a href="/productView.html">
+                                <li class="splide__slide  flex  justify-center">
+                                    <div class="rounded-sm shadow overflow-hidden flex-col">
+                                        <img src="images/1.jpg" class="w-full border-0 rounded-md " alt="">
+                                        <div class="flex justify-center mb-4">
+                                            <a href="productView.html" class="p-2 text-black">
+                                            <i
+                                            class="fa-solid fa-volume-high  text-2xl hover:text-blue-900"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </a>
+                            <a href="/productView.html">
+                                <li class="splide__slide  flex  justify-center">
+                                    <div class="rounded-sm shadow overflow-hidden flex-col">
+                                        <img src="images/4.jpg" class="w-full border-0 rounded-md " alt="">
+                                        <div class="flex justify-center mb-4">
+                                            <a href="productView.html" class="p-2 text-black">
+                                            <i
+                                            class="fa-solid fa-volume-high  text-2xl hover:text-blue-900"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </a>
+                            <a href="/productView.html">
+                                <li class="splide__slide  flex  justify-center">
+                                    <div class="rounded-sm shadow overflow-hidden flex-col">
+                                        <img src="images/1.jpg" class="w-full border-0 rounded-md " alt="">
+                                        <div class="flex justify-center mb-4">
+                                            <a href="productView.html" class="p-2 text-black">
+                                            <i
+                                            class="fa-solid fa-volume-high  text-2xl hover:text-blue-900"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </a>
+                            <a href="/productView.html">
+                                <li class="splide__slide  flex justify-center">
+                                    <div class="rounded-sm shadow overflow-hidden flex-col">
+                                        <img src="images/3.jpg" class="w-full border-0 rounded-md " alt="">
+                                        <div class="flex justify-center mb-4">
+                                            <a href="productView.html" class="p-2 text-black">
+                                            <i
+                                            class="fa-solid fa-volume-high  text-2xl hover:text-blue-900"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </a>
+                            <a href="/productView.html">
+                                <li class="splide__slide  flex justify-center">
+                                    <div class="rounded-sm shadow overflow-hidden flex-col">
+                                        <img src="images/4.jpg" class="w-full border-0 rounded-md " alt="">
+                                        <div class="flex justify-center mb-4">
+                                            <a href="productView.html" class="p-2 text-black">
+                                            <i
+                                            class="fa-solid fa-volume-high  text-2xl hover:text-blue-900"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </a>
+                            <a href="/productView.html">
+                                <li class="splide__slide  flex justify-center">
+                                    <div class="rounded-sm shadow overflow-hidden flex-col">
+                                        <img src="images/1.jpg" class="w-full border-0 rounded-md " alt="">
+                                        <div class="flex justify-center mb-4">
+                                            <a href="productView.html" class="p-2 text-black">
+                                            <i
+                                            class="fa-solid fa-volume-high  text-2xl hover:text-blue-900"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </a>
+                            <a href="/productView.html">
+                                <li class="splide__slide flex justify-center">
+                                    <div class="rounded-sm shadow overflow-hidden flex-col">
+                                        <img src="images/3.jpg" class="w-full border-0 rounded-md " alt="">
+                                        <div class="flex justify-center mb-4">
+                                            <a href="productView.html" class="p-2 text-black">
+                                            <i
+                                            class="fa-solid fa-volume-high  text-2xl hover:text-blue-900"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </a>
+                            <a href="/productView.html">
+                                <li class="splide__slide flex justify-center">
+                                    <div class="rounded-sm shadow overflow-hidden flex-col">
+                                        <img src="images/1.jpg" class="w-full border-0 rounded-md " alt="">
+                                        <div class="flex justify-center mb-4">
+                                            <a href="productView.html" class="p-2 text-black">
+                                            <i
+                                            class="fa-solid fa-volume-high  text-2xl hover:text-blue-900"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </a>
+                            <a href="/productView.html">
+                                <li class="splide__slide flex justify-center">
+                                    <div class="rounded-sm shadow overflow-hidden flex-col">
+                                        <img src="images/3.jpg" class="w-full border-0 rounded-md " alt="">
+                                        <div class="flex justify-center mb-4">
+                                            <a href="productView.html" class="p-2 text-black">
+                                            <i
+                                            class="fa-solid fa-volume-high  text-2xl hover:text-blue-900"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </a>
+                            <a href="/productView.html">
+                                <li class="splide__slide flex justify-center">
+                                    <div class="rounded-sm shadow overflow-hidden flex-col">
+                                        <img src="images/4.jpg" class="w-full border-0 rounded-md " alt="">
+                                        <div class="flex justify-center mb-4">
+                                            <a href="productView.html" class="p-2 text-black">
+                                            <i
+                                            class="fa-solid fa-volume-high  text-2xl hover:text-blue-900"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </a>
+                            <a href="/productView.html">
+                                <li class="splide__slide flex justify-center">
+                                    <div class="rounded-sm shadow overflow-hidden flex-col">
+                                        <img src="images/1.jpg" class="w-full border-0 rounded-md " alt="">
+                                        <div class="flex justify-center mb-4">
+                                            <a href="productView.html" class="p-2 text-black">
+                                            <i
+                                            class="fa-solid fa-volume-high  text-2xl hover:text-blue-900"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </a>
+                            <a href="/productView.html">
+                                <li class="splide__slide flex justify-center">
+                                    <div class="rounded-sm shadow overflow-hidden flex-col">
+                                        <img src="images/3.jpg" class="w-full border-0 rounded-md " alt="">
+                                        <div class="flex justify-center mb-4">
+                                            <a href="productView.html" class="p-2 text-black">
+                                            <i
+                                            class="fa-solid fa-volume-high  text-2xl hover:text-blue-900"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </a>
+                            <a href="/productView.html">
+                                <li class="splide__slide flex justify-center">
+                                    <div class="rounded-sm shadow overflow-hidden flex-col">
+                                        <img src="images/4.jpg" class="w-full border-0 rounded-md " alt="">
+                                        <div class="flex justify-center mb-4">
+                                            <a href="productView.html" class="p-2 text-black">
+                                            <i
+                                            class="fa-solid fa-volume-high  text-2xl hover:text-blue-900"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </a>
+                            <a href="/productView.html">
+                                <li class="splide__slide flex justify-center">
+                                    <div class="rounded-sm shadow overflow-hidden flex-col">
+                                        <img src="images/1.jpg" class="w-full border-0 rounded-md " alt="">
+                                        <div class="flex justify-center mb-4">
+                                            <a href="productView.html" class="p-2 text-black">
+                                            <i
+                                            class="fa-solid fa-volume-high  text-2xl hover:text-blue-900"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </a>
+                            <a href="/productView.html">
+                                <li class="splide__slide flex justify-center">
+                                    <div class="rounded-sm shadow overflow-hidden flex-col">
+                                        <img src="images/4.jpg" class="w-full border-0 rounded-md " alt="">
+                                        <div class="flex justify-center mb-4">
+                                            <a href="productView.html" class="p-2 text-black">
+                                            <i
+                                            class="fa-solid fa-volume-high  text-2xl hover:text-blue-900"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </a>
+                            <a href="/productView.html">
+                                <li class="splide__slide flex justify-center">
+                                    <div class="rounded-sm shadow overflow-hidden flex-col">
+                                        <img src="images/3.jpg" class="w-full border-0 rounded-md " alt="">
+                                        <div class="flex justify-center mb-4">
+                                            <a href="productView.html" class="p-2 text-black">
+                                            <i
+                                            class="fa-solid fa-volume-high  text-2xl hover:text-blue-900"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </a>
+                            <a href="/productView.html">
+                                <li class="splide__slide flex justify-center">
+                                    <div class="rounded-sm shadow overflow-hidden flex-col">
+                                        <img src="images/1.jpg" class="w-full border-0 rounded-md " alt="">
+                                        <div class="flex justify-center mb-4">
+                                            <a href="productView.html" class="p-2 text-black">
+                                            <i
+                                            class="fa-solid fa-volume-high  text-2xl hover:text-blue-900"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </a>
+                            
+                            
+                           
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+        <!-- Trending -->
+
+        <section id="" class="trending px-10 my-4 mx-4 ">
+            <div class="mb-10 py-2 flex justify-between">
+                <h1 class="text-lg sm:text-xl md:text-3xl ml-5 text-gray-600 font-bold">Trending</h1>
+                <div class="text-sm sm:text-md md:text-lg mt-2 hover:bg-gray-100 hover:rounded-2xl bg-gray-200 bg-transparent px-2 rounded-2xl text-blue-700 font-semibold" style="border: 1px solid blue;">
+                    <a href="#" class=" " >
+                        MORE
+                        <i class="fa-solid fa-chevron-right " ></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="container-fluid">
+                <div class="splide" >
+                    <div class="splide__track w-full">
+                        <ul class="splide__list h-80">
+                            <a href="/productView.html">
+                                <li class="splide__slide  flex  justify-center">
+                                    <div class="rounded-sm shadow overflow-hidden flex-col">
+                                        <img src="images/1.jpg" class="w-full border-0 rounded-md " alt="">
+                                        <div class="flex justify-center mb-4">
+                                            <a href="productView.html" class="p-2 text-black">
+                                            <i
+                                            class="fa-solid fa-volume-high  text-2xl hover:text-blue-900"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </a>
+                            <a href="/productView.html">
+                                <li class="splide__slide  flex  justify-center">
+                                    <div class="rounded-sm shadow overflow-hidden flex-col">
+                                        <img src="images/1.jpg" class="w-full border-0 rounded-md " alt="">
+                                        <div class="flex justify-center mb-4">
+                                            <a href="productView.html" class="p-2 text-black">
+                                            <i
+                                            class="fa-solid fa-volume-high  text-2xl hover:text-blue-900"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </a>
+                            <a href="/productView.html">
+                                <li class="splide__slide  flex  justify-center">
+                                    <div class="rounded-sm shadow overflow-hidden flex-col">
+                                        <img src="images/4.jpg" class="w-full border-0 rounded-md " alt="">
+                                        <div class="flex justify-center mb-4">
+                                            <a href="productView.html" class="p-2 text-black">
+                                            <i
+                                            class="fa-solid fa-volume-high  text-2xl hover:text-blue-900"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </a>
+                            <a href="/productView.html">
+                                <li class="splide__slide  flex  justify-center">
+                                    <div class="rounded-sm shadow overflow-hidden flex-col">
+                                        <img src="images/1.jpg" class="w-full border-0 rounded-md " alt="">
+                                        <div class="flex justify-center mb-4">
+                                            <a href="productView.html" class="p-2 text-black">
+                                            <i
+                                            class="fa-solid fa-volume-high  text-2xl hover:text-blue-900"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </a>
+                            <a href="/productView.html">
+                                <li class="splide__slide  flex justify-center">
+                                    <div class="rounded-sm shadow overflow-hidden flex-col">
+                                        <img src="images/3.jpg" class="w-full border-0 rounded-md " alt="">
+                                        <div class="flex justify-center mb-4">
+                                            <a href="productView.html" class="p-2 text-black">
+                                            <i
+                                            class="fa-solid fa-volume-high  text-2xl hover:text-blue-900"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </a>
+                            <a href="/productView.html">
+                                <li class="splide__slide  flex justify-center">
+                                    <div class="rounded-sm shadow overflow-hidden flex-col">
+                                        <img src="images/4.jpg" class="w-full border-0 rounded-md " alt="">
+                                        <div class="flex justify-center mb-4">
+                                            <a href="productView.html" class="p-2 text-black">
+                                            <i
+                                            class="fa-solid fa-volume-high  text-2xl hover:text-blue-900"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </a>
+                            <a href="/productView.html">
+                                <li class="splide__slide  flex justify-center">
+                                    <div class="rounded-sm shadow overflow-hidden flex-col">
+                                        <img src="images/1.jpg" class="w-full border-0 rounded-md " alt="">
+                                        <div class="flex justify-center mb-4">
+                                            <a href="productView.html" class="p-2 text-black">
+                                            <i
+                                            class="fa-solid fa-volume-high  text-2xl hover:text-blue-900"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </a>
+                            <a href="/productView.html">
+                                <li class="splide__slide flex justify-center">
+                                    <div class="rounded-sm shadow overflow-hidden flex-col">
+                                        <img src="images/3.jpg" class="w-full border-0 rounded-md " alt="">
+                                        <div class="flex justify-center mb-4">
+                                            <a href="productView.html" class="p-2 text-black">
+                                            <i
+                                            class="fa-solid fa-volume-high  text-2xl hover:text-blue-900"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </a>
+                            <a href="/productView.html">
+                                <li class="splide__slide flex justify-center">
+                                    <div class="rounded-sm shadow overflow-hidden flex-col">
+                                        <img src="images/1.jpg" class="w-full border-0 rounded-md " alt="">
+                                        <div class="flex justify-center mb-4">
+                                            <a href="productView.html" class="p-2 text-black">
+                                            <i
+                                            class="fa-solid fa-volume-high  text-2xl hover:text-blue-900"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </a>
+                            <a href="/productView.html">
+                                <li class="splide__slide flex justify-center">
+                                    <div class="rounded-sm shadow overflow-hidden flex-col">
+                                        <img src="images/3.jpg" class="w-full border-0 rounded-md " alt="">
+                                        <div class="flex justify-center mb-4">
+                                            <a href="productView.html" class="p-2 text-black">
+                                            <i
+                                            class="fa-solid fa-volume-high  text-2xl hover:text-blue-900"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </a>
+                            <a href="/productView.html">
+                                <li class="splide__slide flex justify-center">
+                                    <div class="rounded-sm shadow overflow-hidden flex-col">
+                                        <img src="images/4.jpg" class="w-full border-0 rounded-md " alt="">
+                                        <div class="flex justify-center mb-4">
+                                            <a href="productView.html" class="p-2 text-black">
+                                            <i
+                                            class="fa-solid fa-volume-high  text-2xl hover:text-blue-900"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </a>
+                            <a href="/productView.html">
+                                <li class="splide__slide flex justify-center">
+                                    <div class="rounded-sm shadow overflow-hidden flex-col">
+                                        <img src="images/1.jpg" class="w-full border-0 rounded-md " alt="">
+                                        <div class="flex justify-center mb-4">
+                                            <a href="productView.html" class="p-2 text-black">
+                                            <i
+                                            class="fa-solid fa-volume-high  text-2xl hover:text-blue-900"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </a>
+                            <a href="/productView.html">
+                                <li class="splide__slide flex justify-center">
+                                    <div class="rounded-sm shadow overflow-hidden flex-col">
+                                        <img src="images/3.jpg" class="w-full border-0 rounded-md " alt="">
+                                        <div class="flex justify-center mb-4">
+                                            <a href="productView.html" class="p-2 text-black">
+                                            <i
+                                            class="fa-solid fa-volume-high  text-2xl hover:text-blue-900"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </a>
+                            <a href="/productView.html">
+                                <li class="splide__slide flex justify-center">
+                                    <div class="rounded-sm shadow overflow-hidden flex-col">
+                                        <img src="images/4.jpg" class="w-full border-0 rounded-md " alt="">
+                                        <div class="flex justify-center mb-4">
+                                            <a href="productView.html" class="p-2 text-black">
+                                            <i
+                                            class="fa-solid fa-volume-high  text-2xl hover:text-blue-900"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </a>
+                            <a href="/productView.html">
+                                <li class="splide__slide flex justify-center">
+                                    <div class="rounded-sm shadow overflow-hidden flex-col">
+                                        <img src="images/1.jpg" class="w-full border-0 rounded-md " alt="">
+                                        <div class="flex justify-center mb-4">
+                                            <a href="productView.html" class="p-2 text-black">
+                                            <i
+                                            class="fa-solid fa-volume-high  text-2xl hover:text-blue-900"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </a>
+                            <a href="/productView.html">
+                                <li class="splide__slide flex justify-center">
+                                    <div class="rounded-sm shadow overflow-hidden flex-col">
+                                        <img src="images/4.jpg" class="w-full border-0 rounded-md " alt="">
+                                        <div class="flex justify-center mb-4">
+                                            <a href="productView.html" class="p-2 text-black">
+                                            <i
+                                            class="fa-solid fa-volume-high  text-2xl hover:text-blue-900"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </a>
+                            <a href="/productView.html">
+                                <li class="splide__slide flex justify-center">
+                                    <div class="rounded-sm shadow overflow-hidden flex-col">
+                                        <img src="images/3.jpg" class="w-full border-0 rounded-md " alt="">
+                                        <div class="flex justify-center mb-4">
+                                            <a href="productView.html" class="p-2 text-black">
+                                            <i
+                                            class="fa-solid fa-volume-high  text-2xl hover:text-blue-900"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </a>
+                            <a href="/productView.html">
+                                <li class="splide__slide flex justify-center">
+                                    <div class="rounded-sm shadow overflow-hidden flex-col">
+                                        <img src="images/1.jpg" class="w-full border-0 rounded-md " alt="">
+                                        <div class="flex justify-center mb-4">
+                                            <a href="productView.html" class="p-2 text-black">
+                                            <i
+                                            class="fa-solid fa-volume-high  text-2xl hover:text-blue-900"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </a>
+                            
+                            
+                           
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Genres -->
+
+        <section class="genres px-10 my-4 mx-4 w-auto">
+            <div class="m-0 p-0 ">
+                <div class="m-2">
+                    <h1 class="text-3xl ml-5 text-gray-600 font-bold ">Genres</h1>
+                </div>
+                <div class="specific ml-5 px-2 gap-2">
+                    <a href="" class="hover:text-blue-500">
+                        <div class="category bg-slate-100 w-44 h-52 my-4 relative rounded-lg">
+                            <div class="logo rounded-full p-3 left-12 w-20 absolute top-11 bg-white ">
+                                <img src="SVG/Library Card.svg" alt="">
+                            </div>
+                            <div class="cat absolute top-32 left-8 m-1 p-1">
+                                Young Adult
+                            </div>
+                        </div>
+                    </a>
+                    <a href="" class="hover:text-blue-500">
+                        <div class="category bg-slate-100 w-44 h-52 my-4 relative rounded-lg">
+                            <div class="logo rounded-full p-3 left-12 w-20 absolute top-11 bg-white ">
+                                <img src="SVG/Library Card.svg" alt="">
+                            </div>
+                            <div class="cat absolute top-32 left-8 m-1 p-1">
+                                Young Adult
+                            </div>
+                        </div>
+                    </a>
+                    <a href="" class="hover:text-blue-500">
+                        <div class="category bg-slate-100 w-44 h-52 my-4 relative rounded-lg">
+                            <div class="logo rounded-full p-3 left-12 w-20 absolute top-11 bg-white ">
+                                <img src="SVG/Library Card.svg" alt="">
+                            </div>
+                            <div class="cat absolute top-32 left-8 m-1 p-1">
+                                Young Adult
+                            </div>
+                        </div>
+                    </a>
+                    <a href="" class="hover:text-blue-500">
+                        <div class="category bg-slate-100 w-44 h-52 my-4 relative rounded-lg">
+                            <div class="logo rounded-full p-3 left-12 w-20 absolute top-11 bg-white ">
+                                <img src="SVG/Library Card.svg" alt="">
+                            </div>
+                            <div class="cat absolute top-32 left-8 m-1 p-1">
+                                Young Adult
+                            </div>
+                        </div>
+                    </a>
+                    <a href="" class="hover:text-blue-500">
+                        <div class="category bg-slate-100 w-44 h-52 my-4 relative rounded-lg">
+                            <div class="logo rounded-full p-3 left-12 w-20 absolute top-11 bg-white ">
+                                <img src="SVG/Library Card.svg" alt="">
+                            </div>
+                            <div class="cat absolute top-32 left-8 m-1 p-1">
+                                Young Adult
+                            </div>
+                        </div>
+                    </a>
+                    <a href="" class="hover:text-blue-500">
+                        <div class="category bg-slate-100 w-44 h-52 my-4 relative rounded-lg">
+                            <div class="logo rounded-full p-3 left-12 w-20 absolute top-11 bg-white ">
+                                <img src="SVG/Library Card.svg" alt="">
+                            </div>
+                            <div class="cat absolute top-32 left-8 m-1 p-1">
+                                Young Adult
+                            </div>
+                        </div>
+                    </a>
+                    <a href="" class="hover:text-blue-500">
+                        <div class="category bg-slate-100 w-44 h-52 my-4 relative rounded-lg">
+                            <div class="logo rounded-full p-3 left-12 w-20 absolute top-11 bg-white ">
+                                <img src="SVG/Library Card.svg" alt="">
+                            </div>
+                            <div class="cat absolute top-32 left-8 m-1 p-1">
+                                Young Adult
+                            </div>
+                        </div>
+                    </a>
+                    <a href="" class="hover:text-blue-500">
+                        <div class="category bg-slate-100 w-44 h-52 my-4 relative rounded-lg">
+                            <div class="logo rounded-full p-3 left-12 w-20 absolute top-11 bg-white ">
+                                <img src="SVG/Library Card.svg" alt="">
+                            </div>
+                            <div class="cat absolute top-32 left-8 m-1 p-1">
+                                Young Adult
+                            </div>
+                        </div>
+                    </a>
+                    <a href="" class="hover:text-blue-500">
+                        <div class="category bg-slate-100 w-44 h-52 my-4 relative rounded-lg">
+                            <div class="logo rounded-full p-3 left-12 w-20 absolute top-11 bg-white ">
+                                <img src="SVG/Library Card.svg" alt="">
+                            </div>
+                            <div class="cat absolute top-32 left-8 m-1 p-1">
+                                Young Adult
+                            </div>
+                        </div>
+                    </a>
+                    <a href="" class="hover:text-blue-500">
+                        <div class="category bg-slate-100 w-44 h-52 my-4 relative rounded-lg">
+                            <div class="logo rounded-full p-3 left-12 w-20 absolute top-11 bg-white ">
+                                <img src="SVG/Library Card.svg" alt="">
+                            </div>
+                            <div class="cat absolute top-32 left-8 m-1 p-1">
+                                Young Adult
+                            </div>
+                        </div>
+                    </a>
+                    <a href="" class="hover:text-blue-500">
+                        <div class="category bg-slate-100 w-44 h-52 my-4 relative rounded-lg">
+                            <div class="logo rounded-full p-3 left-12 w-20 absolute top-11 bg-white ">
+                                <img src="SVG/Library Card.svg" alt="">
+                            </div>
+                            <div class="cat absolute top-32 left-8 m-1 p-1">
+                                Young Adult
+                            </div>
+                        </div>
+                    </a>
+                    <a href="" class="hover:text-blue-500">
+                        <div class="category bg-slate-100 w-44 h-52 my-4 relative rounded-lg">
+                            <div class="logo rounded-full p-3 left-12 w-20 absolute top-11 bg-white ">
+                                <img src="SVG/Library Card.svg" alt="">
+                            </div>
+                            <div class="cat absolute top-32 left-8 m-1 p-1">
+                                Young Adult
+                            </div>
+                        </div>
+                    </a>
+
+
+                </div>
+
+
+                <div class="block sm:hidden ">
+                    <ul class="grid grid-cols-2 text-center p-4 text-xl ">
+                        <li class="">
+                            <a href="#">Young</a>
+                        </li>
+                        <li>
+                            <a href="#">Young</a>
+                        </li>
+                        <li>
+                            <a href="#">Young</a>
+                        </li>
+                        <li>
+                            <a href="#">Young</a>
+                        </li>
+                        <li>
+                            <a href="#">Young</a>
+                        </li>
+                        <li>
+                            <a href="#">Young</a>
+                        </li>
+                        <li>
+                            <a href="#">Young</a>
+                        </li>
+                        <li>
+                            <a href="#">Young</a>
+                        </li>
+                        <li>
+                            <a href="#">Young</a>
+                        </li>
+                        <li>
+                            <a href="#">Young</a>
+                        </li>
+                    </ul>
+                </div>
+                
+            </div>
+        </section>
+    </main>
+
+
+    <footer class="py-4 mt-8 px-4 bg-slate-100">
+        <div>
+            <div class="xl:grid xl:grid-cols-3 p-0 space-x-2 justify-center xl:h-80 flex-col h-auto">
+
+                <div class="md:p-3 md:m-5 m-3 p-0 flex items-center justify-center">
+                    <img src="SVG/Book.svg" class="justify-center w-20 p-3 m-3 " alt="">
+                    <h2 class="md:text-2xl text-lg m-3">DigitalBook.io</h2>
+                </div>
+
+                <div class="flex xl:flex justify-around " >
+
+                    <nav class="py-3 px-0 m-5" >
+                        <h1 class="text-lg font-semibold">Web App</h1>
+                        <ul
+                            class="flex-col space-y-2 justify-between items-center py-2 pr-4 pl-3 w-auto font-medium text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-gray-400 dark:hover:text-white dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent" style="width: 110%;">
+                            <li>
+                                <a href="#" class="py-2 px-4 text-md  text-gray-700 hover:text-blue-500">Home</a>
+                            </li>
+                            <li>
+                                <a href="#" class="py-2 px-4 text-md text-gray-700 hover:text-blue-500">Search</a>
+                            </li>
+                            <li>
+                                <a href="#" class="py-2 px-4 text-md  text-gray-700 hover:text-blue-500">Trending</a>
+                            </li>
+                            <li>
+                                <a href="#" class="py-2 px-4 text-md  text-gray-700 hover:text-blue-500">Top-rated</a>
+                            </li>
+                            <li>
+                                <a href="#" class="py-2 px-4 text-md  text-gray-700 hover:text-blue-500">Genres</a>
+                            </li>
+                            <li>
+                                <a href="#" class="py-2 px-4 text-md text-gray-700 hover:text-blue-500">Foreign</a>
+                            </li>
+                            <li>
+                                <a href="#" class="py-2 px-4 text-md  text-gray-700 hover:text-blue-500">My books</a>
+                            </li>
+                            <li>
+                                <a href="#" class="py-2 px-4 text-md  text-gray-700 hover:text-blue-500">Settings</a>
+                            </li>
+                            <li>
+                                <a href="#" class="py-2 px-4 text-md text-gray-700 hover:text-blue-500">Store</a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <nav class="py-3 px-0 m-5">
+                        <h1 class="text-lg font-semibold">Company</h1>
+                        <ul
+                            class="flex-col space-y-2 justify-between items-center py-2 pr-4 pl-3 w-full font-medium text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-gray-400 dark:hover:text-white dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent" style="width: 110%;">
+                            <li>
+                                <a href="#" class="py-2 px-2 text-md text-gray-700 hover:text-blue-500">About</a>
+                            </li>
+                            <li>
+                                <a href="#" class="py-2 px-2 text-md text-gray-700 hover:text-blue-500">Blog</a>
+                            </li>
+                            <li>
+                                <a href="#" class="py-2 px-2 text-md  text-gray-700 hover:text-blue-500">Newsroom</a>
+                            </li>
+                            <li>
+                                <a href="#" class="py-2 px-2 text-md  text-gray-700 hover:text-blue-500">Contact us</a>
+                            </li>
+                            <li>
+                                <a href="#" class="py-2 px-2 text-md  text-gray-700 hover:text-blue-500">FAQ</a>
+                            </li>
+                            <li>
+                                <a href="#" class="py-2 px-2 text-md  text-gray-700 hover:text-blue-500">Donations</a>
+                            </li>
+                            <li>
+                                <a href="#" class="py-2 px-2 text-md  text-gray-700 hover:text-blue-500">Ts & Cs</a>
+                            </li>
+                            <li>
+                                <a href="#" class="py-2 px-2 text-md l text-gray-700 hover:text-blue-500">Privacy policy</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="xl:flex-col xl:justify-evenly items-center flex justify-center">
+                    <div class="p-3 m-5">
+
+                        <h2 class="text-lg px-2 mx-2 font-bold justify-center items-center">Follow us</h2>
+                        <div class="space-x-2 mx-3 my-1 text-lg text-blue-900 justify-center items-center">
+                            <a href="" class="text-blue-800 hover:text-black"><i class="fa-brands fa-facebook "></i></a>
+                            <a href="" class="hover:text-black text-blue-600" ><i class="fa-brands fa-twitter"></i></a>
+                            <a href="" class="text-red-700 hover:text-black"><i class="fa-brands fa-instagram" ></i></a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <p class="p-3 mt-10 text-center">©2010-2020 digitalbook.io is part of Digitalbook Ltd. All rights reserved</p>
+    </footer>
+
+
+    <script src="splide-2.4.21/dist/js/splide.min.js"></script>
+    <script src="https://kit.fontawesome.com/8272e50e21.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/flowbite@1.3.4/dist/flowbite.js"></script>
+
+    
+    <!-- stack overflow -->
+    <script>
+        var splides = document.querySelectorAll('.splide');
+        // 1. query slider elements: are there any splide elements?
+        if(splides.length){
+            // 2. process all instances
+            for(var i=0; i<splides.length; i++){
+                var splideElement = splides[i];
+                //3.1 if no options are defined by 'data-splide' attribute: take these default options
+                var splideDefaultOptions = 
+                {
+                    type   : 'loop',
+                    // rewind: true,
+                    interval: number = 4000,
+                    perPage: 4,
+                    autoplay:true,
+                    speed: number = 1000,
+                    arrows:true,
+                    pagination:true,
+                    drag:true,
+                    keyboard:true,
+                    heightRatio: 2,
+                    cover: true,
+                    perPage: 4,
+                    breakpoints: {
+                            1024: {
+                                perPage: 3,
+                            },
+                            640: {
+                                perPage: 2,
+                            },
+                            432: {
+                                perPage: 1,
+                            },
+
+                    },
+                }
+                /**
+                * 3.2 if options are defined by 'data-splide' attribute: default options will we overridden
+                * see documentation: https://splidejs.com/guides/options/#by-data-attribute
+                **/
+                
+                var splide = new Splide( splideElement, splideDefaultOptions ); 
+                // 3. mount/initialize this slider
+                splide.mount();
+            }
+        }
+
+    </script>
+
+
+    <script>
+        function toggleMenu() {
+            const mobileMenuContent = document.getElementById('mobileMenuContent')
+            if (mobileMenuContent.getAttribute('class') === 'hidden') {
+                mobileMenuContent.setAttribute('class', 'block')
+            } else {
+                mobileMenuContent.setAttribute('class', 'hidden')
+            }
+        }
+    </script>
+
+    <!-- small to large splide -->
+    
+
+</body>
+
+</html>

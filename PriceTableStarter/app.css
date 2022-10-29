@@ -1,0 +1,97 @@
+ul,li{
+    padding: 0%;
+    list-style: none;
+}
+html{
+    font-family: 'Open Sans',sans-serif;
+    background-color: rgba(38, 244, 244, 0.688);
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   min-height: 100vh;
+}
+.panel {
+    border-radius: 10px;
+    padding: 15px 25px ; 
+ /* top and bottom || left and right    */
+    background-color: aliceblue;
+    width: 100%;
+    /* till we not reach 960 the width will not be 100 perc */
+    max-width: 960px;
+    /* with never get larger then 960px */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-transform: capitalize; 
+}
+.pricing-plan{
+    border-bottom: 3px solid rgba(188, 242, 244, 0.495);
+}
+.pricing-plan:last-child{
+    border-bottom: none;
+}
+.pricing-img{
+    margin-bottom: 25px;
+    max-width: 100%;
+}
+.pricing-header{
+    color: #888;
+    font-weight: 800px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.pricing-features{
+    margin: 20px 0px 15px;
+    color: rgba(13, 24, 144, 0.688);
+} 
+.pricing-features-item{
+    font-weight: 800px;
+    letter-spacing: 1px;
+    border-top:2px solid rgba(188, 242, 244, 0.495);
+    padding: 15px 0px;
+    font-size: 12px;
+    line-height: 1.5;
+}
+.pricing-features-item:last-child{
+    border-bottom:2px solid rgba(188, 242, 244, 0.495);
+}
+.pricing-price{
+    color: rgba(13, 24, 144, 0.688);
+    display: block;
+    text-transform: uppercase;
+    font-size: x-large;
+    /* font weight is thickness */
+    font-weight: 700;  
+}
+.pricing-button{
+    border: 2px solid rgb(91, 161, 236);
+    border-radius: 15px;
+    margin: 30px 0px;
+    padding: 15px ;
+    display: inline-block;
+    
+   text-decoration: none;
+   transform: all 0.2s;
+}
+.pricing-button:hover{
+    background-color: aqua;
+    box-shadow: 0.6em 0.5em 0.5em -0.3em;
+    transform: translate(-0.35em);
+}
+@media (min-width:900px)
+{
+    .panel{
+        flex-direction: row;
+    }
+    .pricing-plan{
+        border-bottom: none;
+        border-right:1px solid rgb(91, 161, 236);
+        padding: 25px;
+    }
+    .pricing-plan:last-child{
+        border-right: none;
+    }
+}

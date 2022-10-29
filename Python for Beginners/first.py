@@ -266,4 +266,19 @@ for item in numbers:
 print(Max)
 
 
+#Reversing a list in Python by two methods
+# Method 1 - By using reverse() built-in function
+# Input: list = [4,7,9,3,1]
+# Output: [1,3,9,7,4]
 
+lst = [4,7,9,3,1]
+lst.reverse()
+print("Using reverse() ", lst)
+
+#Method 2 - By Insertion method
+lst = [4,7,9,3,1]
+l = []
+for i in lst:
+    #reversig the list
+    l.insert(0,i)
+print(l)
