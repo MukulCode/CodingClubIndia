@@ -1,0 +1,53 @@
+class Solution {
+public:
+
+    bool isleaf(Node *root){
+        if(root->left == NULL && root->right==NULL) return true ;
+        return false ;
+    }
+    
+    void leftboun(Node *root, vector<int> & ans){
+        Node * curr= root->left;
+        while(curr){
+            if(!isleaf(curr)) ans.push_back(curr->data) ;
+            if(curr->left) curr=curr->left ;
+            else curr=curr->right ;
+        }
+    }
+    void rightboun(Node *root, vector<int> & ans){
+        Node * curr= root->right ;
+        vector<int> temp ;
+        while(curr){
+            if(!isleaf(curr)) temp.push_back(curr->data) ;
+            if(curr->right) curr=curr->right ;
+            else curr= curr->left ;
+        }
+        for(int i= temp.size()-1;i>=0;i--){
+            ans.push_back(temp[i]) ;
+        }
+    }
+    
+    void leaves(Node *root, vector<int> & ans){
+        if(isleaf(root)){
+            ans.push_back(root->data) ;
+            return ;
+        } 
+        if(root->left) leaves(root->left, ans) ;
+        if(root->right) leaves(root->right,ans) ;
+        
+    }
+    
+    vector <int> boundary(Node *root)
+    {
+        //Your code here
+        vector<int> ans ;
+        if(!root) return ans ;
+        
+        if(!isleaf(root)) ans.push_back(root->data) ;
+        leftboun(root,ans) ;
+        leaves(root,ans) ;
+        rightboun(root,ans) ;
+        
+        return ans ;
+    }
+};
