@@ -7,9 +7,9 @@ public class Pattern1 {
         printSquare(n);
     }
 
-    static void printSquare(int n){
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < n; j++) {
+    static void printSquare(int number){
+        for (int i = 0; i < number; i++) {
+            for (int j = 0; j < number; j++) {
                 System.out.print("*" + " ");
             }
             System.out.println();

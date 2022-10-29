@@ -4,10 +4,9 @@
 This repo is to demonstrate the GIT version control and promote Hacktober fest.
 
 How?
-You can share the best pieces of code in this repo written in any language, we will review the code and merge accordingly. Additionally we are using this readme for maintaining the name of contributos, feel free to add your name here :) 
+You can share the best pieces of code in this repo written in any language, we will review the code and merge accordingly. Additionally we are using this readme for maintaining the name of contributors, feel free to add your name here :) 
 
-Watch these videos before contributing
-
+Watch these videos before contributing:
 [Intro to Hacktoberfest and Open Source](https://www.youtube.com/watch?v=RdwbdOKMiTc&t=27s),
 [Hands-On Demo of Hacktoberfest](https://www.youtube.com/watch?v=-PAcwWag-hI)
 
@@ -86,13 +85,17 @@ git push origin my-new-branch
 # Please add your names below:
 
 
-TANMAY (New Delhi)
+BISWA S (Cuttack)
 
+Pavan Kulkarni (Karnataka)
+
+Ashish (MSIT / NEW DELHI)
+
+TANMAY (New Delhi)
 
 Mohd Kaleem Saqlaini (New Delhi)
 
 Javesh Lodha ( Jaipur )
-
 
 Vishal Gupta (New Delhi)
 
@@ -106,20 +109,12 @@ Navansh Khandelwal(Jaipur)
 
 Shubham Kumar (Pune)
 
-Siddharth Jha (Mumbai)
-
-Saurav Pandey(Delhi)
-
-Lakshay gupta (Delhi)
+shubham ranjan[ghaziabad]
 
 Kiran Patil (Maharashtra)
 Divesh Kumar(Delhi)
 
-
-Raj patil (Maharashtra)
-
 Adnan Sameer ( KOLKATA ).
-
 
 Suraj Keshari ( VARANASI ).
 
@@ -179,17 +174,13 @@ Shivam Gupta (Delhi)
 
 Ayush Das (Delhi)
 
-BellumDominus (Delhi)
-
 Vartika(Bhopal)
 
 Rajat Garg (Delhi)
 
-
 Niraaova (MSIT)(ECE-1)
 
 Deepu Singh(Delhi)
-
 
 Shivam Gupta (Delhi)
 
@@ -499,8 +490,6 @@ Royal Simpson Pinto (Mangalore)
 
 Kaustubh Jogle (Mumbai)
 
-V S Karthikeya Nalam (Vijayawada)
-
 Ashutosh Kosti (Jabalpur)
 
 Ananya Gupta (Indore)
@@ -509,17 +498,13 @@ Sumukha Sureban (Betageri-Gadag)
 
 Deepak Babani (Jaipur)
 
-
 Aman kumar singh (New Delhi)
 
 Aaditya Mayankar (Pune)
 
-
 Ankit Mukherjee (Pune)
 
-
 Eshita Bhattacharjee (Agartala)
-
 
 Sujeet Kumar (New Delhi)
 
@@ -541,14 +526,6 @@ Aayush Solanki (Indore)
 
 Aaditya Mayankar (Pune)
 
-Roshan George (TamilNadu)
-
-
-Udit Mishra (Ghaziabad)
-
-
-Vatsal Kudecha (Ahmedabad)
-
 Ashish Chopra (Punjab)
 
 Vijay Singhal (Jaipur)
@@ -561,44 +538,55 @@ Arijit Ghosh (Kolkata)
 
 Vanshika Pandey (Lucknow)
 
-
-Tanuj Rathore(Nagpur)
-
-
-Umang Kumar (Pune)
-
-Charcha Galav (Ajmer)
-
-Gagan Jha (Delhi)
-
 Guman Pratap Singh(Jaipur)
 
+Adityam (Patna)
 
 Debosmita Chatterjee(Kolkata)
 
-
 Amaan Shaikh (Mumbai)
-
 
 Mihir Agarwal (New Delhi)
 
-
 Devendra Singh Rana (Uttar Pradesh)
-
 
 Rahul Reddy(Karnataka)
 
 Divyansh Sharma (kota)
 
-
 Venkat Raghaveendra (Tamil Nadu)
 
-
 Padala Vinay Bhushan(Hyderabad)
-
 
 Ayush Goel(New Delhi)
 
 Dikshita Gupta(Amritsar, Punjab)
 
+Hrushikesh Desai(Kolhapur , India)
+
 Kshitiz Jaiswal (Haryana)
+
+Bhawarth Garg(Kurukshetra, Haryana)
+
+Shahidraja Shaikh (Mumbai)
+
+
+Purbendu Halder (Kolkata)
+
+
+Animesh Jain (Indore)
+
+
+Hibjul Ahmed (Lakhimpur, Assam)
+
+Jayesh Rajput (Pune)
+
+Purbendu Halder (Kolkata)
+
+Mohd Maaz (Gorakhpur)
+
+
+Apoorva Sunkad(Dharwad, Karnataka)
+
+Animesh Jain (Mandsaur)
+
