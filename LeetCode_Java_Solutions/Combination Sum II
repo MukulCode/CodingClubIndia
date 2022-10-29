@@ -1,0 +1,23 @@
+class Solution {
+    public List<List<Integer>> combinationSum2(int[] candidates, int target) {
+        Arrays.sort(candidates);
+        List<List<Integer>> res = new ArrayList<>();
+        subsets(0, candidates, new ArrayList(), res, target);
+        return res;
+        }
+    
+    void subsets(int index, int[] nums, List<Integer> temp, List<List<Integer>> res, int target){
+        if(target==0){
+           res.add(new ArrayList(temp));
+            return;
+        }
+        if(target<0) return;
+        for(int i = index; i<nums.length; i++){
+            if(i>index && nums[i-1]==nums[i]) continue;
+            temp.add(nums[i]);
+            subsets(i+1, nums, temp, res, target-nums[i]);
+            temp.remove(temp.size()-1);
+            }
+        
+    }
+}

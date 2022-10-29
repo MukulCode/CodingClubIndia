@@ -1,0 +1,61 @@
+<html>
+<heaad>
+ <title> Edit your task </title>
+ <style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+</style>
+
+ </head>
+<body>
+<h3> update your task </h3>
+<!--{% for message in get_flashed_messages() %}
+  <div class="container text-center">
+    <h3>{{ message }}</h3>
+  </div>
+  <br>
+{% endfor %} 
+<a href="{{ url_for('taskPage') }}"> <button>add task </button> </a>
+
+
+<br>
+<br>
+<table>
+<tr> 
+    <th>task id</th>
+    <th>task name </th>
+    <th> action </th>
+</tr>
+{% if tasks %}
+  {% for task in tasks%}
+<tr>
+    <td> {{task[0]}} </td>
+    <td>{{ task[1]}}</td>
+    <td> <a href="#">Edit</a>&nbsp <a href="/delete/{{task[0]}}"> Delete </a> </td>
+<tr>
+{% endfor %}
+{% endif %}
+</table>
+-->
+{% if idd %}
+<h4>task id {{idd}}</h4>
+{% endif %}
+<form method="POST" action="{{ url_for('edit_task',idd=idd)}}">
+
+    <label for="task_id"> Task Id :- </label>
+     <input type="text" name="task_id" value="{{idd}}" readonly>
+    <br>
+    <br>
+    <label for="edit"> New Task Name :-</label>
+    <input type="text" name="edit" >
+    <input type="hidden" value={{idd}}>
+    <br>
+    <br>
+    <input type="Submit" name="sub1" >
+</form>
+
+</body>
+
+</html>

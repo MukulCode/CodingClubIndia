@@ -1,0 +1,29 @@
+     *
+     class deleteduplicatenodes {
+     *     int data;
+     *     SinglyLinkedListNode next;
+         static SinglyLinkedListNode removeDuplicates(SinglyLinkedListNode head) {
+        if(head==null)
+        {
+            return head;
+        }
+        SinglyLinkedListNode cur=head;
+SinglyLinkedListNode prev = null;
+HashMap<Integer ,Integer> map= new HashMap<Integer ,Integer>();
+while(cur!=null)
+{ 
+    if(!map.containsKey(cur.data))
+    {
+map.put(cur.data, 1);
+prev=cur;
+cur=cur.next;
+    }
+    else
+    {
+        prev.next=cur.next;
+        cur=cur.next;
+    }
+}
+
+return head;
+    }
