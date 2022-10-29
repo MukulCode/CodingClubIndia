@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Daily_used"
+    android:background="@drawable/wp13"
+    android:orientation="vertical"
+    >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Daily used"
+        android:gravity="center_vertical|start"
+        android:textSize="22sp"
+        android:fontFamily="@font/poppins"
+        android:textStyle="bold"
+        android:paddingLeft="15dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="10dp"
+        />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <!--below this-->
+
+        <!--above this-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/custom_listbox"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:src="@drawable/calculator"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:id="@+id/Calculator"
+                android:layout_width="0dp"
+                android:layout_weight="7"
+                android:layout_height="match_parent"
+                android:text="Calculator"
+                android:onClick="calcClick"
+                android:fontFamily="@font/poppins"
+                android:paddingLeft="10dp"
+                android:textSize="20sp"
+                android:gravity="center_vertical"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/custom_listbox"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:src="@drawable/convert"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:id="@+id/Converter_"
+                android:layout_width="0dp"
+                android:layout_weight="7"
+                android:layout_height="match_parent"
+                android:text="Converter"
+                android:onClick="converterClick"
+                android:fontFamily="@font/poppins"
+                android:paddingLeft="10dp"
+                android:textSize="20sp"
+                android:gravity="center_vertical"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/custom_listbox"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:src="@drawable/currency"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:id="@+id/Currency"
+                android:layout_width="0dp"
+                android:layout_weight="7"
+                android:layout_height="match_parent"
+                android:text="Currency"
+                android:onClick="currencyClick"
+                android:fontFamily="@font/poppins"
+                android:paddingLeft="10dp"
+                android:textSize="20sp"
+                android:gravity="center_vertical"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/custom_listbox"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:src="@drawable/clock"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:id="@+id/Time_Zone"
+                android:layout_width="0dp"
+                android:layout_weight="7"
+                android:layout_height="match_parent"
+                android:text="Timezone"
+                android:onClick="timezoneClick"
+                android:fontFamily="@font/poppins"
+                android:paddingLeft="10dp"
+                android:textSize="20sp"
+                android:gravity="center_vertical"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/custom_listbox"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:src="@drawable/map"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:id="@+id/Map"
+                android:layout_width="0dp"
+                android:layout_weight="7"
+                android:layout_height="match_parent"
+                android:text="Map"
+                android:onClick="mapClick"
+                android:fontFamily="@font/poppins"
+                android:paddingLeft="10dp"
+                android:textSize="20sp"
+                android:gravity="center_vertical"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/custom_listbox"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:src="@drawable/accu"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:id="@+id/AccuWeather"
+                android:layout_width="0dp"
+                android:layout_weight="7"
+                android:layout_height="match_parent"
+                android:text="Accuweather"
+                android:onClick="accuClick"
+                android:fontFamily="@font/poppins"
+                android:paddingLeft="10dp"
+                android:textSize="20sp"
+                android:gravity="center_vertical"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/custom_listbox"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:src="@drawable/translate"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:id="@+id/Translator"
+                android:layout_width="0dp"
+                android:layout_weight="7"
+                android:layout_height="match_parent"
+                android:text="Translator"
+                android:onClick="translatorClick"
+                android:fontFamily="@font/poppins"
+                android:paddingLeft="10dp"
+                android:textSize="20sp"
+                android:gravity="center_vertical"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
+
+
+<!--    <ScrollView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:scrollbars="vertical">-->
+<!--    </ScrollView>-->
+
+
+</LinearLayout>

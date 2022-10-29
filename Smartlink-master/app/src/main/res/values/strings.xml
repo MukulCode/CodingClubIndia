@@ -1,0 +1,191 @@
+<resources>
+    <string name="app_name">SmartLink</string>
+
+    //social
+    <string name="whatsapp">
+      <a href="https://web.whatsapp.com/">Whatsapp</a>
+    </string>
+    <string name="instagram">
+        <a href="https://www.instagram.com/">Instagram</a>
+    </string>
+    <string name="twitter">
+       <a href="https://twitter.com/login"> Twitter</a>
+    </string>
+    <string name="pinterest">
+        <a href="https://in.pinterest.com/">Pinterest</a>
+    </string>
+    <string name="reddit">
+       <a href="https://www.reddit.com/"> Reddit</a>
+    </string>
+    <string name="quora">
+        <a href="https://www.quora.com/">Quora</a>
+    </string>
+    <string name="youtube">
+        <a href="https://www.youtube.com/">Youtube</a>
+    </string>
+    <string name="telegram">
+        <a href="https://telegram.org/">Telegram</a>
+    </string>
+    <string name="skype">
+        <a href="https://www.skype.com/en/">Skype</a>
+    </string>
+    <string name="wikipidea">
+        <a href="https://www.wikipedia.org/">Wikipidea</a>
+    </string>
+    <string name="netflix">
+        <a href="https://www.netflix.com/in/Login">Netflix</a>
+    </string>
+    <string name="amazon_prime">
+        <a href="https://www.primevideo.com/">Amazon prime</a>
+    </string>
+
+
+    //news
+    <string name="abc">
+      <a href="https://abcnews.go.com/">ABC News</a>
+    </string>
+    <string name="bbc">
+        <a href="https://www.bbc.com/news">BCC News</a>
+    </string>
+    <string name="google">
+       <a href="https://news.google.com/">Google News</a>
+    </string>
+    <string name="cnn">
+        <a href="https://edition.cnn.com/">CNN News</a>
+    </string>
+    <string name="nasa">
+       <a href="https://www.nasa.gov/news/releases/latest/index.html"> NASA News</a>
+    </string>
+    <string name="india">
+        <a href="https://www.indiatimes.com/">India Times</a>
+    </string>
+    <string name="timesofindia">
+        <a href="https://timesofindia.indiatimes.com/">Times of India</a>
+    </string>
+    <string name="news24">
+        <a href="https://www.news24.com/">News24</a>
+    </string>
+    <string name="nbc">
+        <a href="https://www.nbcnews.com/">NBC News</a>
+    </string>
+    <string name="mumbai">
+        <a href="https://mumbaimirror.indiatimes.com/">Mumbai Mirror</a>
+    </string>
+    <string name="ndtv">
+        <a href="https://www.ndtv.com/">NDTV News</a>
+    </string>
+    <string name="indiatoday">
+        <a href="https://www.indiatoday.in/">India Today</a>
+    </string>
+    <string name="dna">
+        <a href="https://www.dnaindia.com/">DNA</a>
+    </string>
+    <string name="yahoo">
+        <a href="https://in.news.yahoo.com/">Yahoo news</a>
+    </string>
+
+
+    //shopping
+    <string name="amazon">
+      <a href="https://www.amazon.in/">Amazon</a>
+    </string>
+    <string name="lenskart">
+        <a href="https://www.lenskart.com/">Lenskart</a>
+    </string>
+    <string name="grofers">
+       <a href="https://grofers.com/"> Grofers</a>
+    </string>
+    <string name="spoyl">
+        <a href="https://www.spoyl.in/">Spoyl</a>
+    </string>
+    <string name="olx">
+       <a href="https://www.olx.in/"> Olx</a>
+    </string>
+    <string name="bigbasket">
+        <a href="https://www.bigbasket.com/">Bigbasket</a>
+    </string>
+
+    <string name="jabong">
+        <a href="https://www.jabong.com/">Jabong</a>
+    </string>
+    <string name="myntra">
+        <a href="https://www.myntra.com/">Myntra</a>
+    </string>
+    <string name="snapdeal">
+        <a href="https://www.snapdeal.com/">snapdeal</a>
+    </string>
+    <string name="ebay">
+        <a href="https://www.ebay.com/">ebay</a>
+    </string>
+    <string name="aliexpress">
+        <a href="https://www.aliexpress.com/">Ali_express</a>
+    </string>
+
+    //dailyuse
+    <string name="calculator">
+        <a href="https://www.online-calculator.com/">Calculator</a>
+    </string>
+    <string name="converter">
+      <a href="https://www.online-convert.com/">Converter</a>
+    </string>
+    <string name="currency">
+        <a href="https://www.unitconverters.net/currency-converter.html">Currency</a>
+    </string>
+    <string name="timezone">
+       <a href="https://www.timeanddate.com/time/map/"> Timezone</a>
+    </string>
+    <string name="map">
+        <a href="https://maps.google.com">Map</a>
+    </string>
+    <string name="accuweather">
+       <a href="https://www.accuweather.com/">Accuweather</a>
+    </string>
+    <string name="translator">
+        <a href="https://translate.google.com/">Translator</a>
+    </string>
+
+
+    //learning
+    <string name="udemy">
+      <a href="https://www.udemy.com/">Udemy</a>
+    </string>
+    <string name="academicearth">
+        <a href="https://academicearth.org/">Academicearth</a>
+    </string>
+    <string name="codeacademy">
+       <a href="https://www.codecademy.com/">Code Academy</a>
+    </string>
+    <string name="geeksforgeeks">
+        <a href="https://www.geeksforgeeks.org/">Geeksforgeeks</a>
+    </string>
+    <string name="tutorialspoint">
+       <a href="https://www.tutorialspoint.com/index.htm"> Tutorialspoint</a>
+    </string>
+    <string name="w3school">
+        <a href="https://www.w3schools.com/">W3school</a>
+    </string>
+    <string name="sololearn">
+        <a href="https://www.sololearn.com/">Sololearn</a>
+    </string>
+    <string name="courseera">
+        <a href="https://www.coursera.org/">Coursera</a>
+    </string>
+    <string name="khanacademy">
+        <a href="https://www.khanacademy.org/">Khanacademy</a>
+    </string>
+
+
+    <string name="about_app">
+        CREATED BY:-\n
+        \t\t\tMUSTAFA KHAN
+    </string>
+    <string name="smartlink_app">SmartLink App is totally based on link system.It is a mini project in which different platforms are used and various links are added for user to access the various platforms in an easiest way.\n\n Special Thanks to\n\t\tJayesh.\n\t\tAmaan.\n\n\I would greatly appreciate it,if you kindly give me some feedback on this Smartlink app</string>
+
+
+
+    <string name="email">For more information,contact us on Email:-</string>
+
+    <string name="Email">
+        mustafak8108@gmail.com
+    </string>
+</resources>
