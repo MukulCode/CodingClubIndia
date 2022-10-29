@@ -261,6 +261,17 @@ print(names)
 numbers = [3, 5, 395, 364, 98, 36]
 Max = numbers[0]
 for item in numbers:
+
+    if item>max:
+        max=item 
+print(max)
+
+
+#Printing the maximum element of the list
+A = [3,5,6,2,5,4,3,7,5,4,8,1]
+print(max(A))
+
+
     if item > Max:
         Max = item
 print(Max)
@@ -282,3 +293,4 @@ for i in lst:
     #reversig the list
     l.insert(0,i)
 print(l)
+

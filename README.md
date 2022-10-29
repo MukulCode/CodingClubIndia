@@ -84,6 +84,11 @@ git push origin my-new-branch
 
 # Please add your names below:
 
+TANNU JHA (New Delhi)
+
+TANNU JHA (New Delhi)
+
+Hitesh Mewada (Mumbai)
 
 BISWA S (Cuttack)
 
@@ -502,6 +507,8 @@ Aman kumar singh (New Delhi)
 
 Aaditya Mayankar (Pune)
 
+Gautam Goel (Ambala cantt)
+
 Ankit Mukherjee (Pune)
 
 Eshita Bhattacharjee (Agartala)
@@ -592,5 +599,3 @@ Mohd Maaz (Gorakhpur)
 Apoorva Sunkad(Dharwad, Karnataka)
 
 Animesh Jain (Mandsaur)
-
-
