@@ -1,0 +1,11 @@
+#inlcude<bits/stdc++.h>
+using namespace std;
+int main(){
+int a,b,c,s;
+cin>>t;
+while(t--){
+ cin>>a>>b>>c>>s;
+ cout<<ceil(a/b)/ceil(c/s)<<endl;
+}
+return 0;
+}
