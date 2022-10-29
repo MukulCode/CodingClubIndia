@@ -25,7 +25,7 @@ Now i can enter in open source world and can give contributions in it
 Pankaj (Haryana)
 Studying CS hons at Dyal Singh College 2nd YR
 
-Alaukik Varu>>>>>>> mastern(dehradun)
+Alaukik Varun(dehradun)
 Thanks CodingClubIndia to Have a very interective session . It is very helpful for me.
 Now i can enter in open source world and can give contributions in it
 kudos.
@@ -41,4 +41,9 @@ First time participating in the HacktoberFest. Previously had 0% knowledge in op
 Ayush Goel (New Delhi)
 Hey, I am working as SDE-1, Really understand the need for open source contribution, Great Initiative!
 
+
+Dhruv Mehta (Faridabad)
+Hey! I have just started my open source contribution with this project. Thanks ...
+
 Thanks you so much!
+
