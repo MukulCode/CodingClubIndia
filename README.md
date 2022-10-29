@@ -507,6 +507,8 @@ Aman kumar singh (New Delhi)
 
 Aaditya Mayankar (Pune)
 
+Gautam Goel (Ambala cantt)
+
 Ankit Mukherjee (Pune)
 
 Eshita Bhattacharjee (Agartala)
@@ -594,4 +596,3 @@ Mohd Maaz (Gorakhpur)
 Apoorva Sunkad(Dharwad, Karnataka)
 
 Animesh Jain (Mandsaur)
-
