@@ -100,6 +100,8 @@ TANMAY (New Delhi)
 
 Mohd Kaleem Saqlaini (New Delhi)
 
+Muzhar Hussain (ISB)
+
 Javesh Lodha ( Jaipur )
 
 Vishal Gupta (New Delhi)
