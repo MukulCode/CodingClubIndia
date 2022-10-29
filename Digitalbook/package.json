@@ -66,7 +66,7 @@
     "lines-and-columns": "^1.2.4",
     "merge2": "^1.4.1",
     "micromatch": "^4.0.4",
-    "minimist": "^1.2.5",
+    "minimist": "^1.2.6",
     "nanoid": "^3.3.0",
     "node-releases": "^2.0.2",
     "normalize-path": "^3.0.0",
