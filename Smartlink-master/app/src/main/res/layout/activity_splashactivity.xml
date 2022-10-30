@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/home1"
+    tools:context=".splashactivity"
+    >
+
+
+    <ImageView
+        android:layout_width="170dp"
+        android:layout_height="70dp"
+        android:src="@drawable/martlink"
+        android:id="@+id/imglogo"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/poppins"
+        android:text="Smart Link"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imglogo"
+        android:textAlignment="center"
+        android:textColor="#ffff"
+        android:textSize="22sp"
+        android:textStyle="bold"
+
+        >
+
+    </TextView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

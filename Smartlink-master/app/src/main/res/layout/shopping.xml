@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Shopping"
+    android:background="@drawable/wp12"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Shopping"
+        android:gravity="center_vertical|start"
+        android:textSize="22sp"
+        android:fontFamily="@font/poppins"
+        android:textStyle="bold"
+        android:paddingLeft="15dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="10dp"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <!--below this-->
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/custom_listbox"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:src="@drawable/amazon"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:id="@+id/Amazon"
+                android:layout_width="0dp"
+                android:layout_weight="7"
+                android:layout_height="match_parent"
+                android:text="Amazon"
+                android:onClick="amazonClick"
+                android:fontFamily="@font/poppins"
+                android:paddingLeft="10dp"
+                android:textSize="20sp"
+                android:gravity="center_vertical"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+
+        <!--above this-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/custom_listbox"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:src="@drawable/lenskart"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:id="@+id/Lenskart"
+                android:layout_width="0dp"
+                android:layout_weight="7"
+                android:layout_height="match_parent"
+                android:text="lenskart"
+                android:onClick="LenskartClick"
+                android:fontFamily="@font/poppins"
+                android:paddingLeft="10dp"
+                android:textSize="20sp"
+                android:gravity="center_vertical"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/custom_listbox"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:src="@drawable/grofers"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:id="@+id/Grofers"
+                android:layout_width="0dp"
+                android:layout_weight="7"
+                android:layout_height="match_parent"
+                android:text="Grofers"
+                android:onClick="grofersClick"
+                android:fontFamily="@font/poppins"
+                android:paddingLeft="10dp"
+                android:textSize="20sp"
+                android:gravity="center_vertical"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/custom_listbox"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:src="@drawable/spoyl"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:id="@+id/Spoyl"
+                android:layout_width="0dp"
+                android:layout_weight="7"
+                android:layout_height="match_parent"
+                android:text="Spoyl"
+                android:onClick="spoylClick"
+                android:fontFamily="@font/poppins"
+                android:paddingLeft="10dp"
+                android:textSize="20sp"
+                android:gravity="center_vertical"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:layout_margin="15dp"-->
+<!--            android:background="@drawable/custom_listbox"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:weightSum="10">-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_weight="3"-->
+<!--                android:src="@drawable/ic_social"-->
+<!--                android:layout_height="match_parent"/>-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/Banggod"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_weight="7"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:text="Banggod"-->
+<!--                android:paddingLeft="10dp"-->
+<!--                android:textSize="22sp"-->
+<!--                android:gravity="center_vertical"-->
+<!--                android:textColor="#FFFFFF"-->
+<!--                android:textStyle="bold"-->
+<!--                />-->
+
+<!--        </LinearLayout>-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/custom_listbox"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:src="@drawable/olx"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:id="@+id/OLX"
+                android:layout_width="0dp"
+                android:layout_weight="7"
+                android:layout_height="match_parent"
+                android:text="Olx"
+                android:onClick="olxClick"
+                android:fontFamily="@font/poppins"
+                android:paddingLeft="10dp"
+                android:textSize="20sp"
+                android:gravity="center_vertical"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:layout_margin="15dp"-->
+<!--            android:background="@drawable/custom_listbox"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:weightSum="10">-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_weight="3"-->
+<!--                android:src="@drawable/ic_social"-->
+<!--                android:layout_height="match_parent"/>-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/LimeRoad"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_weight="7"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:text="LimeRoad"-->
+<!--                android:paddingLeft="10dp"-->
+<!--                android:textSize="22sp"-->
+<!--                android:gravity="center_vertical"-->
+<!--                android:textColor="#FFFFFF"-->
+<!--                android:textStyle="bold"-->
+<!--                />-->
+
+<!--        </LinearLayout>-->
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:layout_margin="15dp"-->
+<!--            android:background="@drawable/custom_listbox"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:weightSum="10">-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_weight="3"-->
+<!--                android:src="@drawable/ic_social"-->
+<!--                android:layout_height="match_parent"/>-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/Club_Factory"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_weight="7"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:text="ClubFactory"-->
+<!--                android:paddingLeft="10dp"-->
+<!--                android:textSize="22sp"-->
+<!--                android:gravity="center_vertical"-->
+<!--                android:textColor="#FFFFFF"-->
+<!--                android:textStyle="bold"-->
+<!--                />-->
+
+<!--        </LinearLayout>-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/custom_listbox"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:src="@drawable/bigbasket"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:id="@+id/bigBasket"
+                android:layout_width="0dp"
+                android:layout_weight="7"
+                android:layout_height="match_parent"
+                android:text="Bigbasket"
+                android:onClick="bigbasketClick"
+                android:fontFamily="@font/poppins"
+                android:paddingLeft="10dp"
+                android:textSize="20sp"
+                android:gravity="center_vertical"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:layout_margin="15dp"-->
+<!--            android:background="@drawable/custom_listbox"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:weightSum="10">-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_weight="3"-->
+<!--                android:src="@drawable/ic_social"-->
+<!--                android:layout_height="match_parent"/>-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/Voonik"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_weight="7"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:text="Voonik"-->
+<!--                android:paddingLeft="10dp"-->
+<!--                android:textSize="22sp"-->
+<!--                android:gravity="center_vertical"-->
+<!--                android:textColor="#FFFFFF"-->
+<!--                android:textStyle="bold"-->
+<!--                />-->
+
+<!--        </LinearLayout>-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/custom_listbox"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:src="@drawable/ajio"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:id="@+id/Ajio"
+                android:layout_width="0dp"
+                android:layout_weight="7"
+                android:layout_height="match_parent"
+                android:text="Ajio"
+                android:onClick="AjioClick"
+                android:fontFamily="@font/poppins"
+                android:paddingLeft="10dp"
+                android:textSize="20sp"
+                android:gravity="center_vertical"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:layout_margin="15dp"-->
+<!--            android:background="@drawable/custom_listbox"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:weightSum="10">-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_weight="3"-->
+<!--                android:src="@drawable/ic_social"-->
+<!--                android:layout_height="match_parent"/>-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/HomeShop18"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_weight="7"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:text="Homeshop18"-->
+<!--                android:paddingLeft="10dp"-->
+<!--                android:textSize="22sp"-->
+<!--                android:gravity="center_vertical"-->
+<!--                android:textColor="#FFFFFF"-->
+<!--                android:textStyle="bold"-->
+<!--                />-->
+
+<!--        </LinearLayout>-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/custom_listbox"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:src="@drawable/jabong"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:id="@+id/Jabong"
+                android:layout_width="0dp"
+                android:layout_weight="7"
+                android:layout_height="match_parent"
+                android:text="Jabong"
+                android:onClick="jabongClick"
+                android:fontFamily="@font/poppins"
+                android:paddingLeft="10dp"
+                android:textSize="20sp"
+                android:gravity="center_vertical"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/custom_listbox"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:src="@drawable/myntra"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:id="@+id/Myntra"
+                android:layout_width="0dp"
+                android:layout_weight="7"
+                android:layout_height="match_parent"
+                android:text="Myntra"
+                android:onClick="myntraClick"
+                android:fontFamily="@font/poppins"
+                android:paddingLeft="10dp"
+                android:textSize="20sp"
+                android:gravity="center_vertical"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:layout_margin="15dp"-->
+<!--            android:background="@drawable/custom_listbox"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:weightSum="10">-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_weight="3"-->
+<!--                android:src="@drawable/ic_social"-->
+<!--                android:layout_height="match_parent"/>-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/Shopcluse"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_weight="7"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:text="Shopcluse"-->
+<!--                android:paddingLeft="10dp"-->
+<!--                android:textSize="22sp"-->
+<!--                android:gravity="center_vertical"-->
+<!--                android:textColor="#FFFFFF"-->
+<!--                android:textStyle="bold"-->
+<!--                />-->
+
+<!--        </LinearLayout>-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/custom_listbox"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:src="@drawable/snapdeal"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:id="@+id/Snapdeal"
+                android:layout_width="0dp"
+                android:layout_weight="7"
+                android:layout_height="match_parent"
+                android:text="Snapdeal"
+                android:onClick="snapdealClick"
+                android:fontFamily="@font/poppins"
+                android:paddingLeft="10dp"
+                android:textSize="20sp"
+                android:gravity="center_vertical"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/custom_listbox"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:src="@drawable/ebay"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:id="@+id/eBay"
+                android:layout_width="0dp"
+                android:layout_weight="7"
+                android:layout_height="match_parent"
+                android:text="ebay"
+                android:onClick="ebayClick"
+                android:fontFamily="@font/poppins"
+                android:paddingLeft="10dp"
+                android:textSize="20sp"
+                android:gravity="center_vertical"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/custom_listbox"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:src="@drawable/aliexpress"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:id="@+id/Ali_express"
+                android:layout_width="0dp"
+                android:layout_weight="7"
+                android:layout_height="match_parent"
+                android:text="Aliexpress"
+                android:onClick="aliexpressClick"
+                android:fontFamily="@font/poppins"
+                android:paddingLeft="10dp"
+                android:textSize="20sp"
+                android:gravity="center_vertical"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/custom_listbox"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:src="@drawable/flipkart"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:id="@+id/Flipkart"
+                android:layout_width="0dp"
+                android:layout_weight="7"
+                android:layout_height="match_parent"
+                android:text="Flipkart"
+                android:onClick="FlipkartClick"
+                android:fontFamily="@font/poppins"
+                android:paddingLeft="10dp"
+                android:textSize="20sp"
+                android:gravity="center_vertical"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+<!--    <ScrollView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:scrollbars="vertical">-->
+<!--    </ScrollView>-->
+
+
+</LinearLayout>

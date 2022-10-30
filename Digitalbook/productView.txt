@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product View</title>
+    <link rel="stylesheet" href="input.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/flowbite@1.3.4/dist/flowbite.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+    
+    <!-- <script src="https://cdn.tailwindcss.com"></script>  -->
+    <script src="https://kit.fontawesome.com/8272e50e21.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="splide-2.4.21/dist/css/splide.min.css">
+</head>
+<body>
+    <header>
+        <nav class="bg-gray-300">
+            <div class="hidden md:block">
+                <div class="px-6 mx-0 my-0 p-2 flex justify-between items-center h-full w-full bg-gray-100 z-50"
+                    style="position: -webkit-sticky ; position: sticky; top: 0;">
+                    <div class="flex p-1">
+                        <div>
+                            <a href="/index.html" class="flex text-xl text-blue-800 font-semibold">
+                                DIGITAL AUDIO
+                            </a>
+                        </div>
+                        <div class="ml-3 text-lg">
+                            <a href=""><i class="fa-solid fa-book"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="div flex p-1 items-center mx-auto text-center w-auto">
+                        <nav class=" border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-800">
+                            <div class="hidden justify-between items-center  md:flex md:w-auto md:order-1">
+                                <ul
+                                    class="flex text-center w-auto flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-semibold">
+                                    <li>
+                                        <a href="#trending"
+                                            class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                                            aria-current="page">TRENDING</a>
+                                    </li>
+                                    <li>
+                                        <a href="#top-rated"
+                                            class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">TOP-RATED</a>
+                                    </li>
+                                    <li>
+                                        <a href="#genres"
+                                            class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">GENRES</a>
+                                    </li>
+                                    <li>
+                                        <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar"
+                                            class="flex justify-between items-center py-2 pr-4 pl-3 w-full font-semibold text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-gray-400 dark:hover:text-white dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent">Menu<svg
+                                                class="ml-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd"
+                                                    d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                                    clip-rule="evenodd"></path>
+                                            </svg></button>
+                                        <!-- Dropdown menu -->
+                                        <div id="dropdownNavbar"
+                                            class="hidden z-10 w-44 text-base list-none bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700 dark:divide-gray-600">
+                                            <ul class="py-1" aria-labelledby="dropdownLargeButton">
+                                                <li>
+                                                    <a href="#"
+                                                        class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-400 dark:hover:text-white">Home</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#search"
+                                                        class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-400 dark:hover:text-white">Search</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#trending"
+                                                        class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-400 dark:hover:text-white">Trending</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#top-rated"
+                                                        class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-400 dark:hover:text-white">Top
+                                                        Rated</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"
+                                                        class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-400 dark:hover:text-white">Genre</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"
+                                                        class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-400 dark:hover:text-white">Settings</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"
+                                                        class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-400 dark:hover:text-white">My
+                                                        Books</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"
+                                                        class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-400 dark:hover:text-white">About</a>
+                                                </li>
+                                            </ul>
+                                            <div class="py-1">
+                                                <a href="#"
+                                                    class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-400 dark:hover:text-white">Sign
+                                                    out</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+
+                    <div class="space-x-2 text-lg">
+                        <a href="" class="text-blue-800"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="" style="color: #00acee;"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="" class="text-red-700"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="block md:hidden">
+                <div class="flex items-center justify-between h-16">
+                    <div class="ml-3">
+                        <div class="flex">
+                            <div>
+                                <a href="/index.html" class="flex text-md text-blue-800 font-semibold">
+                                    DIGITAL AUDIO
+                                </a>
+                            </div>
+                            <div class="ml-3 text-md">
+                                <a href=""><i class="fa-solid fa-book"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mr-5">
+                        <button onclick="toggleMenu()"><i class="fas fa-bars font-extrabold"></i></button>
+                    </div>
+                </div>
+
+                <div class="hidden" id="mobileMenuContent">
+                    <div class="flex flex-col gap-4">
+                        <ul class="py-1" aria-labelledby="dropdownLargeButton">
+                            <li>
+                                <a href="#"
+                                    class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-400 dark:hover:text-white ">Home</a>
+                            </li>
+                            <li>
+                                <a href="#search"
+                                    class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-400 dark:hover:text-white">Search</a>
+                            </li>
+                            <li>
+                                <a href="#trending"
+                                    class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-400 dark:hover:text-white">Trending</a>
+                            </li>
+                            <li>
+                                <a href="#top-rated"
+                                    class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-400 dark:hover:text-white">Top
+                                    Rated</a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-400 dark:hover:text-white">Genre</a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-400 dark:hover:text-white">Settings</a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-400 dark:hover:text-white">My
+                                    Books</a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-400 dark:hover:text-white">About</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="flex ml-4 space-x-8 text-lg">
+                        <a href="" class="text-blue-800 "><i class="fa-brands fa-facebook"></i></a>
+                        <a href="" style="color: #00acee;"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="" class="text-red-700"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+    <main class="">
+        <section class="hidden lg:block w-auto">
+            <div class="container-fluid m-auto grid grid-cols-2  p-2 ">                
+                <div class="justify-end flex mt-3 " >
+                    <div class="book-container flex-col justify-center items-center w-72 mr-11" >
+                        <div class="book-details-pic p-2 ">
+                            <img src="images/2.jpg" class="w-56" alt="">
+                        </div>
+                        <a href="#">
+                            <div class="btn-play-sample w-60 rounded-sm h-8 flex justify-center" style="background-color: #B4111A;">
+                                <h5 class=" text-white p-1">
+                                    <i class="fa-solid fa-play px-2  text-md hover:text-blue-500"></i>
+                                    <span class="text-right">Play Sample</span>
+                                </h5>
+                            </div>
+                        </a>
+                        <!-- <a href="#">
+                            <div class="play_sample flex rounded-md bg-red-500 mb-3 p-1 w-56 mx-2 hover:bg-slate-600 hover:text-white">
+                                
+                                <h3 class="text-lg">Play Sample</h3>
+                            </div>
+                        </a> -->
+                        <div class="book-details-ratings my-3 p-0 w-56 mx-2">
+                            <h3 class="text-lg text-red-600">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </h3>
+                        </div>
+                    </div>
+                </div>             
+                                
+                <div class="mt-3 ml-10 ">
+                    <h2 class="audioBookTitle text-2xl text-red-600 font-semibold py-1 px-2">The Girl on the Train: A Novel</h2>
+                    <h4 class="audioBookVersion text-gray-400 text-md py-1 px-2">Unabridged Audio Book</h4>
+                    <div class="line my-2" style="border-top: 1px solid #DDD;"></div>
+                    
+                    
+                    <h4 class="audiobookVersion nobold mx-2  my-2">Download or Stream instantly more than 55,000 audiobooks. <br>  Listen to <strong>"The Girl on the Train: A Novel"</strong> on your iOS and Android device.</h4>
+                    
+                    <div class="clearfix flex">
+                        <div class="left-info px-3 block">
+                            <h4 class="author text-lg text-gray-500">Author: </h4>
+                            <h4 class="narrator text-lg text-gray-500">Narrator: </h4>
+                            <h4 class="length text-lg text-gray-500">Length: </h4>
+                            <h4 class="publisher text-lg text-gray-500">Publisher: </h4>
+                            <h4 class="date text-lg text-gray-500">Date: </h4>
+                        </div>
+                        <div class="right-info px-3">
+                            <h4 class="text-lg font-semibold">
+                                <span class="text-red-800"><a href="#">Paula Hawkins</a></span>
+                            </h4>
+                            <h4 class="text-lg font-semibold">
+                                <span class="text-red-800"><a href="#">India Fisher</a></span>, 
+                                <span class="text-red-800"><a href="#">Claire Corbett</a></span>
+                            </h4>
+                            <h4 class="text-lg font-semibold text-gray-800">10 Hours 48 Minutes</h4>
+                            <h4 class="text-lg font-semibold text-gray-800">Penguin Audio</h4>
+                            <h4 class="text-lg font-semibold text-gray-800">September 2016</h4>
+                        </div>
+                    </div>
+                    <div class="line my-2" style="border-top: 1px solid #DDD;"></div>
+                    <div class="clearfix flex space-x-4">
+                        <div class="left-info px-3 block">
+                            <h4 class="genre text-lg text-gray-500">Genres: </h4>
+                        </div>
+                        <div class="right-info px-3">
+                            <h4 class="text-lg">
+                                <span class="text-red-800"><a href="#">Mystery, Thriller & Horror</a></span>
+                                > <span class="text-red-800"><a href="#">Suspense</a></span>                                
+                            </h4>
+                            <h4 class="text-lg">
+                                <span class="text-red-800"><a href="#">Fiction & Literature</a></span>
+                                > <span class="text-red-800"><a href="#">Contemporary Women</a></span>                                
+                            </h4>
+
+                        </div>
+                    </div>
+                </div>
+                
+                
+            </div>
+
+            
+            <div class="line my-2 mx-10" style="border-top: 1px solid #DDD;"></div>
+        </section>
+
+
+        <section class="block  lg:hidden  w-auto">
+            <div class="flex container flex-col  p-0 m-auto">                
+                <div class="justify-center items-center flex mt-2 " >
+                    <div class="book-container flex-col justify-center items-center w-auto" >
+                        <div class="book-details-pic p-5 ">
+                            <img src="images/2.jpg" class="w-auto" alt="">
+                        </div>
+                        <a href="#">
+                            <div class="btn-play-sample w-auto rounded-sm h-7 flex justify-center" style="background-color: #B4111A;">
+                                <h5 class=" text-white p-1">
+                                    <i class="fa-solid fa-play px-2 py-1 text-sm hover:text-blue-500"></i>
+                                    <span class="text-right">Play Sample</span>
+                                </h5>
+                            </div>
+                        </a>
+                        <!-- <a href="#">
+                            <div class="play_sample flex rounded-md bg-red-500 mb-3 p-1 w-56 mx-2 hover:bg-slate-600 hover:text-white">
+                                
+                                <h3 class="text-lg">Play Sample</h3>
+                            </div>
+                        </a> -->
+                        <div class="book-details-ratings my-3 p-0 w-56 mx-2">
+                            <h3 class="text-md text-red-600">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </h3>
+                        </div>
+                    </div>
+                </div>             
+                                
+                <div class="mt-3 ml-10 ">
+                    <h2 class="audioBookTitle text-xl text-red-600 font-semibold  px-2">The Girl on the Train: A Novel</h2>
+                    <h4 class="audioBookVersion text-gray-400 text-md py-1 px-2">Unabridged Audio Book</h4>
+                    <div class="line my-2" style="border-top: 1px solid #DDD;"></div>
+                    
+                    
+                    <h4 class="audiobookVersion nobold mx-2  my-2">Download or Stream instantly more than 55,000 audiobooks. <br>  Listen to <strong>"The Girl on the Train: A Novel"</strong> on your iOS and Android device.</h4>
+                    
+                    <div class="clearfix flex">
+                        <div class="left-info px-3 block">
+                            <h4 class="author text-md text-gray-500">Author: </h4>
+                            <h4 class="narrator text-md text-gray-500">Narrator: </h4>
+                            <h4 class="length text-md text-gray-500">Length: </h4>
+                            <h4 class="publisher text-md text-gray-500">Publisher: </h4>
+                            <h4 class="date text-md text-gray-500">Date: </h4>
+                        </div>
+                        <div class="right-info px-3">
+                            <h4 class="text-md font-semibold">
+                                <span class="text-red-800"><a href="#">Paula Hawkins</a></span>
+                            </h4>
+                            <h4 class="text-md font-semibold">
+                                <span class="text-red-800"><a href="#">India Fisher</a></span>, 
+                                <span class="text-red-800"><a href="#">Claire Corbett</a></span>
+                            </h4>
+                            <h4 class="text-md font-semibold text-gray-800">10 Hours 48 Minutes</h4>
+                            <h4 class="text-md font-semibold text-gray-800">Penguin Audio</h4>
+                            <h4 class="text-md font-semibold text-gray-800">September 2016</h4>
+                        </div>
+                    </div>
+                    <div class="line my-2" style="border-top: 1px solid #DDD;"></div>
+                    <div class="clearfix flex space-x-4">
+                        <div class="left-info px-3 block">
+                            <h4 class="genre text-md text-gray-500">Genres: </h4>
+                        </div>
+                        <div class="right-info px-3">
+                            <h4 class="text-md">
+                                <span class="text-red-800"><a href="#">Mystery, Thriller & Horror</a></span>
+                                > <span class="text-red-800"><a href="#">Suspense</a></span>                                
+                            </h4>
+                            <h4 class="text-md">
+                                <span class="text-red-800"><a href="#">Fiction & Literature</a></span>
+                                > <span class="text-red-800"><a href="#">Contemporary Women</a></span>                                
+                            </h4>
+
+                        </div>
+                    </div>
+                </div>
+                
+                
+            </div>
+
+            
+            <div class="line my-2 mx-10" style="border-top: 1px solid #DDD;"></div>
+        </section>
+        
+        
+        
+        <!-- Book summary -->
+        <section class="">
+            <div class="w-auto lg:w-11/12 flex justify-center mx-1"> 
+                <div class="book-summary-details px-5">
+                    <h2 class="book-summary-title mx-5 my-3  text-lg lg:text-2xl text-gray-600">Book Summary</h2>
+                    <div class="book-description pt-3 text-md w-full px-5 mx-1 flex justify-center">
+                        <p class="text-gray-700">NOW THE ACCLAIMED HBO SERIES&nbsp;GAME OF THRONES—THE MASTERPIECE THAT BECAME A CULTURAL PHENOMENON<br>
+                            &nbsp;<br>
+                            Winter is coming. Such is the stern motto of House Stark, the northernmost of the fiefdoms that owe allegiance to King Robert Baratheon in far-off King’s Landing. There Eddard Stark of Winterfell rules in Robert’s name. There his family dwells in peace and comfort: his proud wife, Catelyn;<span class="read-more text-red-600 hover:text-green-600"><a href="#">...Read More</a></span><span class="details" style="display: none;"> his sons Robb, Brandon, and Rickon; his daughters Sansa and Arya; and his bastard son, Jon Snow. Far to the north, behind the towering Wall, lie savage Wildings and worse—unnatural things relegated to myth during the centuries-long summer, but proving all too real and all too deadly in the turning of the season.<br>
+                            &nbsp;<br>
+                            Yet a more immediate threat lurks to the south, where Jon Arryn, the Hand of the King, has died under mysterious circumstances. Now Robert is riding north to Winterfell, bringing his queen, the lovely but cold Cersei, his son, the cruel, vainglorious Prince Joffrey, and the queen’s brothers Jaime and Tyrion of the powerful and wealthy House Lannister—the first a swordsman without equal, the second a dwarf whose stunted stature belies a brilliant mind. All are heading for Winterfell and a fateful encounter that will change the course of kingdoms.<br>
+                            &nbsp;<br>
+                            Meanwhile, across the Narrow Sea, Prince Viserys, heir of the fallen House Targaryen, which once ruled all of Westeros, schemes to reclaim the throne with an army of barbarian Dothraki—whose loyalty he will purchase in the only coin left to him: his beautiful yet innocent sister, Daenerys.
+                            <span class="read-less text-red-600"><a href="#">...Read Less</a></span></span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="container line my-2  mx-10" style="border-top: 1px solid #DDD;"></div>
+            
+        </section>
+        
+        <!-- Similar audio book -->
+        <section class="">
+            <div class="w-auto lg:w-auto flex justify-center mx-1">
+                <div class="similar-titles-container px-5 w-full">
+                    <h4 class="similar-title mx-5 my-3 text-lg lg:text-2xl  text-gray-600">Similar Audio Books</h4>
+                    <div class="similar-titles-box  mx-auto  lg:mx-16">
+                        <div class="splide mx-auto ">
+                            <div class="splide__track py-5 mx-14">
+                                <ul class="splide__list ">
+                                    <li class="splide__slide flex justify-center">
+                                        <div class="rounded shadow justify-center flex-col  overflow-hidden relative p-0 ">
+                                            <div class="justify-center flex">
+                                                <img src="images/2.jpg" class="w-48 h-64 border-0 justify-center rounded-md " alt="">
+                                            </div>
+                                            <a href="productView.html" class="">
+                                                <p class="book-shelf-title text-center text-red-600 my-2 font-semibold">Dune: Book One in the Dune Chronicles</p>
+                                            </a>
+                                            <div class="flex justify-center my-2">
+                                                <p class="m-0">
+                                                    <a href="" class="book-shelf-author text-gray-600">Frank Herbert</a>
+                                                </p>
+                                            </div>
+                                            <div class="flex justify-center">
+                                                <div class="book-details-ratings ">
+                                                    <h3 class="text-md text-red-600">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star-half-alt"></i>
+                                                    </h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="splide__slide flex justify-center">
+                                        <div class="rounded shadow justify-center flex-col  overflow-hidden relative p-0 ">
+                                            <div class="justify-center flex">
+                                                <img src="images/1.jpg" class="w-48 h-64 border-0 justify-center rounded-md " alt="">
+                                            </div>
+                                            <a href="productView.html" class="">
+                                                <p class="book-shelf-title text-center text-red-600 my-2 font-semibold">Dune: Book One in the Dune Chronicles</p>
+                                            </a>
+                                            <div class="flex justify-center my-2">
+                                                <p class="m-0">
+                                                    <a href="" class="book-shelf-author text-gray-600">Frank Herbert</a>
+                                                </p>
+                                            </div>
+                                            <div class="flex justify-center">
+                                                <div class="book-details-ratings ">
+                                                    <h3 class="text-md text-red-600">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star-half-alt"></i>
+                                                    </h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="splide__slide flex justify-center">
+                                        <div class="rounded shadow justify-center flex-col  overflow-hidden relative p-0 ">
+                                            <div class="justify-center flex">
+                                                <img src="images/4.jpg" class="w-48 h-64 border-0 justify-center rounded-md " alt="">
+                                            </div>
+                                            <a href="productView.html" class="">
+                                                <p class="book-shelf-title text-center text-red-600 my-2 font-semibold">Dune: Book One in the Dune Chronicles</p>
+                                            </a>
+                                            <div class="flex justify-center my-2">
+                                                <p class="m-0">
+                                                    <a href="" class="book-shelf-author text-gray-600">Frank Herbert</a>
+                                                </p>
+                                            </div>
+                                            <div class="flex justify-center">
+                                                <div class="book-details-ratings ">
+                                                    <h3 class="text-md text-red-600">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star-half-alt"></i>
+                                                    </h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="splide__slide flex justify-center">
+                                        <div class="rounded shadow justify-center flex-col  overflow-hidden relative p-0 ">
+                                            <div class="justify-center flex">
+                                                <img src="images/3.jpg" class="w-48 h-64 border-0 justify-center rounded-md " alt="">
+                                            </div>
+                                            <a href="productView.html" class="">
+                                                <p class="book-shelf-title text-center text-red-600 my-2 font-semibold">Dune: Book One in the Dune Chronicles</p>
+                                            </a>
+                                            <div class="flex justify-center my-2">
+                                                <p class="m-0">
+                                                    <a href="" class="book-shelf-author text-gray-600">Frank Herbert</a>
+                                                </p>
+                                            </div>
+                                            <div class="flex justify-center">
+                                                <div class="book-details-ratings ">
+                                                    <h3 class="text-md text-red-600">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star-half-alt"></i>
+                                                    </h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="splide__slide flex justify-center">
+                                        <div class="rounded shadow justify-center flex-col  overflow-hidden relative p-0 ">
+                                            <div class="justify-center flex">
+                                                <img src="images/2.jpg" class="w-48 h-64 border-0 justify-center rounded-md " alt="">
+                                            </div>
+                                            <a href="productView.html" class="">
+                                                <p class="book-shelf-title text-center text-red-600 my-2 font-semibold">Dune: Book One in the Dune Chronicles</p>
+                                            </a>
+                                            <div class="flex justify-center my-2">
+                                                <p class="m-0">
+                                                    <a href="" class="book-shelf-author text-gray-600">Frank Herbert</a>
+                                                </p>
+                                            </div>
+                                            <div class="flex justify-center">
+                                                <div class="book-details-ratings ">
+                                                    <h3 class="text-md text-red-600">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star-half-alt"></i>
+                                                    </h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>                                   
+                                
+                                   
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="py-4 mt-8 px-4 bg-slate-100">
+            <div>
+                <div class="xl:grid xl:grid-cols-3 p-0 space-x-2 justify-center xl:h-80 flex-col h-auto">
+    
+                    <div class="md:p-3 md:m-5 m-3 p-0 flex items-center justify-center">
+                        <img src="SVG/Book.svg" class="justify-center w-20 p-3 m-3 " alt="">
+                        <h2 class="md:text-2xl text-lg m-3">DigitalBook.io</h2>
+                    </div>
+    
+                    <div class="flex xl:flex justify-around " >
+    
+                        <nav class="py-3 px-0 m-5" >
+                            <h1 class="text-lg font-semibold">Web App</h1>
+                            <ul
+                                class="flex-col space-y-2 justify-between items-center py-2 pr-4 pl-3 w-auto font-medium text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-gray-400 dark:hover:text-white dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent" style="width: 110%;">
+                                <li>
+                                    <a href="#" class="py-2 px-4 text-md  text-gray-700 hover:text-blue-500">Home</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="py-2 px-4 text-md text-gray-700 hover:text-blue-500">Search</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="py-2 px-4 text-md  text-gray-700 hover:text-blue-500">Trending</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="py-2 px-4 text-md  text-gray-700 hover:text-blue-500">Top-rated</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="py-2 px-4 text-md  text-gray-700 hover:text-blue-500">Genres</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="py-2 px-4 text-md text-gray-700 hover:text-blue-500">Foreign</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="py-2 px-4 text-md  text-gray-700 hover:text-blue-500">My books</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="py-2 px-4 text-md  text-gray-700 hover:text-blue-500">Settings</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="py-2 px-4 text-md text-gray-700 hover:text-blue-500">Store</a>
+                                </li>
+                            </ul>
+                        </nav>
+    
+                        <nav class="py-3 px-0 m-5">
+                            <h1 class="text-lg font-semibold">Company</h1>
+                            <ul
+                                class="flex-col space-y-2 justify-between items-center py-2 pr-4 pl-3 w-full font-medium text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-gray-400 dark:hover:text-white dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent" style="width: 110%;">
+                                <li>
+                                    <a href="#" class="py-2 px-2 text-md text-gray-700 hover:text-blue-500">About</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="py-2 px-2 text-md text-gray-700 hover:text-blue-500">Blog</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="py-2 px-2 text-md  text-gray-700 hover:text-blue-500">Newsroom</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="py-2 px-2 text-md  text-gray-700 hover:text-blue-500">Contact us</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="py-2 px-2 text-md  text-gray-700 hover:text-blue-500">FAQ</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="py-2 px-2 text-md  text-gray-700 hover:text-blue-500">Donations</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="py-2 px-2 text-md  text-gray-700 hover:text-blue-500">Ts & Cs</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="py-2 px-2 text-md l text-gray-700 hover:text-blue-500">Privacy policy</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+    
+                    <div class="xl:flex-col xl:justify-evenly items-center flex justify-center">
+                        <div class="p-3 m-5">
+    
+                            <h2 class="text-lg px-2 mx-2 font-bold justify-center items-center">Follow us</h2>
+                            <div class="space-x-2 mx-3 my-1 text-lg text-blue-900 justify-center items-center">
+                                <a href="" class="text-blue-800 hover:text-black"><i class="fa-brands fa-facebook "></i></a>
+                                <a href="" class="hover:text-black text-blue-600" ><i class="fa-brands fa-twitter"></i></a>
+                                <a href="" class="text-red-700 hover:text-black"><i class="fa-brands fa-instagram" ></i></a>
+                            </div>
+                        </div>
+                    </div>
+    
+    
+                </div>
+            </div>
+    
+            <p class="p-3 mt-10 text-center">©2010-2020 digitalbook.io is part of Digitalbook Ltd. All rights reserved</p>
+        </footer>
+        
+    </main>
+
+
+
+
+    
+    <script src="https://unpkg.com/flowbite@1.3.4/dist/flowbite.js"></script>
+    <script src="splide-2.4.21/dist/js/splide.min.js"></script>
+
+
+    <script>
+        var splides = document.querySelectorAll('.splide');
+        // 1. query slider elements: are there any splide elements?
+        if(splides.length){
+            // 2. process all instances
+            for(var i=0; i<splides.length; i++){
+                var splideElement = splides[i];
+                //3.1 if no options are defined by 'data-splide' attribute: take these default options
+                var splideDefaultOptions = 
+                {
+                    type   : 'loop',
+                    // rewind: true,
+                    fixedHeight: 400,
+                    interval: number = 3000,
+                    perPage: 4,
+                    autoplay:true,
+                    speed: number = 1000,
+                    arrows:true,
+                    pagination:true,
+                    drag:true,
+                    keyboard:true,
+                    cover: true,
+                    perPage: 5,
+                    breakpoints: {
+                            1170: {
+                                perPage: 4,
+                            },
+                            970: {
+                                perPage: 3,
+                            },
+                            750: {
+                                perPage: 2,
+                            },
+                            550: {
+                                perPage: 1,
+                            },
+                            400: {
+                                perPage: 1,
+                            },
+
+
+                    },
+                }
+                /**
+                * 3.2 if options are defined by 'data-splide' attribute: default options will we overridden
+                * see documentation: https://splidejs.com/guides/options/#by-data-attribute
+                **/
+                
+                var splide = new Splide( splideElement, splideDefaultOptions ); 
+                // 3. mount/initialize this slider
+                splide.mount();
+            }
+        }
+
+    </script>
+
+    <script>
+        function toggleMenu() {
+            const mobileMenuContent = document.getElementById('mobileMenuContent')
+            if (mobileMenuContent.getAttribute('class') === 'hidden') {
+                mobileMenuContent.setAttribute('class', 'block')
+            } else {
+                mobileMenuContent.setAttribute('class', 'hidden')
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Learning"
+    android:background="@drawable/wp16"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Learning"
+        android:gravity="center_vertical|start"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/poppins"
+        android:paddingLeft="15dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="10dp"
+        />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <!--below this-->
+
+        <!--above this-->
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:layout_margin="15dp"-->
+<!--            android:background="@drawable/custom_listbox"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:weightSum="10">-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_weight="3"-->
+<!--                android:src="@drawable/ic_social"-->
+<!--                android:layout_height="match_parent"/>-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/OpenOlat"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_weight="7"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:text="OpenOlat"-->
+<!--                android:paddingLeft="10dp"-->
+<!--                android:textSize="22sp"-->
+<!--                android:gravity="center_vertical"-->
+<!--                android:textColor="#FFFFFF"-->
+<!--                android:textStyle="bold"-->
+<!--                />-->
+
+<!--        </LinearLayout>-->
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:layout_margin="15dp"-->
+<!--            android:background="@drawable/custom_listbox"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:weightSum="10">-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_weight="3"-->
+<!--                android:src="@drawable/ic_social"-->
+<!--                android:layout_height="match_parent"/>-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/Dokeos"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_weight="7"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:text="Dokeos"-->
+<!--                android:paddingLeft="10dp"-->
+<!--                android:textSize="22sp"-->
+<!--                android:gravity="center_vertical"-->
+<!--                android:textColor="#FFFFFF"-->
+<!--                android:textStyle="bold"-->
+<!--                />-->
+
+<!--        </LinearLayout>-->
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:layout_margin="15dp"-->
+<!--            android:background="@drawable/custom_listbox"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:weightSum="10">-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_weight="3"-->
+<!--                android:src="@drawable/ic_social"-->
+<!--                android:layout_height="match_parent"/>-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/ATutor"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_weight="7"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:text="ATutor"-->
+<!--                android:paddingLeft="10dp"-->
+<!--                android:textSize="22sp"-->
+<!--                android:gravity="center_vertical"-->
+<!--                android:textColor="#FFFFFF"-->
+<!--                android:textStyle="bold"-->
+<!--                />-->
+
+<!--        </LinearLayout>-->
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:layout_margin="15dp"-->
+<!--            android:background="@drawable/custom_listbox"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:weightSum="10">-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_weight="3"-->
+<!--                android:src="@drawable/ic_social"-->
+<!--                android:layout_height="match_parent"/>-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/Modle"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_weight="7"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:text="Moodle"-->
+<!--                android:paddingLeft="10dp"-->
+<!--                android:textSize="22sp"-->
+<!--                android:gravity="center_vertical"-->
+<!--                android:textColor="#FFFFFF"-->
+<!--                android:textStyle="bold"-->
+<!--                />-->
+
+<!--        </LinearLayout>-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/custom_listbox"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:src="@drawable/udemy"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:id="@+id/Udemy"
+                android:layout_width="0dp"
+                android:layout_weight="7"
+                android:layout_height="match_parent"
+                android:text="Udemy"
+                android:onClick="udemyClick"
+                android:fontFamily="@font/poppins"
+                android:paddingLeft="10dp"
+                android:textSize="20sp"
+                android:gravity="center_vertical"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/custom_listbox"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:src="@drawable/academicearth"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:id="@+id/Academic_earth"
+                android:layout_width="0dp"
+                android:layout_weight="7"
+                android:layout_height="match_parent"
+                android:text="Academic Earth"
+                android:onClick="academicClick"
+                android:fontFamily="@font/poppins"
+                android:paddingLeft="10dp"
+                android:textSize="20sp"
+                android:gravity="center_vertical"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/custom_listbox"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:src="@drawable/codeacademy"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:id="@+id/Code_Academy"
+                android:layout_width="0dp"
+                android:layout_weight="7"
+                android:layout_height="match_parent"
+                android:text="Code Academy "
+                android:onClick="codeClick"
+                android:fontFamily="@font/poppins"
+                android:paddingLeft="10dp"
+                android:textSize="20sp"
+                android:gravity="center_vertical"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/custom_listbox"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:src="@drawable/dg"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:id="@+id/GeeksforGeeks"
+                android:layout_width="0dp"
+                android:layout_weight="7"
+                android:layout_height="match_parent"
+                android:text="Geeks for Geeks"
+                android:onClick="gfgClick"
+                android:fontFamily="@font/poppins"
+                android:paddingLeft="10dp"
+                android:textSize="20sp"
+                android:gravity="center_vertical"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/custom_listbox"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:src="@drawable/tutorialpoint"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:id="@+id/Tutorials_point"
+                android:layout_width="0dp"
+                android:layout_weight="7"
+                android:layout_height="match_parent"
+                android:text="Tutorialspoint"
+                android:onClick="tutoClick"
+                android:fontFamily="@font/poppins"
+                android:paddingLeft="10dp"
+                android:textSize="20sp"
+                android:gravity="center_vertical"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/custom_listbox"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:src="@drawable/w3"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:id="@+id/W3School"
+                android:layout_width="0dp"
+                android:layout_weight="7"
+                android:layout_height="match_parent"
+                android:text="W3School"
+                android:onClick="w3sClick"
+                android:fontFamily="@font/poppins"
+                android:paddingLeft="10dp"
+                android:textSize="20sp"
+                android:gravity="center_vertical"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/custom_listbox"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:src="@drawable/sololearn"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:id="@+id/Sololearn"
+                android:layout_width="0dp"
+                android:layout_weight="7"
+                android:layout_height="match_parent"
+                android:text="Sololearn"
+                android:onClick="soloClick"
+                android:fontFamily="@font/poppins"
+                android:paddingLeft="10dp"
+                android:textSize="20sp"
+                android:gravity="center_vertical"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/custom_listbox"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:src="@drawable/courseera"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:id="@+id/Coursera"
+                android:layout_width="0dp"
+                android:layout_weight="7"
+                android:layout_height="match_parent"
+                android:text="Coursera"
+                android:onClick="courseClick"
+                android:fontFamily="@font/poppins"
+                android:paddingLeft="10dp"
+                android:textSize="20sp"
+                android:gravity="center_vertical"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/custom_listbox"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:src="@drawable/khanacademy"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:id="@+id/Khan_Academy"
+                android:layout_width="0dp"
+                android:layout_weight="7"
+                android:layout_height="match_parent"
+                android:text="Khan Academy"
+                android:onClick="khanClick"
+                android:fontFamily="@font/poppins"
+                android:paddingLeft="10dp"
+                android:textSize="20sp"
+                android:gravity="center_vertical"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:layout_margin="15dp"-->
+<!--            android:background="@drawable/custom_listbox"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:weightSum="10">-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_weight="3"-->
+<!--                android:src="@drawable/ic_social"-->
+<!--                android:layout_height="match_parent"/>-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/edx"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_weight="7"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:text="edx"-->
+<!--                android:paddingLeft="10dp"-->
+<!--                android:textSize="22sp"-->
+<!--                android:gravity="center_vertical"-->
+<!--                android:textColor="#FFFFFF"-->
+<!--                android:textStyle="bold"-->
+<!--                />-->
+
+<!--        </LinearLayout>-->
+    </LinearLayout>
+<!--    <ScrollView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:scrollbars="vertical">-->
+<!--    </ScrollView>-->
+
+</ScrollView>
+
+
+</LinearLayout>
+
+

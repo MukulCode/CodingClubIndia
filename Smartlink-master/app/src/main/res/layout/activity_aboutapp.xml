@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    android:background="@drawable/home1">
+
+
+
+<RelativeLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10sp"
+    tools:context=".aboutapp">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="35sp"
+        android:fontFamily="@font/poppins"
+        android:textColor="@color/colortext"
+        android:textStyle="bold"
+        android:layout_marginStart="109sp">
+    </TextView>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/about_app"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:textSize="27sp"
+
+        android:textColor="@color/colortext"
+        android:textStyle="bold"
+        android:layout_marginTop="70sp">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/smartlink_app"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="15sp"
+        android:layout_marginBottom="20sp"
+        android:textSize="25sp"
+        android:textColor="@color/colortext"
+        android:textStyle="bold"
+        android:layout_marginTop="160sp">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/email"
+        android:layout_marginTop="630sp"
+        android:layout_marginRight="10sp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginBottom="30sp"
+        android:textSize="25sp"
+        android:textColor="@color/colortext"
+        android:textStyle="bold">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Email"
+        android:id="@+id/emailus"
+        android:layout_marginTop="685sp"
+        android:layout_marginRight="10sp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginBottom="20sp"
+        android:textSize="22sp"
+        android:textColor="@color/colortext">
+    </TextView>
+
+</RelativeLayout>
+</ScrollView>
