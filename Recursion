@@ -1,0 +1,16 @@
+Introduction
+The process in which a function calls itself is called recursion and the
+corresponding function is called a recursive function.
+Since computer programming is a fundamental application of mathematics, so let
+us first try to understand the mathematical reasoning behind recursion.
+In general, we all are aware of the concept of functions. In a nutshell, functions are
+mathematical equations that produce an output on providing input. For example:
+Suppose the function F(x) is a function defined by:
+F(x) = x2 + 4
+We can write the Python Code for this function as:
+def F(int x):
+return (x * x + 4)
+Now, we can pass different values of x to this function and receive our output
+accordingly.
+Before moving onto the recursion, let's try to understand another mathematical
+concept known as the Principle of Mathematical Induction (PMI).
